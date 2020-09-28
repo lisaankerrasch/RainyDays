@@ -2,6 +2,12 @@ nav {
   background-color: #F2F7F0;
   }
 
+  .navigation {
+    font-family: Helvetica;
+    font-size: 28px;
+    color: #707070;
+  }
+
 h1 {
     font-family: Helvetica;
     font-size: 42px;
