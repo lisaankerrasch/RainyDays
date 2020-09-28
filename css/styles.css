@@ -2,16 +2,39 @@ nav {
   background-color: #F2F7F0;
   }
 
-  .navigation {
-    font-family: Helvetica;
+  nav li {
+    display: inline-block;
+    padding-right: 60px;
+  }
+
+  nav a {
+    font-family: helvetica;
+    font-weight: lighter;
     font-size: 28px;
     color: #707070;
+    text-decoration: none;
+  }
+
+nav a:hover {
+  color: #CE301B;
+}
+
+  nav ul {
+    padding: 0px;
   }
 
 h1 {
     font-family: Helvetica;
+    font-weight: lighter;
     font-size: 42px;
     color: #CE301B;
+  }
+
+  p {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight:lighter;
+    color: black;
   }
 
   a {
@@ -21,4 +44,5 @@ h1 {
 
   footer {
     background-color:#707070;
+    color:#F2F7F0;
   }
