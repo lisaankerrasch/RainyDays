@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 123 123" style="enable-background:new 0 0 123 123;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#F2F7F0;}
+	.st2{fill:#5D635D;}
+	.st3{fill:none;stroke:url(#SVGID_1_);stroke-width:6;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:url(#SVGID_2_);stroke-width:6;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:url(#SVGID_3_);stroke-width:6;stroke-miterlimit:10;}
+</style>
+<pattern  x="-80.37" y="-80.05" width="100" height="100" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_7" viewBox="0 -100 100 100" style="overflow:visible;">
+	<g>
+		<rect y="-100" class="st0" width="100" height="100"/>
+		<g id="Group_10_3_" transform="translate(-69 -328.949)">
+			<rect id="Rectangle_3_3_" x="69" y="228.95" class="st1" width="100" height="100"/>
+		</g>
+	</g>
+</pattern>
+<circle class="st2" cx="61.38" cy="61.52" r="61.5"/>
+<g>
+	<pattern  id="SVGID_1_" xlink:href="#New_Pattern_Swatch_7" patternTransform="matrix(1 0 0 1 63.9992 77.315)">
+	</pattern>
+	<line class="st3" x1="28.38" y1="46.02" x2="94.38" y2="46.02"/>
+	<pattern  id="SVGID_2_" xlink:href="#New_Pattern_Swatch_7" patternTransform="matrix(1 0 0 1 63.9992 77.315)">
+	</pattern>
+	<line class="st4" x1="28.38" y1="61.52" x2="94.38" y2="61.52"/>
+	<pattern  id="SVGID_3_" xlink:href="#New_Pattern_Swatch_7" patternTransform="matrix(1 0 0 1 63.9992 77.315)">
+	</pattern>
+	<line class="st5" x1="28.38" y1="77.02" x2="94.38" y2="77.02"/>
+</g>
+</svg>
