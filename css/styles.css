@@ -1,5 +1,18 @@
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url ("/Fonts/SukhumvitSet.ttc") format ("ttc")
+ }
+
+
+.main-logo {
+  background-color: #F2F7F0;
+  padding-top: 35px;
+  }
+
+
 nav {
   background-color: #F2F7F0;
+  padding-bottom: 30px;
   }
 
   nav li {
@@ -8,8 +21,8 @@ nav {
   }
 
   nav a {
-    font-family: helvetica;
-    font-weight: lighter;
+    font-family: Sukhumvit Set, Helvetica;
+    font-weight: 400px;
     font-size: 28px;
     color: #707070;
     text-decoration: none;
@@ -24,14 +37,21 @@ nav a:hover {
   }
 
   .nav-icon {
-    padding-right: 20px;
+    padding-right: 10px;
   }
 
 h1 {
-    font-family: Helvetica;
-    font-weight: 200;
+    font-family: Sukhumvit Set, Helvetica;
+    font-weight: 400;
     font-size: 42px;
     color: #CE301B;
+  }
+
+  h2 {
+    font-family: Sukhumvit Set, Helvetica;
+    font-weight: lighter;
+    font-size: 52px;
+    color: black;
   }
 
   p {
@@ -48,5 +68,14 @@ h1 {
 
   footer {
     background-color:#707070;
-    color:#F2F7F0;
+  }
+
+  footer p {
+    color: #F2F7F0;
+    font-size: 16px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
