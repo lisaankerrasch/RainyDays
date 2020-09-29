@@ -23,9 +23,13 @@ nav a:hover {
     padding: 0px;
   }
 
+  .nav-icon {
+    padding-right: 20px;
+  }
+
 h1 {
     font-family: Helvetica;
-    font-weight: lighter;
+    font-weight: 200;
     font-size: 42px;
     color: #CE301B;
   }
