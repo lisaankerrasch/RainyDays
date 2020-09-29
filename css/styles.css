@@ -6,15 +6,20 @@
 
 .main-logo {
   background-color: #F2F7F0;
-  text-align: center;
-  }
+  display: block;  
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-top:30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
 
 nav {
   background-color: #F2F7F0;
   padding-bottom: 30px;
-  padding-top: 200px;
-  }
+  margin-top: 0px;
+ }
 
   nav li {
     display: inline-block;
@@ -33,9 +38,6 @@ nav a:hover {
   color: #CE301B;
 }
 
-  nav ul {
-    padding: 0px;
-  }
 
   .nav-icon {
     padding-right: 10px;
@@ -43,6 +45,11 @@ nav a:hover {
 
   .active {
     color: #9FA87B
+  }
+
+  main {
+    width: 900px;
+    margin: 0 auto;
   }
 
 h1 {
@@ -57,10 +64,17 @@ h1 {
 
   h2 {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 52px;
-    color: black;
+    color: #000;
     text-align: center;
+  }
+
+  h3 {
+    font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+    Font-weight: Lighter;
+    Font-size: 38px;
+    color: #000;
   }
 
   p {
@@ -81,6 +95,7 @@ h1 {
 
   footer li {
     display: inline-block;
+    margin: 0 auto;
   }
 
   footer p {
