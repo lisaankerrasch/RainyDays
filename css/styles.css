@@ -5,28 +5,25 @@
 
 
 .main-logo {
+  height: 160px;
+  width: 96px;
   background-color: #F2F7F0;
   display: block;  
-  padding-left: 50%;
-  padding-right: 50%;
   padding-top:30px;
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
-
 
 nav {
   background-color: #F2F7F0;
   padding-bottom: 30px;
-  margin-top: 0px;
+  padding-top: 0px;
  }
 
-  nav li {
-    display: inline-block;
-    padding-right: 60px;
+nav li {
+  display: inline-block;
+  padding-right: 60px;
   }
 
-  nav a {
+nav a {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
     font-weight: 400px;
     font-size: 28px;
@@ -38,16 +35,17 @@ nav a:hover {
   color: #CE301B;
 }
 
-
-  .nav-icon {
+.nav-icon {
+    width: 80px;
+    height: 80px;
     padding-right: 10px;
   }
 
-  .active {
+.active {
     color: #9FA87B
   }
 
-  main {
+main {
     width: 900px;
     margin: 0 auto;
   }
@@ -62,15 +60,15 @@ h1 {
     position: fixed;
   }
 
-  h2 {
+h2 {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: lighter;
     font-size: 52px;
     color: #000;
     text-align: center;
   }
 
-  h3 {
+h3 {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
     Font-weight: Lighter;
     Font-size: 38px;
@@ -106,4 +104,34 @@ h1 {
     padding-left: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .footer-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  body {
+    background-image: url("../images/Background-transparent.jpg");
+    background-repeat: no-repeat;
+    background-size: 2550px 1800px;
+    background-position: top;
+    background-color: #ffffff
+  }
+
+  .index {
+    background-image: url("../images/Index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 2550px 1800px;
+    background-position: top;
+    background-color: #ffffff
+  }
+
+  .galleryphoto {
+    width: 230px;
+    height: auto;
+  }
+
+  .air {
+    padding-bottom: 60px;
   }
