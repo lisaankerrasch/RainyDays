@@ -3,24 +3,43 @@
   src: url ("/Fonts/SukhumvitSet.ttc") format ("ttc")
  }
 
+ @font-face {
+   font-family: "Code Bold";
+   src: url ("Fonts/CODE Bold.otf") format ("otf")
+ }
+
 
 .main-logo {
+  font-family: "Code Bold;";
   height: 160px;
   width: 96px;
   background-color: #F2F7F0;
   display: block;  
   padding-top:30px;
+  margin: 0 auto;
 }
 
 nav {
   background-color: #F2F7F0;
   padding-bottom: 30px;
   padding-top: 0px;
+  margin: 0;
+ }
+
+ .nav-block {
+  background-color: #F2F7F0;
+  margin: 0;
  }
 
 nav li {
   display: inline-block;
   padding-right: 60px;
+  }  
+  
+  .nav-center {
+    margin: 0 auto;
+    display: inline;
+    padding: 0 auto;
   }
 
 nav a {
@@ -90,6 +109,8 @@ h3 {
 
   footer {
     background-color:#707070;
+    text-align: center;
+    margin-bottom: opx;
   }
 
   footer li {
@@ -110,6 +131,7 @@ h3 {
   .footer-icon {
     width: 35px;
     height: 35px;
+    padding-bottom: 30px;
   }
   
   body {
@@ -117,7 +139,8 @@ h3 {
     background-repeat: no-repeat;
     background-size: 2550px 1800px;
     background-position: top;
-    background-color: #ffffff
+    background-color: #ffffff;
+    margin: 0;
   }
 
   .index {
