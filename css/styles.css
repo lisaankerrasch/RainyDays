@@ -19,6 +19,10 @@
   margin: 0 auto;
 }
 
+header {
+  text-align: center;
+}
+
 nav {
   background-color: #F2F7F0;
   padding-bottom: 30px;
@@ -54,10 +58,15 @@ nav a:hover {
   color: #CE301B;
 }
 
-.nav-icon {
+.nav-icon-left {
+    float: left;
     width: 60px;
-    height: 60px;
     padding-right: 10px;
+  }
+
+.nav-icon-right {
+    float: right;
+    width: 60px;
   }
 
 .active {
@@ -85,7 +94,10 @@ h2 {
     font-size: 52px;
     color: #000;
     text-align: center;
-    position: fixed;
+  }
+
+  .slogan {
+    padding-bottom: 400px;
   }
 
 h3 {
@@ -115,7 +127,6 @@ h3 {
 
   footer li {
     display: inline-block;
-    margin: 0 auto;
   }
 
   footer p {
@@ -125,12 +136,11 @@ h3 {
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
 
   .footer-icon {
     width: 35px;
-    height: 35px;
     padding-bottom: 30px;
   }
   
