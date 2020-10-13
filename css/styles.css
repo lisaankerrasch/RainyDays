@@ -11,11 +11,9 @@
 
 .main-logo {
   font-family: "Code Bold;";
-  height: 160px;
   width: 96px;
   background-color: #F2F7F0;
   display: block;  
-  padding-top:30px;
   margin: 0 auto;
 }
 
@@ -25,7 +23,7 @@ header {
 
 nav {
   background-color: #F2F7F0;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-top: 0px;
   margin: 0;
  }
@@ -73,8 +71,9 @@ nav a:hover {
     color: #9FA87B
   }
 
+
 main {
-    max-width: 1000px;
+    max-width: 950px;
     margin: 0 auto;
   }
 
@@ -125,21 +124,15 @@ h3 {
     margin-bottom: opx;
   }
 
-  footer li {
-    display: inline-block;
-  }
-
   footer p {
     color: #F2F7F0;
     font-size: 16px;
-    text-align: center;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding: 30px 0px 0px 0px;
   }
 
   .footer-icon {
+    text-align: center;
+    display: inline-block;
     width: 35px;
     padding-bottom: 30px;
   }
@@ -168,4 +161,28 @@ h3 {
 
   .air {
     padding-bottom: 60px;
+  }
+
+  section {
+    padding: 80px 0px 60px 0px;
+  }
+
+  .form-box {
+    max-width: 350px;
+    margin: 0 auto;
+    font-family: "Sukhumvit Set";
+    font-size: 24px;
+    border-radius: 10px;
+  }
+
+  .login-paragraph {
+    color: #707070
+  }
+
+  .login-paragraph a {
+    color: #CE301B;
+  }
+
+  a:hover {
+    color: #CE301B;
   }
