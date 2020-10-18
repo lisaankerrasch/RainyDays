@@ -197,12 +197,12 @@ h3 {
 
 
 
-  .container {
+  .container-faq {
     font-family: "Sukhumvit Set";
     font-size: 24px;
     display: flex;
     flex-direction: column;
-    padding-top:0px;
+    padding-top:60px;
   }
 
   .item {
@@ -213,10 +213,11 @@ h3 {
 
 
   @media only screen and (min-width:600px) {
-    .container {
+    .container-faq {
       flex-direction: row;
     }
   }
+
 
 img {
   max-width: 900px;
@@ -224,4 +225,41 @@ img {
 
 header-image {
   padding-bottom: 0px;
+}
+
+.container-shop {
+  font-family: "Sukhumvit Set";
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-top:80px;
+  padding-bottom:180px;
+}
+
+.container-shop img {
+  width:460px;
+}
+
+@media only screen and (min-width:600px) {
+  .container-shop {
+    flex-direction: row;
+  }
+}
+
+.centered-women {
+  font-size: 38px;
+  font-weight: lighter;
+  color:#18352B;
+  position: absolute;
+  top: 45%;
+  left: 33%;
+}
+
+.centered-men {
+  font-size: 38px;
+  font-weight: lighter;
+  color:#18352B;
+  position: absolute;
+  top: 45%;
+  right: 34%;
 }
