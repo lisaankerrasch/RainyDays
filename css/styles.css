@@ -90,8 +90,8 @@ nav a:hover {
   display:none;
 }
 
-#hamburger-menu:checked ~ nav a {
-  display: inline;
+#hamburger-menu:checked ~ nav li {
+  display: block;
 }
 
 .hamburger-icon {
