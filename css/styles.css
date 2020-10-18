@@ -43,9 +43,8 @@ nav li {
   }  
   
   .nav-center {
-    margin: 0 auto;
     display: inline;
-    padding: 0 auto;
+    text-align: center;
   }
 
 nav a {
@@ -126,7 +125,7 @@ h3 {
 /* Footer */ 
 
   footer {
-    background-color:#707070;
+    background-color:#5D635D;
     text-align: center;
     position: sticky;
     bottom: 0;
@@ -167,9 +166,6 @@ h3 {
     height: auto;
   }
 
-  section {
-    padding: 80px 0px 80px 0px;
-  }
 
   /* Form */ 
 
@@ -262,4 +258,36 @@ header-image {
   position: absolute;
   top: 45%;
   right: 34%;
+}
+
+.product {
+  max-width: 900px;
+  display: grid;
+  grid-gap: 3em;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.product img {
+width: 230px;
+padding-bottom:0px;
+}
+
+
+.product-header {
+  font-family: "Sukhumvit Set";
+  font-size: 38px;
+  font-weight: lighter;
+  color:#18352B;
+  text-align: left;
+}
+
+.product-price {
+  font-family: "Sukhumvit Set";
+  font-size: 24px;
+  font-weight: bold;
+  color:#18352B;
+  text-align: left;
 }
