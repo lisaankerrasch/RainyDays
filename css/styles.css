@@ -217,3 +217,11 @@ h3 {
       flex-direction: row;
     }
   }
+
+img {
+  max-width: 900px;
+}
+
+header-image {
+  padding-bottom: 0px;
+}
