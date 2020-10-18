@@ -38,9 +38,16 @@ nav {
  }
 
 nav li {
-  display: inline-block;
-  padding-right: 60px;
+  display: none;
   }  
+
+  @media only screen and (min-width:1220px) {
+    nav li {
+      display: inline-block;
+      padding-right: 30px;
+      padding-left: 30px;
+      }  
+  }
   
   .nav-center {
     max-width:950px;
@@ -88,10 +95,11 @@ h1 {
     font-size: 42px;
     text-align:center;
     color: #CE301B;
+    margin-bottom: 0px;
     
   }
 
-  @media only screen and (min-width:1400px) {
+  @media only screen and (min-width:1500px) {
       h1 {
       padding-left: 71px;
       padding-top: 30px;
@@ -108,7 +116,7 @@ h2 {
   }
 
   .slogan {
-    padding-bottom: 400px;
+    padding-bottom: 600px;
   }
 
 h3 {
@@ -139,11 +147,16 @@ h3 {
     bottom: 0;
   }
 
+  footer ul {
+    margin: 0;
+    padding: 0;
+  }
+
   footer p {
     display: inline-block;
     color: #F2F7F0;
     font-size: 16px;
-    padding: 30px 20px 0px 0px;
+    padding: 30px 0px 0px 0px;
   }
 
   .footer-icon {
@@ -187,10 +200,11 @@ h3 {
     font-family: "Sukhumvit Set";
     font-size: 24px;
     border-radius: 10px;
+    padding-top: 80px;
   }
 
   .login-paragraph {
-    color: #707070
+    color: #707070;
   }
 
   .login-paragraph a {
@@ -226,11 +240,13 @@ h3 {
 
 
 img {
-  max-width: 900px;
+  max-width: 950px;
 }
 
-header-image {
+.header-image {
+  padding-top:80px;
   padding-bottom: 0px;
+  margin: 0 auto;
 }
 
 .container-shop {
@@ -280,9 +296,15 @@ header-image {
   text-align: center;
 }
 
+
+.product-box {
+  max-width: 230px;
+}
+
 .product img {
 width: 230px;
 padding-bottom:0px;
+text-align:left;
 }
 
 
@@ -292,6 +314,8 @@ padding-bottom:0px;
   font-weight: lighter;
   color:#18352B;
   text-align: left;
+  margin-top:5px;
+  margin-bottom:0px;
 }
 
 .product-price {
@@ -300,4 +324,5 @@ padding-bottom:0px;
   font-weight: bold;
   color:#18352B;
   text-align: left;
+  margin-top: 5px;
 }
