@@ -86,6 +86,27 @@ nav a:hover {
     color: #9FA87B
   }
 
+#hamburger-menu {
+  display:none;
+}
+
+.hamburger-icon {
+  display:none;
+}
+
+@media only screen and (max-width:1220px) {
+  .hamburger-icon {
+  width: 60px;
+  display: block;
+  position: sticky;
+  margin-left: 30px;
+}
+
+#hamburger-menu:checked ~ nav a {
+  display: block;
+}
+
+}
 /* Main */ 
 
 main {
@@ -272,22 +293,18 @@ img {
   }
 }
 
-.centered-women {
+.women-text {
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
-  position: absolute;
-  top: 45%;
-  left: 33%;
+  text-align: center;
 }
 
-.centered-men {
+.men-text {
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
-  position: absolute;
-  top: 45%;
-  right: 34%;
+  text-align: center;
 }
 
 .product {
@@ -337,7 +354,7 @@ text-align:left;
   background-color: rgb(250, 79, 64);
   border-radius: 50%;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .dot-green {
@@ -346,7 +363,7 @@ text-align:left;
   background-color: rgb(108, 182, 112);
   border-radius: 50%;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .dot-orange {
@@ -355,7 +372,7 @@ text-align:left;
   background-color: rgb(245, 163, 40);
   border-radius: 50%;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .dot-pink {
@@ -364,7 +381,7 @@ text-align:left;
   background-color: rgb(255, 97, 229);
   border-radius: 50%;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .dot-turquoise {
@@ -373,7 +390,7 @@ text-align:left;
   background-color: rgb(76, 211, 235);
   border-radius: 50%;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .dot-blue {
@@ -382,7 +399,7 @@ text-align:left;
   background-color: rgb(48, 99, 170);
   border-radius: 50%;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .dot-black {
@@ -391,5 +408,5 @@ text-align:left;
   background-color: black;
   border-radius: 50%;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
