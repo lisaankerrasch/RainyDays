@@ -135,13 +135,13 @@ h3 {
     display: inline-block;
     color: #F2F7F0;
     font-size: 16px;
-    padding: 30px 0px 0px 0px;
+    padding: 30px 20px 0px 0px;
   }
 
   .footer-icon {
     display: inline-block;
     width: 35px;
-    padding-bottom: 30px;
+    padding: 30px 10px 30px 10px;
   }
   
   body {
@@ -192,4 +192,31 @@ h3 {
 
   a:hover {
     color: #CE301B;
+  }
+
+/* Flexbox */ 
+
+  .container {
+    font-family: "Sukhumvit Set";
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    flex:1;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .one {
+  }
+
+  .two {
+  }
+
+  @media only screen and (min-width:600px) {
+    .container {
+      flex-direction: row;
+    }
   }
