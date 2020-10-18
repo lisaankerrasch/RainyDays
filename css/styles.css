@@ -41,6 +41,10 @@ nav li {
   display: none;
   }  
 
+  nav ul {
+    padding: 0;
+  }
+
   @media only screen and (min-width:1220px) {
     nav li {
       display: inline-block;
@@ -298,11 +302,11 @@ img {
 
 
 .product-box {
-  max-width: 230px;
+  width: 230px;
 }
 
 .product img {
-width: 230px;
+width: 280px;
 padding-bottom:0px;
 text-align:left;
 }
@@ -325,4 +329,67 @@ text-align:left;
   color:#18352B;
   text-align: left;
   margin-top: 5px;
+}
+
+.dot-red {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(250, 79, 64);
+  border-radius: 50%;
+  float: right;
+  margin-left: 5px;
+}
+
+.dot-green {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(108, 182, 112);
+  border-radius: 50%;
+  float: right;
+  margin-left: 5px;
+}
+
+.dot-orange {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(245, 163, 40);
+  border-radius: 50%;
+  float: right;
+  margin-left: 5px;
+}
+
+.dot-pink {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(255, 97, 229);
+  border-radius: 50%;
+  float: right;
+  margin-left: 5px;
+}
+
+.dot-turquoise {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(76, 211, 235);
+  border-radius: 50%;
+  float: right;
+  margin-left: 5px;
+}
+
+.dot-blue {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(48, 99, 170);
+  border-radius: 50%;
+  float: right;
+  margin-left: 5px;
+}
+
+.dot-black {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  float: right;
+  margin-left: 5px;
 }
