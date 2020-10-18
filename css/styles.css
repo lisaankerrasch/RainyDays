@@ -75,6 +75,7 @@ nav a:hover {
     color: #9FA87B
   }
 
+/* Main */ 
 
 main {
     max-width: 950px;
@@ -166,13 +167,11 @@ h3 {
     height: auto;
   }
 
-  .air {
-    padding-bottom: 60px;
-  }
-
   section {
     padding: 80px 0px 80px 0px;
   }
+
+  /* Form */ 
 
   .form-box {
     max-width: 350px;
@@ -196,17 +195,20 @@ h3 {
 
 /* Flexbox */ 
 
+
+
   .container {
     font-family: "Sukhumvit Set";
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    padding-top:0px;
   }
 
   .item {
     flex:1;
     padding: 10px;
-    margin: 10px;
+    margin:0;
   }
 
 
