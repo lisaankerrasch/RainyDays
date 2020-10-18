@@ -43,8 +43,9 @@ nav li {
   }  
   
   .nav-center {
+    max-width:950px;
     display: inline;
-    text-align: center;
+    margin: 0 auto;
   }
 
 nav a {
@@ -85,10 +86,17 @@ h1 {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
     font-weight: 400;
     font-size: 42px;
+    text-align:center;
     color: #CE301B;
-    padding-left: 71px;
-    padding-top: 30px;
-    position: fixed;
+    
+  }
+
+  @media only screen and (min-width:1400px) {
+      h1 {
+      padding-left: 71px;
+      padding-top: 30px;
+      position: fixed;
+    }
   }
 
 h2 {
@@ -161,11 +169,15 @@ h3 {
     background-color: #ffffff
   }
 
+  .gallery {
+    padding-top: 80px;
+    padding-bottom:80px;
+  }
+
   .galleryphoto {
     width: 230px;
     height: auto;
   }
-
 
   /* Form */ 
 
@@ -190,8 +202,6 @@ h3 {
   }
 
 /* Flexbox */ 
-
-
 
   .container-faq {
     font-family: "Sukhumvit Set";
@@ -261,13 +271,13 @@ header-image {
 }
 
 .product {
-  max-width: 900px;
+  max-width: 950px;
   display: grid;
   grid-gap: 3em;
-  grid-template-rows: auto;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 80px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .product img {
