@@ -90,6 +90,10 @@ nav a:hover {
   display:none;
 }
 
+#hamburger-menu:checked ~ nav a {
+  display: inline;
+}
+
 .hamburger-icon {
   display:none;
 }
@@ -101,12 +105,8 @@ nav a:hover {
   position: sticky;
   margin-left: 30px;
 }
-
-#hamburger-menu:checked ~ nav a {
-  display: block;
 }
 
-}
 /* Main */ 
 
 main {
