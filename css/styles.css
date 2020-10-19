@@ -228,7 +228,7 @@ h3 {
     font-family: "Sukhumvit Set";
     font-size: 24px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top:60px;
   }
 
@@ -442,9 +442,6 @@ header {
     padding-top: 30px;
     text-align: center;
   }
-  .product-box {
-    width: 60%;
-  }
 }
 
 @media only screen and (min-width:600px) and (max-width:1200px) {
@@ -462,5 +459,7 @@ header {
     padding-top: 20px;
     text-align: center;
   }
+  .container-faq {
+    flex-direction: column;
+  }
 }
-
