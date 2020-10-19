@@ -45,13 +45,7 @@ nav li {
     padding: 0;
   }
 
-  @media only screen and (min-width:1220px) {
-    nav li {
-      display: inline-block;
-      padding-right: 30px;
-      padding-left: 30px;
-      }  
-  }
+  
   
   .nav-center {
     max-width:950px;
@@ -98,15 +92,6 @@ nav a:hover {
   display:none;
 }
 
-@media only screen and (max-width:1220px) {
-  .hamburger-icon {
-  width: 60px;
-  display: block;
-  position: sticky;
-  margin-left: 30px;
-}
-}
-
 /* Main */ 
 
 main {
@@ -122,14 +107,6 @@ h1 {
     color: #CE301B;
     margin-bottom: 0px;
     
-  }
-
-  @media only screen and (min-width:1500px) {
-      h1 {
-      padding-left: 71px;
-      padding-top: 30px;
-      position: fixed;
-    }
   }
 
 h2 {
@@ -198,6 +175,7 @@ h3 {
     background-color: #ffffff;
     margin: 0;
   }
+  
 
   .index {
     background-image: url("../images/Index-background.jpg");
@@ -281,17 +259,15 @@ img {
   flex-direction: column;
   padding-top:80px;
   padding-bottom:180px;
+  text-align:center;
 }
 
 .container-shop img {
   width:460px;
+  margin: 0 auto;
 }
 
-@media only screen and (min-width:600px) {
-  .container-shop {
-    flex-direction: row;
-  }
-}
+
 
 .women-text {
   font-size: 38px;
@@ -410,3 +386,83 @@ text-align:left;
   float: right;
   margin-left: 10px;
 }
+
+/* Responsive */ 
+/* For big screens */ 
+
+@media only screen and (min-width:1500px) {
+  h1 {
+    padding-left: 71px;
+    padding-top: 30px;
+    position: fixed;
+  }
+}
+
+@media only screen and (min-width:1221px) {
+  nav li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+  }  
+  .container-shop {
+    flex-direction: row;
+  }
+}
+
+/* For small screens */ 
+
+
+
+@media only screen and (max-width:1220px) {
+  .main-logo {
+    width: 50px;
+  }
+.nav-block {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+header {
+    position: static;
+  }
+  .hamburger-icon {
+    width: 60px;
+    display: block;
+    position: sticky;
+    margin-left: 30px;
+  }
+  .container-shop {
+    flex-direction: column;
+  }
+  .container-shop img {
+    width: 60%;
+  }
+  .product {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .product-box {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width:600px) and (max-width:1200px) {
+  main {
+    width:90%;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .product {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
