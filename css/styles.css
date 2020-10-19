@@ -46,7 +46,6 @@ nav li {
   }
 
   
-  
   .nav-center {
     max-width:950px;
     display: inline;
@@ -271,15 +270,7 @@ img {
 }
 
 
-
-.women-text {
-  font-size: 38px;
-  font-weight: lighter;
-  color:#18352B;
-  text-align: center;
-}
-
-.men-text {
+.men-text .women-text {
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
@@ -321,6 +312,10 @@ text-align:left;
   color:#18352B;
   text-align: left;
   margin-top: 5px;
+}
+
+.product-box {
+  max-width: 280px;
 }
 
 .dot-red {
@@ -396,7 +391,6 @@ text-align:left;
     position: fixed;
   }
 }
-
 @media only screen and (min-width:1221px) {
   nav li {
     display: inline-block;
