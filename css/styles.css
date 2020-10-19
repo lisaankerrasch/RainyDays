@@ -188,6 +188,7 @@ h3 {
   .gallery {
     padding-top: 80px;
     padding-bottom:80px;
+    text-align: center;
   }
 
   .galleryphoto {
@@ -234,22 +235,21 @@ h3 {
     margin:0;
   }
 
-
-  @media only screen and (min-width:600px) {
-    .container-faq {
-      flex-direction: row;
-    }
-  }
-
-
 img {
   max-width: 950px;
 }
 
 .header-image {
+  max-width: 100%;
+  height: auto;
   padding-top:80px;
   padding-bottom: 0px;
   margin: 0 auto;
+}
+
+.header-image img {
+  width: 100%;
+  height: auto;
 }
 
 .container-shop {
@@ -293,10 +293,6 @@ img {
   text-align: center;
 }
 
-
-.product-box {
-  width: 230px;
-}
 
 .product img {
 width: 280px;
@@ -427,7 +423,6 @@ header {
   .hamburger-icon {
     width: 60px;
     display: block;
-    position: sticky;
     margin-left: 30px;
   }
   .container-shop {
