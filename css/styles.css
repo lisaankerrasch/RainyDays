@@ -84,12 +84,15 @@ nav a:hover {
   display:none;
 }
 
-#hamburger-menu:checked ~ nav li {
-  display: block;
-}
 
 .hamburger-icon {
   display:none;
+}
+
+/* It won't work! */ 
+
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
 
 /* Main */ 
