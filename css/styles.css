@@ -129,6 +129,13 @@ h2 {
     height: auto;
     padding-bottom: 500px;
     margin: 0 auto;
+    opacity: 0;
+    animation: button 2s forwards;
+  }
+
+  @keyframes button {
+    0% {opacity: 0;}
+    100%{opacity: 1};
   }
 
 h3 {

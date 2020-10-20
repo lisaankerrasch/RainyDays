@@ -8,7 +8,7 @@
 	.st2{font-family:'SukhumvitSet-Thin';}
 	.st3{font-size:28px;}
 </style>
-<path id="Rectangle" class="st0" d="M24.2,0h450c13.3,0,24,10.7,24,24v25c0,13.3-10.7,24-24,24h-450c-13.3,0-24-10.7-24-24V24
-	C0.2,10.7,10.9,0,24.2,0z"/>
-<text transform="matrix(1 0 0 1 211.7964 45)" class="st1 st2 st3">SHOP </text>
+<path id="Rectangle" class="st0" d="M24,0h450c13.3,0,24,10.7,24,24v25c0,13.3-10.7,24-24,24H24C10.7,73,0,62.3,0,49V24
+	C0,10.7,10.7,0,24,0z"/>
+<text transform="matrix(1 0 0 1 65.7 45.2239)" class="st1 st2 st3">FIND YOUR NEW JACKET HERE</text>
 </svg>
