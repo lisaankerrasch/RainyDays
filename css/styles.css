@@ -130,7 +130,7 @@ h2 {
     padding-bottom: 500px;
     margin: 0 auto;
     opacity: 0;
-    animation: button 2s forwards;
+    animation: button 4s forwards;
   }
 
   @keyframes button {
