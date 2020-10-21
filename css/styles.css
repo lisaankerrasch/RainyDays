@@ -8,11 +8,6 @@
   src: url("/fonts/codebold.otf") format("otf");
 }
 
- @font-face {
-   font-family: "Code Bold";
-   src: url ("/Fonts/CODE Bold") format ("otf")
- }
-
 /* Header and navigation */ 
 
 .main-logo {
@@ -93,11 +88,6 @@ nav a:hover {
 
 
 
-/* It won't work! */ 
-
-#hamburger-menu:checked ~ nav {
-  display: block;
-}
 
 /* Main */ 
 
@@ -167,8 +157,6 @@ h3 {
   footer {
     background-color:#5D635D;
     text-align: center;
-    position: sticky;
-    bottom: 0;
   }
 
   footer ul {
@@ -423,10 +411,17 @@ text-align:left;
   .container-shop {
     flex-direction: row;
   }
+  footer {
+    position: sticky;
+    bottom: 0 ;
+  }
 }
 
 /* For small screens */ 
 
+#hamburger-menu:checked ~ nav li {
+  display: inline-block;
+}
 
 
 @media only screen and (max-width:1220px) {
