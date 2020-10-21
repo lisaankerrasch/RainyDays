@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("/fonts/sukhumvitset.ttc") format("ttc");
+}
 
  @font-face {
    font-family: "Code Bold";
@@ -7,7 +11,6 @@
 /* Header and navigation */ 
 
 .main-logo {
-  font-family: "Code Bold;";
   width: 96px;
   background-color: #F2F7F0;
   display: block;  
