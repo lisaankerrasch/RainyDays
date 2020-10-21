@@ -113,6 +113,7 @@ h1 {
     text-align:center;
     color: #CE301B;
     margin-bottom: 0px;
+    text-transform: uppercase;
     
   }
 
@@ -281,6 +282,7 @@ img {
   padding-top:80px;
   padding-bottom:180px;
   text-align:center;
+  text-transform: uppercase;
 }
 
 .container-shop img {
@@ -290,6 +292,7 @@ img {
 
 
 .men-text .women-text {
+  font-family: "Sukhumvit Set";
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
