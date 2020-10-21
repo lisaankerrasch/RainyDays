@@ -318,6 +318,8 @@ text-align:left;
   text-align: left;
   margin-top:5px;
   margin-bottom:0px;
+  max-width: 280px;
+  margin: auto;
 }
 
 .product-price {
@@ -327,11 +329,10 @@ text-align:left;
   color:#18352B;
   text-align: left;
   margin-top: 5px;
+  max-width:280px;
+  margin: auto;
 }
 
-.product-box {
-  max-width: 280px;
-}
 
 .dot-red {
   height: 25px;
