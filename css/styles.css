@@ -3,6 +3,11 @@
   src: url("/fonts/sukhumvitset.ttc") format("ttc");
 }
 
+@font-face {
+  font-family: "Code Bold";
+  src: url("/fonts/codebold.otf") format("otf");
+}
+
  @font-face {
    font-family: "Code Bold";
    src: url ("/Fonts/CODE Bold") format ("otf")
