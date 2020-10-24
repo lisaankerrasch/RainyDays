@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Sukhumvit Set";
+  font-family: 'Sukhumvit Set';
   src: url("/fonts/sukhumvitset.otf") format("otf");
 }
 
@@ -55,7 +55,7 @@ nav li {
 
 
 nav a {
-    font-family: "Sukhumvit Set", Helvetica, sans-serif;
+    font-family: 'Sukhumvit Set', Helvetica, sans-serif;
     font-weight: 400px;
     font-size: 28px;
     color: #707070;
@@ -104,7 +104,7 @@ main {
   }
 
 h1 {
-    font-family: "Sukhumvit Set", Helvetica, sans-serif;
+    font-family: 'Sukhumvit Set', Helvetica, sans-serif;
     font-weight: 400;
     font-size: 42px;
     text-align:center;
