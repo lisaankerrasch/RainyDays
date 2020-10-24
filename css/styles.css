@@ -53,11 +53,7 @@ nav li {
   }
 
   
-  .nav-center {
-    max-width:950px;
-    display: inline;
-    margin: 0 auto;
-  }
+ 
 
 nav a {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
@@ -65,6 +61,14 @@ nav a {
     font-size: 28px;
     color: #707070;
     text-decoration: none;
+  }
+
+  .nav-center {
+    max-width:950px;
+    display: inline;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
   }
 
 nav a:hover {
