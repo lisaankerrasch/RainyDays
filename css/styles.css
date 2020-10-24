@@ -195,6 +195,8 @@ h3 {
     background-color: #ffffff
   }
 
+  /* Gallery */
+
   .gallery {
     padding-top: 80px;
     padding-bottom:80px;
@@ -261,6 +263,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Shop pages */ 
 
 .container-shop {
   font-family: "Sukhumvit Set";
@@ -390,7 +394,7 @@ text-align:left;
   margin-left: 10px;
 }
 
-/* Contact info */ 
+/* Contact info page */ 
 
 .icon {
   width: 60px;
@@ -443,8 +447,20 @@ text-align:left;
 /* For small screens */ 
 
 #hamburger-menu:checked ~ nav li {
-  display: inline-block;
+  display: block;
+  font-size: 32px;
+  text-align: left;
+  padding-left: 10px;
 }
+
+#hamburger-menu:checked ~ nav li ~ .nav-icon-left {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav li ~ .nav-icon-right {
+  display: none;
+}
+
 
 
 @media only screen and (max-width:1220px) {
