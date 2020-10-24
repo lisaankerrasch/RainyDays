@@ -224,6 +224,7 @@ h3 {
     font-size: 24px;
     border-radius: 10px;
     padding-top: 80px;
+    padding-bottom: 200px;
   }
 
   .login-paragraph {
@@ -532,4 +533,43 @@ header {
   }
 }
 
+/* My profile */
+
+.profile-card {
+  width: 780px;
+  height: 430px;
+  max-width: 90%;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 10px 70px 10px grey;
+
+}
+
+.profile-pic {
+  border-radius: 50%;
+  padding-top: 60px;
+  padding-left: 60px;
+  width: 232px;
+}
+
+.profile-name {
+  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+  font-size: 34px;
+  font-weight: lighter;
+  color: #1F3B14;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.profile-menu {
+  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+  font-size: 26px;
+  font-weight: lighter;
+  color: #1F3B14;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
 
