@@ -220,7 +220,7 @@ h3 {
   .form-box {
     max-width: 350px;
     margin: 0 auto;
-    font-family: "Sukhumvit Set";
+    font-family: 'Sukhumvit Set';
     font-size: 24px;
     border-radius: 10px;
     padding-top: 80px;
@@ -242,7 +242,7 @@ h3 {
 /* Flexbox */ 
 
   .container-faq {
-    font-family: "Sukhumvit Set";
+    font-family: 'Sukhumvit Set';
     font-size: 24px;
     display: flex;
     flex-direction: row;
@@ -275,7 +275,7 @@ img {
 /* Shop pages */ 
 
 .container-shop {
-  font-family: "Sukhumvit Set";
+  font-family: 'Sukhumvit Set';
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -292,7 +292,7 @@ img {
 
 
 .men-text .women-text {
-  font-family: "Sukhumvit Set";
+  font-family: 'Sukhumvit Set';
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
@@ -318,7 +318,7 @@ text-align:left;
 
 
 .product-header {
-  font-family: "Sukhumvit Set", Helvetica, "sans serif";
+  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
@@ -329,7 +329,7 @@ text-align:left;
 }
 
 .product-price {
-  font-family: "Sukhumvit Set", Helvetica, "sans serif";
+  font-family: 'Sukhumvit Set', Helvetica, "sans serif";
   font-size: 24px;
   font-weight: bold;
   color:#18352B;
