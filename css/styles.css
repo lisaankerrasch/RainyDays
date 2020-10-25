@@ -147,6 +147,14 @@ h3 {
     color: #000;
   }
 
+  h4 {
+    font-family: 'Code Bold';
+    Font-size: 50px;
+    color: #CE301B;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+
   p {
     font-family: Helvetica, sans-serif;
     font-size: 24px;
@@ -572,8 +580,9 @@ header {
 /* Spec page */
 
 .spec-container {
-  padding-top: 80px;
+  padding-top: 10px;
   display: flex;
+  padding-bottom: 30px;
 }
 
 .item-photo {
@@ -595,6 +604,12 @@ header {
   width: 45px;
   height: auto;
   padding-right: 15px;
+}
+
+.add-cart {
+  width:350px;
+  height: auto;
+  padding-bottom: 30px;
 }
 
 /* Global */ 
