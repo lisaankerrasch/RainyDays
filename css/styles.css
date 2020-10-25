@@ -491,10 +491,9 @@ text-align:left;
 }
 
 .heart {
-  width:52px;
-  position: relative;
-  top: 5px;
+  width:50px;
   padding-left: 70px;
+  padding-top: 35px;
   opacity: 0.1;
   transform: ;
 }
