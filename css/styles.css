@@ -569,7 +569,38 @@ header {
   color: #1F3B14;
 }
 
+/* Spec page */
+
+.spec-container {
+  padding-top: 80px;
+  display: flex;
+}
+
+.item-photo {
+  margin: 20px;
+  flex:2;
+}
+
+.item-info {
+  margin: 20px;
+  flex:2;
+}
+
+.item-text {
+  margin: 20px;
+  flex:1;
+}
+
+.size-icon {
+  width: 45px;
+  height: auto;
+  padding-right: 15px;
+}
+
+/* Global */ 
+
 .uppercase {
   text-transform: uppercase;
 }
+
 
