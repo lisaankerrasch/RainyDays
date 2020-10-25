@@ -91,7 +91,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 a:hover {
@@ -282,20 +282,29 @@ footer p {
   /* My profile */
 
 .profile-card {
+  display:flex;
   width: 780px;
   height: 430px;
   max-width: 90%;
   margin: 100px auto;
+  margin-bottom: 170px;
   background-color: #fff;
   border-radius: 30px;
   box-shadow: 5px 5px 20px grey;
+}
 
+.profile-container1 {
+  text-align: center;
+  flex:2;
+}
+
+.profile-container2 {
+  flex:1;
 }
 
 .profile-pic {
   border-radius: 50%;
-  padding-top: 60px;
-  padding-left: 60px;
+  padding-top: 40px;
   width: 232px;
 }
 
@@ -305,7 +314,6 @@ footer p {
   font-weight: lighter;
   color: #1F3B14;
   padding-top: 10px;
-  padding-left: 60px;
 }
 
 .profile-menu {
@@ -313,6 +321,7 @@ footer p {
   font-size: 26px;
   font-weight: lighter;
   color: #1F3B14;
+  padding-top: 40px;
 }
 
 /* FAQ */ 
@@ -495,12 +504,6 @@ text-align:left;
   padding-left: 70px;
   padding-top: 35px;
   opacity: 0.1;
-  transform: ;
-}
-
-@keyframes heart {
-  0% {opacity: 0;}
-  100%{opacity: 1};
 }
 
 /* Contact info page */ 
