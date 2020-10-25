@@ -8,19 +8,114 @@
   src: url("/fonts/codebold.otf") format("otf");
 }
 
-/* Header and navigation */ 
+/* Global */
 
-.main-logo {
-  width: 96px;
-  background-color: #F2F7F0;
-  display: block;  
+body {
+  background-image: url("../images/Background-transparent.jpg");
+  background-repeat: no-repeat;
+  background-size: 2550px 1800px;
+  background-position: top;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+main {
+  max-width: 950px;
   margin: 0 auto;
 }
+
+h1 {
+  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  text-align:center;
+  color: #CE301B;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  
+}
+
+h2 {
+  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 52px;
+  color: #000;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  Font-weight: Lighter;
+  Font-size: 38px;
+  color: #000;
+}
+
+h4 {
+  font-family: 'Code Bold';
+  Font-size: 50px;
+  color: #CE301B;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+h5 {
+  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #18352B;
+  margin: 20px;
+
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight:lighter;
+  color: black;
+}
+
+.p-grey {
+  font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    color: #707070;
+    margin-top: 10px;
+  }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  color: #CE301B;
+}
+
+.bold {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+/* Header and navigation */ 
 
 header {
   text-align: center;
   position: sticky;
   top:0;
+}
+
+.main-logo {
+  width: 70px;
+  background-color: #F2F7F0;
+  display: block;  
+  margin: 0 auto;
 }
 
 .hamburger-icon {
@@ -40,8 +135,8 @@ nav {
 
  .nav-block {
   background-color: #F2F7F0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
  }
 
 nav li {
@@ -51,8 +146,6 @@ nav li {
   nav ul {
     padding: 0;
   }
-
-
 
 nav a {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
@@ -67,7 +160,12 @@ nav a {
     display: inline;
     margin: 0 auto;
     position: relative;
-    top: 15px;
+    top: 12px;
+  }
+
+  .login-button {
+    position: relative;
+    top: 12px;
   }
 
 nav a:hover {
@@ -93,33 +191,41 @@ nav a:hover {
     color: #9FA87B
   }
 
+/* Footer */ 
 
+footer {
+  background-color:#5D635D;
+  text-align: center;
+}
 
+footer ul {
+  margin: 0;
+  padding: 0;
+}
 
-/* Main */ 
+footer p {
+  display: inline-block;
+  color: #F2F7F0;
+  font-size: 16px;
+  padding: 20px 0px 0px 0px;
+  position: relative;
+  bottom: 10px;
+}
 
-main {
-    max-width: 950px;
-    margin: 0 auto;
-  }
+.footer-icon {
+  display: inline-block;
+  width: 35px;
+  padding: 20px 10px 20px 10px;
+}
 
-h1 {
-    font-family: 'Sukhumvit Set', Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 42px;
-    text-align:center;
-    color: #CE301B;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    
-  }
+  /* Index */
 
-h2 {
-    font-family: 'Sukhumvit Set', Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 52px;
-    color: #000;
-    text-align: center;
+  .index {
+    background-image: url("../images/Index-background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 2550px 1800px;
+    background-position: top;
+    background-color: #ffffff
   }
 
   .slogan {
@@ -127,7 +233,7 @@ h2 {
   }
 
   .button {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     padding-bottom: 500px;
     margin: 0 auto;
@@ -140,81 +246,11 @@ h2 {
     100%{opacity: 1};
   }
 
-h3 {
-    font-family: 'Sukhumvit Set', Helvetica, sans-serif;
-    Font-weight: Lighter;
-    Font-size: 38px;
-    color: #000;
-  }
-
-  h4 {
-    font-family: 'Code Bold';
-    Font-size: 50px;
-    color: #CE301B;
-    margin-bottom: 10px;
-    padding-left: 20px;
-  }
-
-  p {
-    font-family: Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight:lighter;
-    color: black;
-  }
-
-  a {
-    color: black;
-    text-decoration: none;
-  }
-
-/* Footer */ 
-
-  footer {
-    background-color:#5D635D;
-    text-align: center;
-  }
-
-  footer ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  footer p {
-    display: inline-block;
-    color: #F2F7F0;
-    font-size: 16px;
-    padding: 30px 0px 0px 0px;
-  }
-
-  .footer-icon {
-    display: inline-block;
-    width: 35px;
-    padding: 30px 10px 30px 10px;
-  }
-  
-  body {
-    background-image: url("../images/Background-transparent.jpg");
-    background-repeat: no-repeat;
-    background-size: 2550px 1800px;
-    background-position: top;
-    background-color: #ffffff;
-    margin: 0;
-  }
-  
-
-  .index {
-    background-image: url("../images/Index-background.jpg");
-    background-repeat: no-repeat;
-    background-size: 2550px 1800px;
-    background-position: top;
-    background-color: #ffffff
-  }
-
   /* Gallery */
 
   .gallery {
     padding-top: 80px;
-    padding-bottom:80px;
+    padding-bottom:120px;
     text-align: center;
   }
 
@@ -223,7 +259,7 @@ h3 {
     height: auto;
   }
 
-  /* Form */ 
+  /* login and sign up */ 
 
   .form-box {
     max-width: 350px;
@@ -243,18 +279,51 @@ h3 {
     color: #CE301B;
   }
 
-  a:hover {
-    color: #CE301B;
-  }
+  /* My profile */
 
-/* Flexbox */ 
+.profile-card {
+  width: 780px;
+  height: 430px;
+  max-width: 90%;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px grey;
+
+}
+
+.profile-pic {
+  border-radius: 50%;
+  padding-top: 60px;
+  padding-left: 60px;
+  width: 232px;
+}
+
+.profile-name {
+  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+  font-size: 34px;
+  font-weight: lighter;
+  color: #1F3B14;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.profile-menu {
+  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+  font-size: 26px;
+  font-weight: lighter;
+  color: #1F3B14;
+}
+
+/* FAQ */ 
 
   .container-faq {
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
     font-size: 24px;
     display: flex;
     flex-direction: row;
-    padding-top:60px;
+    padding-top:50px;
+    padding-bottom: 80px;
   }
 
   .item {
@@ -263,21 +332,18 @@ h3 {
     margin:0;
   }
 
-img {
-  max-width: 100%;
-}
+/* About */ 
 
-.header-image {
-  max-width: 100%;
+.about-image {
+  max-width: 90%;
   height: auto;
   padding-top:80px;
   padding-bottom: 0px;
   margin: 0 auto;
 }
 
-.header-image img {
-  max-width: 100%;
-  height: auto;
+.about-container {
+  display: flex;
 }
 
 /* Shop pages */ 
@@ -313,7 +379,7 @@ img {
   grid-gap: 3em;
   grid-template-rows: auto 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 80px;
+  padding: 60px 0;
   text-align: center;
 }
 
@@ -346,68 +412,96 @@ text-align:left;
   margin: auto;
 }
 
-
-.dot-red {
+.dot {
   height: 25px;
   width: 25px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 10px;
+}
+
+.red {
   background-color: rgb(250, 79, 64);
-  border-radius: 50%;
-  float: right;
-  margin-left: 10px;
 }
 
-.dot-green {
-  height: 25px;
-  width: 25px;
+.green {
   background-color: rgb(108, 182, 112);
-  border-radius: 50%;
-  float: right;
-  margin-left: 10px;
 }
 
-.dot-orange {
-  height: 25px;
-  width: 25px;
+.orange {
   background-color: rgb(245, 163, 40);
-  border-radius: 50%;
-  float: right;
-  margin-left: 10px;
 }
 
-.dot-pink {
-  height: 25px;
-  width: 25px;
+.pink {
   background-color: rgb(255, 97, 229);
-  border-radius: 50%;
-  float: right;
-  margin-left: 10px;
 }
 
-.dot-turquoise {
-  height: 25px;
-  width: 25px;
+.turquoise {
   background-color: rgb(76, 211, 235);
-  border-radius: 50%;
-  float: right;
-  margin-left: 10px;
 }
 
-.dot-blue {
-  height: 25px;
-  width: 25px;
+.blue {
   background-color: rgb(48, 99, 170);
-  border-radius: 50%;
-  float: right;
-  margin-left: 10px;
 }
 
-.dot-black {
-  height: 25px;
-  width: 25px;
+.black {
   background-color: black;
-  border-radius: 50%;
-  float: right;
-  margin-left: 10px;
+}
+
+/* Spec page */
+
+.spec-container {
+  padding-top: 10px;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.item-photo {
+  margin: 20px;
+  flex:2;
+}
+
+.item-info {
+  margin-top: 0;
+  margin: 20px;
+  flex:2;
+}
+
+.item-text {
+  margin: 20px;
+  margin-top: 0;
+  flex:2;
+}
+
+.size-icon {
+  width: 40px;
+  height: auto;
+  padding-right: 10px;
+}
+
+.add-cart {
+  width:350px;
+  height: auto;
+  padding-bottom: 60px;
+  padding-left: 600px;
+}
+
+.picker {
+  width: 100px;
+}
+
+.heart {
+  width:52px;
+  position: relative;
+  top: 5px;
+  padding-left: 70px;
+  opacity: 0.1;
+  transform: ;
+}
+
+@keyframes heart {
+  0% {opacity: 0;}
+  100%{opacity: 1};
 }
 
 /* Contact info page */ 
@@ -485,8 +579,6 @@ text-align:left;
   display: none;
 }
 
-
-
 @media only screen and (max-width:1220px) {
   .main-logo {
     width: 50px;
@@ -521,8 +613,11 @@ header {
   }
 }
 
-
 @media only screen and (max-width:700px) {
+  .phone-background {
+    background-image: none;
+    background-color: #fff;
+  }
   .product {
     display: grid;
     grid-gap: 2em;
@@ -535,87 +630,15 @@ header {
   .container-faq {
     flex-direction: column;
   }
-  .phone-background {
-    background-image: none;
-    background-color: #fff;
+  .about-container {
+    flex-direction: column;
+  }
+  .button {
+    max-width: 300px;
   }
 }
 
-/* My profile */
 
-.profile-card {
-  width: 780px;
-  height: 430px;
-  max-width: 90%;
-  margin: 100px auto;
-  background-color: #fff;
-  border-radius: 30px;
-  box-shadow: 5px 5px 20px grey;
 
-}
-
-.profile-pic {
-  border-radius: 50%;
-  padding-top: 60px;
-  padding-left: 60px;
-  width: 232px;
-}
-
-.profile-name {
-  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
-  font-size: 34px;
-  font-weight: lighter;
-  color: #1F3B14;
-  padding-top: 10px;
-  padding-left: 60px;
-}
-
-.profile-menu {
-  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
-  font-size: 26px;
-  font-weight: lighter;
-  color: #1F3B14;
-}
-
-/* Spec page */
-
-.spec-container {
-  padding-top: 10px;
-  display: flex;
-  padding-bottom: 30px;
-}
-
-.item-photo {
-  margin: 20px;
-  flex:2;
-}
-
-.item-info {
-  margin: 20px;
-  flex:2;
-}
-
-.item-text {
-  margin: 20px;
-  flex:1;
-}
-
-.size-icon {
-  width: 45px;
-  height: auto;
-  padding-right: 15px;
-}
-
-.add-cart {
-  width:350px;
-  height: auto;
-  padding-bottom: 30px;
-}
-
-/* Global */ 
-
-.uppercase {
-  text-transform: uppercase;
-}
 
 
