@@ -64,7 +64,16 @@ h5 {
   font-weight: bold;
   color: #18352B;
   margin: 20px;
+}
 
+h6 {
+  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: lighter;
+  color:#18352B;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
 }
 
 p {
@@ -530,6 +539,51 @@ text-align:left;
   max-width:100%;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+/* Cart & Checkout */
+
+.cart-heading {
+  margin-top: 80px;
+}
+.container-cart {
+  display: flex;
+}
+
+.cart-item-1 {
+  flex: 6;
+  margin-right: 20px;
+  
+}
+
+.cart-item-2 {
+  flex: 4;
+  background-color: #F2F7F0;
+}
+
+.cart-photo {
+  width:85px;
+  padding-left: 30px;
+  padding-right: 50px;
+  float: left;
+}
+
+.cart-text {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float:right;
+}
+
+.cart-hr {
+  width: 290px;
 }
 
 /* Responsive */ 
