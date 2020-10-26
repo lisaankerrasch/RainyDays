@@ -275,9 +275,12 @@ footer p {
     margin: 0 auto;
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
     font-size: 24px;
-    border-radius: 10px;
     padding-top: 80px;
     padding-bottom: 200px;
+  }
+
+  fieldset {
+    border:none;
   }
 
   .login-paragraph {
@@ -544,7 +547,7 @@ text-align:left;
 /* Cart & Checkout */
 
 .cart-heading {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .container-cart {
   display: flex;
@@ -599,6 +602,11 @@ text-align:left;
 
 .cart-hr {
   width: 290px;
+}
+
+.continue-button {
+  width: 250px;
+  margin-bottom: 80px;
 }
 
 /* Responsive */ 
