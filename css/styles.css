@@ -626,7 +626,7 @@ text-align:left;
 .cart-item-2 {
   flex: 4;
   background-color: #F2F7F0;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .cart-photo {
@@ -647,6 +647,8 @@ text-align:left;
 .p-cart {
   font-size:20px;
   color: #707070;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .p-cart-large {
@@ -674,7 +676,7 @@ text-align:left;
   margin-bottom: 80px;
 }
 
-.p-cart {
+.p-customerinfo {
   margin-bottom: 0;
   margin-top: 0;
 }
