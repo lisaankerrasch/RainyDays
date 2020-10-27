@@ -271,6 +271,7 @@ footer p {
   /* login and sign up */ 
 
   .form-box {
+    background-color: #fff;
     max-width: 350px;
     margin: 0 auto;
     font-family: 'Sukhumvit Set', Helvetica, sans-serif;
