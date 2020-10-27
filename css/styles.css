@@ -140,6 +140,10 @@ fieldset {
   background-color: #ffffff
 }
 
+img {
+  max-width: 90%
+}
+
 /* Header and navigation */ 
 
 header {
