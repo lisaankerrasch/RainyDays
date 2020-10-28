@@ -145,7 +145,8 @@ fieldset {
 }
 
 img {
-  max-width: 90%
+  max-width: 90%;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
 }
 
 /* Header and navigation */ 
