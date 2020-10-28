@@ -90,6 +90,10 @@ p {
     margin-top: 10px;
   }
 
+  .smaller {
+    font-size: 22px;
+  }
+
 a {
   color: black;
   text-decoration: none;
