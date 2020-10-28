@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 52px;
   color: #000;
@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
   Font-weight: Lighter;
   Font-size: 38px;
   color: #000;
@@ -59,7 +59,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: bold;
   color: #18352B;
@@ -67,7 +67,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
@@ -113,7 +113,7 @@ a:hover {
 }
 
 label {
-  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, Sans-serif;
   font-size: 18px;
   color: #707070;
   text-transform: uppercase;
@@ -122,7 +122,7 @@ label {
 input {
   width: 400px;
   height: 50px;
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
   font-size: 28px;
   color:#CE301B;
   border: 1px solid #707070;
@@ -314,7 +314,7 @@ footer p {
   }
 
   .login-paragraph {
-    font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+    font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, Sans-serif;
     font-size: 28px;
     color: #707070;
   }
@@ -386,7 +386,7 @@ footer p {
 }
 
 .profile-name {
-  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, Sans-serif;
   font-size: 34px;
   font-weight: lighter;
   color: #1F3B14;
@@ -394,7 +394,7 @@ footer p {
 }
 
 .profile-menu {
-  font-family: 'Sukhumvit Set', Helvetica, Sans-serif;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, Sans-serif;
   font-size: 26px;
   font-weight: lighter;
   color: #1F3B14;
@@ -404,7 +404,7 @@ footer p {
 /* FAQ */ 
 
   .container-faq {
-    font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+    font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
     font-size: 24px;
     display: flex;
     flex-direction: row;
@@ -435,7 +435,7 @@ footer p {
 /* Shop pages */ 
 
 .container-shop {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -452,7 +452,7 @@ footer p {
 
 
 .men-text .women-text {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
@@ -478,7 +478,7 @@ text-align:left;
 
 
 .product-header {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
@@ -489,7 +489,7 @@ text-align:left;
 }
 
 .product-price {
-  font-family: 'Sukhumvit Set', Helvetica, sans-serif;
+  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
   color:#18352B;
