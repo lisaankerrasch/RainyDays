@@ -6,9 +6,9 @@
 	.st0{fill:#5D635D;}
 	.st1{fill:#F2F7F0;}
 </style>
+<circle class="st0" cx="61.5" cy="61.5" r="61.5"/>
 <g>
-	<circle class="st0" cx="61.5" cy="61.5" r="61.5"/>
-	<path class="st1" d="M87.2,97H35.8c0.8-23.1,12-41.3,25.7-41.3S86.4,73.9,87.2,97z"/>
-	<circle class="st1" cx="61.5" cy="38.5" r="14.5"/>
+	<path class="st1" d="M81.2,88.4H41.8c0.6-17.6,9.2-31.6,19.7-31.6S80.6,70.8,81.2,88.4z"/>
+	<circle class="st1" cx="61.5" cy="43.7" r="11.1"/>
 </g>
 </svg>
