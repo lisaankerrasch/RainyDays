@@ -76,6 +76,11 @@ h6 {
   padding-left: 20px;
 }
 
+.center-heading {
+  text-align: center;
+  margin-top: 0;
+}
+
 p {
   font-family: Helvetica, sans-serif;
   font-size: 24px;
@@ -587,6 +592,22 @@ text-align:left;
   opacity: 0.1;
 }
 
+.container-suggestions {
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.container-suggestions-1 p, .container-suggestions-2 p, .container-suggestions-3 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container-suggestions-1, .container-suggestions-2, .container-suggestions-3 img {
+  width: 200px;
+}
+
 /* Contact info page */ 
 
 .icon {
@@ -795,6 +816,7 @@ header {
   }
   .spec-container {
     flex-direction: column;
+    text-align: center;
   }
   .profile-card {
     flex-direction: column;
@@ -804,7 +826,7 @@ header {
   }
   .add-cart {
     max-width: 300px;
-    padding-left: 30px;
+    margin: 0 auto; 
   }
   .heart {
     display:none;
@@ -813,6 +835,10 @@ header {
     display: block;
     text-align: center;
     max-width: 300px;
+  }
+  h4 {
+    text-align:center;
+    margin-top: 20px;
   }
   input {
     max-width: 200px;
