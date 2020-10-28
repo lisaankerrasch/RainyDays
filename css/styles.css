@@ -79,6 +79,7 @@ h6 {
 .center-heading {
   text-align: center;
   margin-top: 0;
+  padding-left: 0; 
 }
 
 p {
@@ -600,12 +601,13 @@ text-align:left;
 }
 
 .container-suggestions-1 p, .container-suggestions-2 p, .container-suggestions-3 p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
 .container-suggestions-1, .container-suggestions-2, .container-suggestions-3 img {
   width: 200px;
+  justify-content: center;
 }
 
 /* Contact info page */ 
@@ -794,7 +796,7 @@ header {
 @media only screen and (max-width:900px) {
   .phone-background {
     background-image: none;
-    background-color: #fff;
+    background-color: rgb(251, 255, 249);
   }
   .product {
     display: grid;
@@ -864,6 +866,9 @@ header {
     max-width: 200px;
     padding-bottom: 30px;
   }
+  .container-suggestions {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 
