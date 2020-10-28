@@ -274,7 +274,7 @@ footer p {
   }
 
   .button {
-    display:block;
+    display: block;
     max-width: 400px;
     padding-bottom: 500px;
     margin: 0 auto;
@@ -806,6 +806,8 @@ header {
     display:none;
   }
   .button {
+    display:block;
+    margin: 0 auto;
     max-width: 300px;
   }
   input {
