@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Sukhumvit Set';
-  src: url('/fonts/sukhumvitset.ttc') format('ttc');
+  src: url('/..fonts/sukhumvitset.ttc') format('ttc');
 }
 
 @font-face {
   font-family: "Code Bold";
-  src: url("/fonts/codebold.otf") format("otf");
+  src: url("/..fonts/codebold.otf") format("otf");
 }
 
 /* Global */
