@@ -204,11 +204,6 @@ nav a {
     top: 12px;
   }
 
-  .login-button {
-    position: relative;
-    top: 12px;
-  }
-
 nav a:hover {
   color: #CE301B;
 }
@@ -343,7 +338,7 @@ footer p {
     color:#CE301B;
   }
 
-  .login-button-2 {
+  .login-button {
     max-width: 400px;
     display: block;
     margin: 0 auto;
@@ -566,10 +561,10 @@ text-align:left;
 }
 
 .add-cart {
-  width:350px;
+  display: block;
+  width:250px;
   height: auto;
   padding-bottom: 60px;
-  padding-left: 600px;
 }
 
 .picker {
@@ -824,7 +819,7 @@ header {
     padding-bottom: 10px;
     padding-top: 0;
   }
-  .login-button-2 {
+  .login-button {
     max-width: 200px;
     padding-bottom: 30px;
   }
