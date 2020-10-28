@@ -146,6 +146,9 @@ fieldset {
 
 img {
   max-width: 90%;
+}
+
+svg {
   font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
 }
 
@@ -568,7 +571,6 @@ text-align:left;
 
 .add-cart {
   display: block;
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
   width:250px;
   height: auto;
   padding-bottom: 60px;
