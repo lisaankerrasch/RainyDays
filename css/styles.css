@@ -242,9 +242,10 @@ nav a:hover {
   }
 
 
-.hidden-always {
-  display:none;
+legend {
+  display: none;
 }
+
 
 /* Footer */ 
 
