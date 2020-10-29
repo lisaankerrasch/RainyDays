@@ -368,7 +368,7 @@ footer p {
 
   /* My profile */
 
-.profile-card {
+.card {
   display:flex;
   width: 780px;
   max-width: 90%;
@@ -702,6 +702,28 @@ text-align:left;
   margin-top: 0;
 }
 
+.success-card {
+  width: 500px;
+  max-width: 90%;
+  margin: 150px auto;
+  margin-bottom: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px grey;
+}
+
+.success-text {
+  padding: 60px;
+  text-align: center;
+}
+
+.success-heading {
+  font-family: 'Code Bold', 'Cabin Condensed', sans-serif;
+  Font-size: 50px;
+  color: #CE301B;
+  text-align: center;
+}
+
 /* Responsive */ 
 /* For big screens */ 
 
@@ -812,7 +834,7 @@ header {
     flex-direction: column;
     text-align: center;
   }
-  .profile-card {
+  .card {
     flex-direction: column;
   }
   .profile-container2 {
@@ -861,6 +883,13 @@ header {
   .container-suggestions {
     text-align: center;
     padding-bottom: 30px;
+  }
+  .success-card {
+    margin: 60px auto;
+    
+  }
+  .success-heading {
+    Font-size: 32px;
   }
 }
 
