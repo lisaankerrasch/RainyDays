@@ -241,6 +241,10 @@ nav a:hover {
     color: #76814b
   }
 
+
+.hidden-always {
+  display:none;
+}
 /* Footer */ 
 
 footer {
