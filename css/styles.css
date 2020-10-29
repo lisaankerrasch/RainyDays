@@ -71,7 +71,7 @@ h6 {
   font-size: 38px;
   font-weight: lighter;
   color:#18352B;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
   padding-left: 20px;
 }
@@ -828,7 +828,7 @@ header {
     flex-direction: column;
   }
   .container-cart {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .spec-container {
     flex-direction: column;
@@ -891,6 +891,14 @@ header {
   .success-heading {
     Font-size: 32px;
   }
+  .cart-text {
+    padding-bottom:30px;
+    margin-bottom: 0;;
+  }
+  .hidden {
+    display:none;
+  }
+}
 
 
 
