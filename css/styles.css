@@ -378,7 +378,7 @@ footer p {
   width: 780px;
   max-width: 90%;
   margin: 100px auto;
-  margin-bottom: 170px;
+  margin-bottom: 250px;
   background-color: #fff;
   border-radius: 30px;
   box-shadow: 5px 5px 20px grey;
@@ -412,7 +412,7 @@ footer p {
   font-size: 26px;
   font-weight: lighter;
   color: #1F3B14;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 /* FAQ */ 
