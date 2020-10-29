@@ -157,6 +157,10 @@ svg {
   font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
 }
 
+.red-font {
+  color: #CE301B;
+}
+
 /* Header and navigation */ 
 
 header {
@@ -243,7 +247,12 @@ nav a:hover {
 
 
 legend {
-  display: none;
+display: none;
+}
+
+.selector {
+  width: 20px;
+  padding-right: 20px;
 }
 
 
@@ -730,6 +739,28 @@ text-align:left;
   text-align: center;
 }
 
+.shipping-card {
+  max-width: 90%;
+  margin: 60px auto;
+  margin-bottom: 250px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.shipping-standard, .shipping-express {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipping-standard {  
+  padding: 20px 30px 0 30px;
+}
+
+.shipping-express {  
+  padding: 0 30px 20px 30px;
+}
+
+
 /* Responsive */ 
 /* For big screens */ 
 
@@ -905,9 +936,3 @@ header {
     display:none;
   }
 }
-
-
-
-
-
-
