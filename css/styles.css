@@ -132,7 +132,7 @@ input {
   color:#CE301B;
   border: 1px solid #707070;
   border-radius: 10px;
-  outline: none;
+  outline: #CE301B;
   margin-bottom: 30px;
   
 }
@@ -246,9 +246,6 @@ nav a:hover {
   display:none;
 }
 
-input :focus {
-  color: #CE301B;
-}
 /* Footer */ 
 
 footer {
