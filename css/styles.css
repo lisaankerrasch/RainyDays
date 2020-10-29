@@ -245,6 +245,10 @@ nav a:hover {
 .hidden-always {
   display:none;
 }
+
+input :focus {
+  color: #CE301B;
+}
 /* Footer */ 
 
 footer {
