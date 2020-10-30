@@ -129,7 +129,6 @@ input {
   height: 50px;
   font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
   font-size: 28px;
-  color:#CE301B;
   border: 1px solid #707070;
   border-radius: 10px;
   outline-color: #CE301B;
@@ -247,7 +246,10 @@ nav a:hover {
 
 
 legend {
-display: none;
+  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #CE301B;
 }
 
 .selector {
