@@ -941,6 +941,10 @@ header {
     text-align: center;
     padding-bottom: 30px;
   }
+  .payment-card {
+    max-width: 300px;
+    margin: 0 auto; 
+  }
   .success-card {
     margin: 60px auto;
   }
