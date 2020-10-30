@@ -943,7 +943,7 @@ header {
   }
   .payment-card {
     max-width: 300px;
-    text-align: center; 
+    margin-left: 5px;
   }
   .success-card {
     margin: 60px auto;
