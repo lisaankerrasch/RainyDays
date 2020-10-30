@@ -874,11 +874,17 @@ header {
     grid-gap: 2em;
     grid-template-rows: auto;
     grid-template-columns: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 0;;
     text-align: center;
+    margin-bottom: 80px;
   }
-  .container-faq {
+  .container-shop {
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 80px;
+  }
+    .container-faq {
     flex-direction: column;
   }
   .about-container {
