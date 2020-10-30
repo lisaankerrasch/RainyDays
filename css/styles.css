@@ -914,14 +914,14 @@ header {
     margin-top: 20px;
   }
   input {
-    max-width: 200px;
+    max-width: 250px;
   }
   .continue-button {
     display: block;
     margin: 20px auto;
   }
   .form-box {
-    max-width: 250px;
+    max-width: 300px;
     padding: 5px;
   }
   .top {
@@ -943,7 +943,6 @@ header {
   }
   .success-card {
     margin: 60px auto;
-    
   }
   .success-heading {
     Font-size: 32px;
