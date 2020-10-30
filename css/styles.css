@@ -944,8 +944,9 @@ header {
   .cart-item-1 {
     margin-right: 0;
   }
-  .payment-card {
+  .payment-card, .shipping-card {
     max-width: 90%;
+    margin-bottom: 80px;
   }
   .success-card {
     margin: 60px auto;
