@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Sukhumvit Set';
-  src: url('/../RainyDays/Fonts/SukhumvitSet.ttc')format('ttc');
+  font-family: "Sukhumvit Set";
+  src: url("/../RainyDays/Fonts/SukhumvitSet.ttc") format("ttc");
 }
 
 @font-face {
   font-family: "Code Bold";
-  src: url('/../RainyDays/Fonts/codebold.otf')format("otf");
+  src: url("/../RainyDays/Fonts/codebold.otf") format("otf");
 }
 
 /* Global */
@@ -25,18 +25,17 @@ main {
 }
 
 h1 {
-  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 42px;
-  text-align:center;
-  color: #CE301B;
+  text-align: center;
+  color: #ce301b;
   margin-bottom: 0px;
   text-transform: uppercase;
-  
 }
 
 h2 {
-  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 52px;
   color: #000;
@@ -44,33 +43,33 @@ h2 {
 }
 
 h3 {
-  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
-  Font-weight: Lighter;
-  Font-size: 38px;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-weight: Lighter;
+  font-size: 38px;
   color: #000;
 }
 
 h4 {
-  font-family: 'Code Bold', 'Cabin Condensed', sans-serif;
-  Font-size: 50px;
-  color: #CE301B;
+  font-family: "Code Bold", "Cabin Condensed", sans-serif;
+  font-size: 50px;
+  color: #ce301b;
   margin-bottom: 10px;
   padding-left: 20px;
 }
 
 h5 {
-  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: bold;
-  color: #18352B;
+  color: #18352b;
   margin: 20px;
 }
 
 h6 {
-  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: lighter;
-  color:#18352B;
+  color: #18352b;
   margin-top: 60px;
   margin-bottom: 20px;
   padding-left: 20px;
@@ -79,26 +78,26 @@ h6 {
 .center-heading {
   text-align: center;
   margin-top: 0;
-  padding-left: 0; 
+  padding-left: 0;
 }
 
 p {
   font-family: Helvetica, sans-serif;
   font-size: 24px;
-  font-weight:lighter;
+  font-weight: lighter;
   color: black;
 }
 
 .p-grey {
   font-family: Helvetica, sans-serif;
-    font-size: 28px;
-    color: #585858;
-    margin-top: 10px;
-  }
+  font-size: 28px;
+  color: #585858;
+  margin-top: 10px;
+}
 
-  .smaller {
-    font-size: 22px;
-  }
+.smaller {
+  font-size: 22px;
+}
 
 a {
   color: black;
@@ -110,7 +109,7 @@ a {
 }
 
 a:hover {
-  color: #CE301B;
+  color: #ce301b;
 }
 
 .bold {
@@ -118,7 +117,7 @@ a:hover {
 }
 
 label {
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, Sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, Sans-serif;
   font-size: 18px;
   color: #707070;
   text-transform: uppercase;
@@ -127,17 +126,16 @@ label {
 input {
   width: 400px;
   height: 50px;
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 28px;
   border: 1px solid #707070;
   border-radius: 10px;
-  outline-color: #CE301B;
+  outline-color: #ce301b;
   margin-bottom: 30px;
-  
 }
 
 fieldset {
-  border:none;
+  border: none;
 }
 
 .menu-image {
@@ -145,7 +143,7 @@ fieldset {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 img {
@@ -153,103 +151,102 @@ img {
 }
 
 svg {
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
 }
 
 .red-font {
-  color: #CE301B;
+  color: #ce301b;
 }
 
-/* Header and navigation */ 
+/* Header and navigation */
 
 header {
   text-align: center;
   position: sticky;
-  top:0;
+  top: 0;
 }
 
 .main-logo {
   width: 70px;
-  background-color: #F2F7F0;
-  display: block;  
+  background-color: #f2f7f0;
+  display: block;
   margin: 0 auto;
 }
 
 .hamburger-icon {
-  display:none;
+  display: none;
 }
 
 #hamburger-menu {
-  display:none;
+  display: none;
 }
 
 nav {
-  background-color: #F2F7F0;
+  background-color: #f2f7f0;
   padding-bottom: 10px;
   padding-top: 0px;
   margin: 0;
- }
+}
 
- .nav-block {
-  background-color: #F2F7F0;
+.nav-block {
+  background-color: #f2f7f0;
   padding-top: 10px;
   padding-bottom: 10px;
- }
+}
 
 nav li {
   display: none;
-  }  
+}
 
-  nav ul {
-    padding: 0;
-  }
+nav ul {
+  padding: 0;
+}
 
 nav a {
-    font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
-    font-weight: 400px;
-    font-size: 28px;
-    color: #707070;
-    text-decoration: none;
-  }
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-weight: 400px;
+  font-size: 28px;
+  color: #707070;
+  text-decoration: none;
+}
 
-  .nav-center {
-    max-width:950px;
-    display: inline;
-    margin: 0 auto;
-    position: relative;
-    top: 12px;
-  }
+.nav-center {
+  max-width: 950px;
+  display: inline;
+  margin: 0 auto;
+  position: relative;
+  top: 12px;
+}
 
 nav a:hover {
-  color: #CE301B;
+  color: #ce301b;
 }
 
 .nav-icon-left {
-    float: left;
-    width: 60px;
-    padding-right: 0px;
-  }
+  float: left;
+  width: 60px;
+  padding-right: 0px;
+}
 
 .nav-icon-right {
-    float: right;
-    width: 60px;
-    padding-left: 0;
-  }
+  float: right;
+  width: 60px;
+  padding-left: 0;
+}
 
-  .hidden-menu {
-    display:none;
-  }
+.hidden-menu {
+  display: none;
+}
 
 .active {
-    color: #76814b
-  }
-
+  color: #76814b;
+}
 
 legend {
-  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 28px;
-  color: #CE301B;
+  color: #ce301b;
   padding-bottom: 30px;
 }
 
@@ -258,11 +255,10 @@ legend {
   padding-right: 20px;
 }
 
-
-/* Footer */ 
+/* Footer */
 
 footer {
-  background-color:#5D635D;
+  background-color: #5d635d;
   text-align: center;
 }
 
@@ -273,7 +269,7 @@ footer ul {
 
 footer p {
   display: inline-block;
-  color: #F2F7F0;
+  color: #f2f7f0;
   font-size: 16px;
   padding: 20px 0px 0px 0px;
   position: relative;
@@ -286,108 +282,111 @@ footer p {
   padding: 20px 10px 20px 10px;
 }
 
-  /* Index */
+/* Index */
 
-  .index {
-    background-image: url("../images/Index-background.jpg");
-    background-repeat: no-repeat;
-    background-size: 2550px 1800px;
-    background-position: top;
-    background-color: #ffffff
-  }
+.index {
+  background-image: url("../images/Index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 2550px 1800px;
+  background-position: top;
+  background-color: #ffffff;
+}
 
-  .slogan {
-    padding-bottom:60px;
-  }
+.slogan {
+  padding-bottom: 60px;
+}
 
-  .button {
-    display: block;
-    max-width: 400px;
-    padding-bottom: 600px;
-    margin: 0 auto;
+.button {
+  display: block;
+  max-width: 400px;
+  padding-bottom: 600px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: button 4s forwards;
+  z-index: -1;
+}
+
+@keyframes button {
+  0% {
     opacity: 0;
-    animation: button 4s forwards;
   }
-
-  @keyframes button {
-    0% {opacity: 0;}
-    100%{opacity: 1};
+  100% {
+    opacity: 1;
   }
+}
 
-  /* Gallery */
+/* Gallery */
 
-  .gallery {
-    padding-top: 80px;
-    padding-bottom:120px;
-    text-align: center;
-  }
+.gallery {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  text-align: center;
+}
 
-  .galleryphoto {
-    max-width: 230px;
-    height: auto;
-  }
+.galleryphoto {
+  max-width: 230px;
+  height: auto;
+}
 
-  /* login and sign up */ 
+/* login and sign up */
 
-  .form-box {
-    background-color: #fff;
-    max-width: 450px;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 100px;
-    padding: 60px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 20px grey;
-  }
+.form-box {
+  background-color: #fff;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  padding: 60px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px grey;
+}
 
-  .login-paragraph {
-    font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, Sans-serif;
-    font-size: 28px;
-    color: #707070;
-  }
-    
-    .top {
-      margin-top: 0;
-      padding-top:30px;
-      padding-bottom: 30px;
-      text-align:center;
-    }
+.login-paragraph {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, Sans-serif;
+  font-size: 28px;
+  color: #707070;
+}
 
-    .bottom {
-      text-align: center;
-      margin-bottom: 80px;
-    }
+.top {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 
-  .login-paragraph a {
-    color: #707070;
-  }
+.bottom {
+  text-align: center;
+  margin-bottom: 80px;
+}
 
-  .login-paragraph a:hover {
-    color: #CE301B;
-  }
+.login-paragraph a {
+  color: #707070;
+}
 
-  p a:hover {
-    color:#CE301B;
-  }
+.login-paragraph a:hover {
+  color: #ce301b;
+}
 
-  .login-button {
-    max-width: 400px;
-    display: block;
-    margin: 0 auto;
-  }
+p a:hover {
+  color: #ce301b;
+}
 
-  .signup-button {
-    max-width: 400px;
-    display: block;
-    margin: 0 auto;
-    }
+.login-button {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
 
-  
+.signup-button {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
 
-  /* My profile */
+/* My profile */
 
 .card {
-  display:flex;
+  display: flex;
   width: 780px;
   max-width: 90%;
   margin: 100px auto;
@@ -399,11 +398,11 @@ footer p {
 
 .profile-container1 {
   text-align: center;
-  flex:2;
+  flex: 2;
 }
 
 .profile-container2 {
-  flex:1;
+  flex: 1;
 }
 
 .profile-pic {
@@ -413,46 +412,46 @@ footer p {
 }
 
 .profile-name {
-  font-family: 'Sukhumvit Set', 'Quicksand', Helvetica, Sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, Sans-serif;
   font-size: 34px;
   font-weight: lighter;
-  color: #1F3B14;
+  color: #1f3b14;
   padding-top: 10px;
 }
 
 .profile-menu {
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, Sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, Sans-serif;
   font-size: 26px;
   font-weight: lighter;
-  color: #1F3B14;
+  color: #1f3b14;
   padding-top: 50px;
 }
 
-/* FAQ */ 
+/* FAQ */
 
-  .container-faq {
-    font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    padding-top:50px;
-    padding-bottom: 80px;
-  }
+.container-faq {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
 
-  .item {
-    flex:1;
-    padding: 10px;
-    margin:0;
-  }
+.item {
+  flex: 1;
+  padding: 10px;
+  margin: 0;
+}
 
-/* About */ 
+/* About */
 
 .about-image img {
-  display:block;
+  display: block;
   margin: 0 auto;
   max-width: 90%;
   height: auto;
-  padding-top:80px;
+  padding-top: 80px;
   padding-bottom: 0px;
 }
 
@@ -460,30 +459,29 @@ footer p {
   display: flex;
 }
 
-/* Shop pages */ 
+/* Shop pages */
 
 .container-shop {
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 24px;
   display: flex;
   flex-direction: column;
-  padding-top:150px;
-  padding-bottom:300px;
-  text-align:center;
+  padding-top: 150px;
+  padding-bottom: 300px;
+  text-align: center;
   text-transform: uppercase;
 }
 
 .container-shop img {
-  max-width:460px;
+  max-width: 460px;
   margin: 0 auto;
 }
 
-
 .men-text .women-text {
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: lighter;
-  color:#18352B;
+  color: #18352b;
   text-align: center;
 }
 
@@ -499,32 +497,30 @@ footer p {
   margin-bottom: 150px;
 }
 
-
 .product img {
-width: 280px;
-padding-bottom:0px;
-text-align:left;
+  width: 280px;
+  padding-bottom: 0px;
+  text-align: left;
 }
 
-
 .product-header {
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: lighter;
-  color:#18352B;
+  color: #18352b;
   text-align: left;
-  margin-top:5px;
+  margin-top: 5px;
   max-width: 280px;
   margin: auto;
 }
 
 .product-price {
-  font-family: 'Sukhumvit Set','Quicksand', Helvetica, sans-serif;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color:#18352B;
+  color: #18352b;
   text-align: left;
-  max-width:280px;
+  max-width: 280px;
   margin: auto;
 }
 
@@ -574,19 +570,19 @@ text-align:left;
 
 .item-photo {
   margin: 20px;
-  flex:2;
+  flex: 2;
 }
 
 .item-info {
   margin-top: 0;
   margin: 20px;
-  flex:2;
+  flex: 2;
 }
 
 .item-text {
   margin: 20px;
   margin-top: 0;
-  flex:2;
+  flex: 2;
 }
 
 .size-icon {
@@ -597,7 +593,7 @@ text-align:left;
 
 .add-cart {
   display: block;
-  width:250px;
+  width: 250px;
   height: auto;
   padding-bottom: 60px;
 }
@@ -607,23 +603,27 @@ text-align:left;
 }
 
 .container-suggestions {
-  display:flex;
+  display: flex;
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 
-.container-suggestions-1 p, .container-suggestions-2 p, .container-suggestions-3 p {
+.container-suggestions-1 p,
+.container-suggestions-2 p,
+.container-suggestions-3 p {
   font-size: 18px;
   text-align: center;
 }
 
-.container-suggestions-1, .container-suggestions-2, .container-suggestions-3 img {
+.container-suggestions-1,
+.container-suggestions-2,
+.container-suggestions-3 img {
   width: 200px;
   justify-content: center;
 }
 
-/* Contact info page */ 
+/* Contact info page */
 
 .icon {
   width: 60px;
@@ -644,7 +644,7 @@ text-align:left;
 }
 
 .map {
-  max-width:500px;
+  max-width: 500px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
@@ -662,17 +662,16 @@ text-align:left;
 .cart-item-1 {
   flex: 6;
   margin-right: 30px;
-  
 }
 
 .cart-item-2 {
   flex: 4;
-  background-color: #F2F7F0;
+  background-color: #f2f7f0;
   margin-bottom: 40px;
 }
 
 .cart-photo {
-  width:85px;
+  width: 85px;
   padding-left: 30px;
   padding-right: 50px;
   float: left;
@@ -681,22 +680,24 @@ text-align:left;
 .cart-text {
   padding-left: 30px;
   padding-right: 30px;
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-bottom: 50px;
 }
 
 .p-cart {
-  font-size:20px;
+  font-size: 20px;
   color: #707070;
 }
 
 .p-cart-large {
-  font-size:30px;
+  font-size: 30px;
   color: #707070;
 }
 
-.flex1, .flex2, .flex3 {
+.flex1,
+.flex2,
+.flex3 {
   display: flex;
   justify-content: space-between;
 }
@@ -732,13 +733,14 @@ text-align:left;
 }
 
 .success-heading {
-  font-family: 'Code Bold', 'Cabin Condensed', sans-serif;
-  Font-size: 50px;
-  color: #CE301B;
+  font-family: "Code Bold", "Cabin Condensed", sans-serif;
+  font-size: 50px;
+  color: #ce301b;
   text-align: center;
 }
 
-.shipping-card, .payment-card {
+.shipping-card,
+.payment-card {
   max-width: 90%;
   margin: 60px auto;
   margin-bottom: 250px;
@@ -746,16 +748,17 @@ text-align:left;
   border-radius: 30px;
 }
 
-.shipping-standard, .shipping-express {
+.shipping-standard,
+.shipping-express {
   display: flex;
   justify-content: space-between;
 }
 
-.shipping-standard {  
+.shipping-standard {
   padding: 20px 30px 0 30px;
 }
 
-.shipping-express {  
+.shipping-express {
   padding: 0 30px 20px 30px;
 }
 
@@ -764,16 +767,17 @@ text-align:left;
   width: 60px;
 }
 
-.paypal, .visa {
+.paypal,
+.visa {
   display: flex;
   justify-content: space-between;
 }
 
-.paypal {  
+.paypal {
   padding: 20px 30px 0 30px;
 }
 
-.visa {  
+.visa {
   padding: 0 30px 20px 30px;
 }
 
@@ -781,32 +785,32 @@ text-align:left;
   padding: 0 30px 20px 30px;
 }
 
-/* Responsive */ 
-/* For big screens */ 
+/* Responsive */
+/* For big screens */
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width: 1500px) {
   h1 {
     padding-left: 71px;
     padding-top: 30px;
     position: fixed;
   }
 }
-@media only screen and (min-width:1221px) {
+@media only screen and (min-width: 1221px) {
   nav li {
     display: inline-block;
     padding-right: 30px;
     padding-left: 30px;
-  }  
+  }
   .container-shop {
     flex-direction: row;
   }
   footer {
     position: sticky;
-    bottom: 0 ;
+    bottom: 0;
   }
 }
 
-/* For small screens */ 
+/* For small screens */
 
 #hamburger-menu:checked ~ nav li {
   display: block;
@@ -830,15 +834,15 @@ text-align:left;
   display: none;
 }
 
-@media only screen and (max-width:1220px) {
+@media only screen and (max-width: 1220px) {
   .main-logo {
     width: 50px;
   }
-.nav-block {
+  .nav-block {
     padding-top: 10px;
     padding-bottom: 0;
   }
-header {
+  header {
     position: static;
   }
   .hamburger-icon {
@@ -860,11 +864,10 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    
   }
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width: 900px) {
   .phone-background {
     background-image: none;
     background-color: rgb(251, 255, 249);
@@ -875,7 +878,7 @@ header {
     grid-template-rows: auto;
     grid-template-columns: auto;
     padding-top: 0;
-    padding-bottom: 0;;
+    padding-bottom: 0;
     text-align: center;
     margin-bottom: 80px;
   }
@@ -884,7 +887,7 @@ header {
     padding-bottom: 0;
     margin-bottom: 80px;
   }
-    .container-faq {
+  .container-faq {
     flex-direction: column;
   }
   .about-container {
@@ -905,10 +908,10 @@ header {
   }
   .add-cart {
     max-width: 300px;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
   .heart {
-    display:none;
+    display: none;
   }
   .button {
     display: block;
@@ -916,7 +919,7 @@ header {
     max-width: 300px;
   }
   h4 {
-    text-align:center;
+    text-align: center;
     margin-top: 20px;
   }
   input {
@@ -950,7 +953,8 @@ header {
   .cart-item-1 {
     margin-right: 0;
   }
-  .payment-card, .shipping-card {
+  .payment-card,
+  .shipping-card {
     max-width: 90%;
     margin-bottom: 80px;
   }
@@ -958,13 +962,13 @@ header {
     margin: 60px auto;
   }
   .success-heading {
-    Font-size: 32px;
+    font-size: 32px;
   }
   .cart-text {
-    padding-bottom:30px;
-    margin-bottom: 0;;
+    padding-bottom: 30px;
+    margin-bottom: 0;
   }
   .hidden {
-    display:none;
+    display: none;
   }
 }
