@@ -300,7 +300,7 @@ footer p {
 .button {
   display: block;
   max-width: 400px;
-  padding-bottom: 600px;
+  padding-bottom: 1000px;
   margin: 0 auto;
   opacity: 0;
   animation: button 4s forwards;
@@ -596,7 +596,7 @@ p a:hover {
   display: block;
   width: 250px;
   height: auto;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .picker {
@@ -972,4 +972,73 @@ p a:hover {
   .hidden {
     display: none;
   }
+  .success {
+    font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .success-message {
+    width: 400px;
+    background-color: #76814b;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+}
+
+.hiddenjs {
+  display: none;
+}
+
+.success {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
+}
+
+.success-message {
+  width: 400px;
+  background-color: #76814b;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.loader {
+  margin-left: 40px;
+  border: 15px solid lightgrey;
+  border-top: 10px solid #76814b;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cart-count-1 {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 40px;
+  z-index: 2;
 }
