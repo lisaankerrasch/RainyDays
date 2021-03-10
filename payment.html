@@ -1,115 +1,199 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Hotjar Tracking Code for https://rainydays-lisa.netlify.app -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2264587,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  <head>
+    <!-- Hotjar Tracking Code for https://rainydays-lisa.netlify.app -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2264587, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
 
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap" rel="stylesheet">
-        <meta name="description" content="Choose your payment method."/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Rainy days | Payment</title>
-    </head>
-    <body>
-        <header> 
-            <section class="nav-block">
-            <a class="main-logo" href="index.html"> <img src="images/RDlogo-green.svg" alt="Rainy Days logo"> </a>  
-            <label class="hamburger-icon" for="hamburger-menu"><img src="elements/icons/icon-menu2.svg"></label>
-            <input type="checkbox" id="hamburger-menu">
-            <nav>
-                <ul>
-                    <li class="hidden-menu uppercase"><a href="search.html">Search</a></li>
-                    <li class="hidden-menu uppercase"><a href="login.html">Login</a></li>
-                    <li class="hidden-menu uppercase"><a href="cart.html">Cart</a></li>
-                    <li class="nav-icon-left"><a href="menu.html"><img src="elements/icons/icon-menu.svg" alt="menu icon"></a></li>
-                    <li class="nav-icon-left"><a href="search.html"><img src="elements/icons/icon-search.svg" alt="search icon"></a></li>
-                    <section class="nav-center">
-                    <li class="uppercase"><a href="shop.html">Shop</a></li>
-                    <li class="uppercase"><a href="gallery.html">Gallery</a></li>
-                    <li class="uppercase"><a href="contact.html">Contact</a></li>
-                    <li class="uppercase"><a href="faq.html"> Faq </a> </li>
-                    <li class="uppercase"><a href="about.html">About</a></li>
-                    </section>
-                    <li class="nav-icon-right"><a href="cart.html"><img src="elements/icons/icon-cart.svg" alt="cart icon"></a></li> 
-                    <li class="nav-icon-right"><a href="login.html"><img src="elements/icons/icon-profile.svg" alt="profile icon"></a></li>
-                </ul>
-            </nav>
-            </section>
-        </header>
-        <h1>
-           Checkout
-        </h1>
-        <main>
-            <section class="container-cart">
-                <div class="cart-item-1">
-                    <h6 class="cart-heading">Payment</h6>
-                    <div class="payment-card">
-                        <div class="paypal">
-                            <p><img class="selector" src="elements/icons/unselected.svg" alt="Click for Paypal payment">Paypal</p>
-                            <p><img class="payment-icon" src="elements/icons/paypal.svg"></p>
-                        </div>
-                        <div class="visa">
-                            <p><img class="selector" src="elements/icons/selected.svg" alt="Click for visa payment">Visa</p>
-                            <p><img class="payment-icon" src="elements/icons/visa.svg"></p>
-                        </div>
-                        <div class="card-info">
-                            <p class="p-form"><label for="card">Card number</label></p>
-                            <p class="p-form"><input type="text" name="card" id="card"></p>
-                            <p class="p-form"><label for="expirydate">Expiry date</label></p>
-                            <p class="p-form"> <input type="number" name="expirydate" id="expirydate">
-                            <p class="p-form"><label for="lname">CVV</label></p>
-                            <p class="p-form"><input type="number" name="cvv" id="cvv"></p>
-                            <p class="p-form"><label for="name">Name on Card</label></p>
-                            <p class="p-form"><input type="text" name="name" id="name"></p>
-                        </div>
-                    </div>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Choose your payment method." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rainy days | Payment</title>
+  </head>
+  <body>
+    <header>
+      <section class="nav-block">
+        <a class="main-logo" href="index.html">
+          <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
+        </a>
+        <label class="hamburger-icon" for="hamburger-menu"
+          ><img src="elements/icons/icon-menu2.svg"
+        /></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li class="hidden-menu uppercase">
+              <a href="search.html">Search</a>
+            </li>
+            <li class="hidden-menu uppercase">
+              <a href="login.html">Login</a>
+            </li>
+            <li class="hidden-menu uppercase"><a href="cart.html">Cart</a></li>
+            <li class="nav-icon-left">
+              <a href="menu.html"
+                ><img src="elements/icons/icon-menu.svg" alt="menu icon"
+              /></a>
+            </li>
+            <li class="nav-icon-left">
+              <a href="search.html"
+                ><img src="elements/icons/icon-search.svg" alt="search icon"
+              /></a>
+            </li>
+            <section class="nav-center">
+              <li class="uppercase">
+                <a class="shopNav" href="shop.html">Shop</a>
+                <div class="overlay-shop hiddenjs" id="shopNav">
+                  <div class="overlay-shop-content">
+                    <a class="uppercase" href="women.html">Women</a>
+                    <a class="uppercase" href="men.html">Men</a>
+                  </div>
                 </div>
-                 <div class="cart-item-2 hidden">
-                     <h6>Shopping Cart</h6>
-                     <hr class="cart-hr">
-                     <div class="cart-content1">
-                        <p><img class="cart-photo" src="images/Products/Mensjacket5.jpg" alt="Uno, Men's jacket in cart">Uno Jacket</p>
-                        <p class="bold">$109</p>
-                     </div>
-                     <div class="cart-content2">
-                        <p><img class="cart-photo" src="images/Products/womensjacket1.jpg" alt="Ella, Women's jacket in cart">Ella Jacket</p>
-                        <p class="bold">$89</p>
-                        <hr class="cart-hr">
-                     </div>
-                     <div class="cart-text">
-                        <div class="flex1">
-                        <p class="p-cart">Subtotal</p>
-                        <p class="p-cart bold">$198</p>
-                    </div>
-                    <div class="flex2">
-                        <p class="p-cart">Shipping</p>
-                        <p class="p-cart bold">Free</p>
-                    </div>
-                    <div class="flex3">
-                        <p class="p-cart-large">Total</p>
-                        <p class="p-cart-large">$198</p>
-                    </div>
-                    </div>
-                 </div>
+              </li>
+              <li class="uppercase"><a href="gallery.html">Gallery</a></li>
+              <li class="uppercase"><a href="contact.html">Contact</a></li>
+              <li class="uppercase"><a href="faq.html"> Faq </a></li>
+              <li class="uppercase"><a href="about.html">About</a></li>
             </section>
-            <a href="success.html"><img class="continue-button" src="elements/icons/complete-order.svg" alt="complete order"></a>
-        </main>
-        <footer>
-            <ul>
-                <p>Follow us!</p>
-                <li class="footer-icon"><a href="http://www.facebook.com"><img src="elements/icons/SOME facebook.svg" alt="facebook icon"></a></li>
-                <li class="footer-icon"><a href="http://www.instagram.com"><img src="elements/icons/SOME instagram.svg" alt="instagram icon"></a></li>
-                <li class="footer-icon"><a href="http://www.twitter.com"><img src="elements/icons/SOME twitter.svg" alt="twitter icon"></a></li>
-            </ul>
-        </footer>
-    </body>
+            <li class="nav-icon-right">
+              <a href="cart.html"
+                ><img src="elements/icons/icon-cart.svg" alt="cart icon"
+              /></a>
+            </li>
+            <li class="nav-icon-right">
+              <a href="login.html"
+                ><img src="elements/icons/icon-profile.svg" alt="profile icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <h1>Checkout</h1>
+    <main>
+      <section class="container-cart">
+        <div class="cart-item-1">
+          <h6 class="cart-heading">Payment</h6>
+          <div class="payment-card">
+            <div class="paypal">
+              <p>
+                <img
+                  class="selector"
+                  src="elements/icons/unselected.svg"
+                  alt="Click for Paypal payment"
+                />Paypal
+              </p>
+              <p>
+                <img class="payment-icon" src="elements/icons/paypal.svg" />
+              </p>
+            </div>
+            <div class="visa">
+              <p>
+                <img
+                  class="selector"
+                  src="elements/icons/selected.svg"
+                  alt="Click for visa payment"
+                />Visa
+              </p>
+              <p><img class="payment-icon" src="elements/icons/visa.svg" /></p>
+            </div>
+            <div class="card-info">
+              <p class="p-form"><label for="card">Card number</label></p>
+              <p class="p-form"><input type="text" name="card" id="card" /></p>
+              <p class="p-form"><label for="expirydate">Expiry date</label></p>
+              <p class="p-form">
+                <input type="number" name="expirydate" id="expirydate" />
+              </p>
+              <p class="p-form"><label for="lname">CVV</label></p>
+              <p class="p-form"><input type="number" name="cvv" id="cvv" /></p>
+              <p class="p-form"><label for="name">Name on Card</label></p>
+              <p class="p-form"><input type="text" name="name" id="name" /></p>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item-2 hidden">
+          <h6>Shopping Cart</h6>
+          <hr class="cart-hr" />
+          <div class="cart-content1">
+            <p>
+              <img
+                class="cart-photo"
+                src="images/Products/Mensjacket5.jpg"
+                alt="Uno, Men's jacket in cart"
+              />Uno Jacket
+            </p>
+            <p class="bold">$109</p>
+          </div>
+          <div class="cart-content2">
+            <p>
+              <img
+                class="cart-photo"
+                src="images/Products/womensjacket1.jpg"
+                alt="Ella, Women's jacket in cart"
+              />Ella Jacket
+            </p>
+            <p class="bold">$89</p>
+            <hr class="cart-hr" />
+          </div>
+          <div class="cart-text">
+            <div class="flex1">
+              <p class="p-cart">Subtotal</p>
+              <p class="p-cart bold">$198</p>
+            </div>
+            <div class="flex2">
+              <p class="p-cart">Shipping</p>
+              <p class="p-cart bold">Free</p>
+            </div>
+            <div class="flex3">
+              <p class="p-cart-large">Total</p>
+              <p class="p-cart-large">$198</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="success.html"
+        ><img
+          class="continue-button"
+          src="elements/icons/complete-order.svg"
+          alt="complete order"
+      /></a>
+    </main>
+    <footer>
+      <ul>
+        <p>Follow us!</p>
+        <li class="footer-icon">
+          <a href="http://www.facebook.com"
+            ><img src="elements/icons/SOME facebook.svg" alt="facebook icon"
+          /></a>
+        </li>
+        <li class="footer-icon">
+          <a href="http://www.instagram.com"
+            ><img src="elements/icons/SOME instagram.svg" alt="instagram icon"
+          /></a>
+        </li>
+        <li class="footer-icon">
+          <a href="http://www.twitter.com"
+            ><img src="elements/icons/SOME twitter.svg" alt="twitter icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/nav.js"></script>
+  </body>
 </html>
