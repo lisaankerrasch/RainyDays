@@ -124,6 +124,7 @@ label {
 }
 
 input {
+  display: flex;
   width: 400px;
   height: 50px;
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
@@ -131,7 +132,14 @@ input {
   border: 1px solid #707070;
   border-radius: 10px;
   outline-color: #ce301b;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.form-error {
+  display: none;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  color: red;
 }
 
 fieldset {
@@ -361,7 +369,7 @@ footer p {
 }
 
 .login-paragraph a {
-  color: #707070;
+  color: #ce301b;
 }
 
 .login-paragraph a:hover {
@@ -379,9 +387,17 @@ p a:hover {
 }
 
 .signup-button {
-  max-width: 400px;
+  background-color: #9fa87b;
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  width: 400px;
+  height: 50px;
   display: block;
   margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
 }
 
 /* My profile */
@@ -570,7 +586,7 @@ p a:hover {
 }
 
 .item-photo {
-  margin: 20px;
+  margin-top: 50px;
   flex: 2;
 }
 
@@ -581,8 +597,8 @@ p a:hover {
 }
 
 .item-text {
-  margin: 20px;
-  margin-top: 0;
+  margin-top: 40px;
+  margin-left: 20px;
   flex: 2;
 }
 
@@ -714,6 +730,8 @@ p a:hover {
 }
 
 .p-form {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -933,7 +951,9 @@ p a:hover {
   .form-box {
     max-width: 300px;
     padding: 5px;
+    display: inline;
   }
+
   .top {
     margin-bottom: 0;
     padding-bottom: 10px;
@@ -1003,7 +1023,7 @@ p a:hover {
 
 .success-message {
   width: 400px;
-  background-color: #76814b;
+  background-color: #9fa87b;
   text-align: center;
   border-radius: 20px;
   margin-bottom: 100px;
@@ -1012,7 +1032,7 @@ p a:hover {
 .loader {
   margin-left: 40px;
   border: 15px solid lightgrey;
-  border-top: 10px solid #76814b;
+  border-top: 10px solid #9fa87b;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -1028,6 +1048,11 @@ p a:hover {
   }
 }
 
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .cart-count-1 {
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   text-align: center;
@@ -1041,4 +1066,53 @@ p a:hover {
   margin-top: -5px;
   margin-left: 40px;
   z-index: 2;
+}
+
+.check {
+  float: right;
+  display: inline;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.checksymbol1,
+.checksymbol2,
+.checksymbol3,
+.checksymbol4,
+.checksymbol5 {
+  display: none;
+  width: 30px;
+}
+
+.link {
+  color: #9fa87b;
+}
+
+.shortpage {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.overlay-shop {
+  position: absolute;
+  left: -5%;
+  z-index: 2;
+  width: 200px;
+  background-color: #f2f7f0;
+}
+
+.overlay-shop-content {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay-shop a {
+  display: block;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-weight: 400px;
+  font-size: 28px;
+  color: #707070;
+  text-decoration: none;
 }
