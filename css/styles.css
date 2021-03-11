@@ -610,7 +610,6 @@ p a:hover {
 .add-cart {
   display: block;
   width: 250px;
-  height: auto;
   margin-bottom: 60px;
 }
 
@@ -620,7 +619,8 @@ p a:hover {
 
 .container-suggestions {
   display: flex;
-  justify-content: center;
+  width: 80%;
+  justify-content: space-between;
   margin: 0 auto;
   margin-bottom: 60px;
 }
@@ -992,6 +992,7 @@ p a:hover {
     display: none;
   }
   .success {
+    width: 200px;
     font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
     font-size: 28px;
     font-weight: lighter;
@@ -1013,17 +1014,18 @@ p a:hover {
 }
 
 .success {
+  max-width: 200px;
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: lighter;
   color: white;
-  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .success-message {
-  width: 400px;
+  width: 250px;
   background-color: #9fa87b;
-  text-align: center;
   border-radius: 20px;
   margin-bottom: 100px;
 }
@@ -1092,30 +1094,6 @@ p a:hover {
   margin-bottom: 200px;
 }
 
-.overlay-shop {
-  position: absolute;
-  left: -5%;
-  z-index: 2;
-  width: 200px;
-  background-color: #f2f7f0;
-}
-
-.overlay-shop-content {
-  position: relative;
-  top: 25%;
-  text-align: center;
-  padding: 20px;
-}
-
-.overlay-shop a {
-  display: block;
-  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
-  font-weight: 400px;
-  font-size: 28px;
-  color: #707070;
-  text-decoration: none;
-}
-
 .new-arrivals {
   margin-bottom: 100px;
 }
@@ -1158,4 +1136,72 @@ p.arrivaltext {
   color: white;
   font-weight: lighter;
   text-align: center;
+}
+
+.mightlike {
+  padding: 10px;
+}
+
+.overlay-shop,
+.overlay-about {
+  position: absolute;
+  z-index: 2;
+  width: 180px;
+  background-color: #f2f7f0;
+  border-radius: 5px;
+}
+
+.overlay-shop {
+  left: -4%;
+}
+
+.overlay-about {
+  left: 74%;
+}
+
+.overlay-shop-content,
+.overlay-about-content {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay-shop a,
+.overlay-about a {
+  display: block;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-weight: 400px;
+  font-size: 28px;
+  color: #707070;
+  text-decoration: none;
+}
+
+.searchbar {
+  position: absolute;
+  left: 0px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f2f7f0;
+  width: 500px;
+  font-size: 22px;
+  border-radius: 20px;
+}
+
+.input-search {
+  font-size: 22px;
+  height: 40px;
+}
+
+.search {
+  position: absolute;
+  top: 10px;
+  left: 450px;
+  background-color: #707070;
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
 }

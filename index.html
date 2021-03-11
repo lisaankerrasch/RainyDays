@@ -55,9 +55,10 @@
               /></a>
             </li>
             <li class="nav-icon-left">
-              <a href="search.html"
-                ><img src="elements/icons/icon-search.svg" alt="search icon"
+              <a href="#"
+                ><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon"
               /></a>
+              <div class="searchbar hiddenjs"><input class="input-search" type="text" placeholder="Search..."><button class="search">Go!</button></div>
             </li>
             <section class="nav-center">
               <li class="uppercase">
@@ -69,11 +70,19 @@
                   </div>
                 </div>
               </li>
+              <li class="uppercase"><a href="blog.html">Articles</a></li>
               <li class="uppercase"><a href="gallery.html">Gallery</a></li>
-              <li class="uppercase"><a href="contact.html">Contact</a></li>
-              <li class="uppercase"><a href="faq.html"> Faq </a></li>
-              <li class="uppercase"><a href="about.html">About</a></li>
-            </section>
+              <li class="uppercase">
+                <a class="aboutNav" href="#">About</a>
+                <div class="overlay-about hiddenjs" id="aboutNav">
+                  <div class="overlay-about-content">
+                    <a class="uppercase" href="contact.html">Contact</a>
+                    <a class="uppercase" href="about.html">Our story</a>
+                      <a class="uppercase" href="faq.html">FAQ</a>
+                  </div> 
+                </div>
+              </li>           
+                </section>
             <li class="nav-icon-right">
               <div class="cart-count"></div>
               <a href="cart.html"
