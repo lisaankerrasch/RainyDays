@@ -19,5 +19,5 @@ filterButton.onclick = function viewFilter() {
 };
 
 filterApply.onclick = function filterResults() {
-  criteriasMet.classList.remove("hiddenjs");
+  criteriasMet.classList.add("hiddenjs");
 };

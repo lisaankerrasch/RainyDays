@@ -634,6 +634,34 @@ p a:hover {
   padding-right: 10px;
 }
 
+.size-picker-1,
+.size-picker-2,
+.size-picker-3,
+.size-picker-4,
+.size-picker-5 {
+  background-color: #9fa87b;
+  color: white;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  width: 42px;
+  height: 30px;
+  border-radius: 10%;
+}
+
+.size-picker-1:hover,
+.size-picker-2:hover,
+.size-picker-3:hover,
+.size-picker-4:hover,
+.size-picker-5:hover {
+  background-color: #ce301b;
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-between;
+}
+
 .add-cart {
   display: block;
   width: 250px;
@@ -1169,7 +1197,7 @@ p a:hover {
   display: none;
 }
 
-.success {
+.success-cart {
   max-width: 200px;
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
   font-size: 22px;
@@ -1556,6 +1584,7 @@ input[type="checkbox"]:checked {
 .filter-button,
 .sort-button {
   text-align: center;
+  width: 100px;
   padding: 5px;
   margin: 10px;
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;

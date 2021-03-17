@@ -148,11 +148,13 @@
           </p>
           <hr />
           <p class="uppercase">Size:</p>
-          <img class="size-icon" src="elements/icons/size-xs.svg" alt="Size extra small picker" />
-          <img class="size-icon" src="elements/icons/size-s.svg" alt="Size small picker" />
-          <img class="size-icon" src="elements/icons/size-m.svg" alt="Size medium picker" />
-          <img class="size-icon" src="elements/icons/size-l.svg" alt="Size large picker" />
-          <img class="size-icon" src="elements/icons/size-xl.svg" alt="Size extra large picker" />
+          <div class="sizes">
+            <div class="size-picker-1">S</div>
+            <div class="size-picker-2">M</div>
+            <div class="size-picker-3">L</div>
+            <div class="size-picker-4">XL</div>
+            <div class="size-picker-5">XXL</div>
+          </div>
           <hr />
           <p class="uppercase">Quantity:</p>
           <img class="picker" src="elements/icons/Quantity.svg" alt="Quantity picker" />
@@ -166,7 +168,7 @@
       </section>
       <section>
         <a href="#"><img class="add-cart" src="elements/icons/add-to-cart.svg" alt="add to cart button" /></a>
-        <div class="loader-container"></div>
+        <div class="loader-container-cart"></div>
         <div class="success-message"></div>
       </section>
       <h6 class="center-heading">You might also like:</h6>
@@ -190,7 +192,7 @@
     </div>
     </div>
     <div id="search-result" class="hiddenjs">
-      <div class="loader-container"></div>
+      <div class="loader-container-cart"></div>
       <div class="result-p"></div>
       <div><a href="#"><img class="exit-results hiddenjs" src="elements/icons/close-button.svg"></a></div>
     </div>
@@ -210,7 +212,6 @@
     </ul>
   </footer>
   <script src="js/nav.js"></script>
-
   <script src="js/script.js"></script>
 </body>
 
