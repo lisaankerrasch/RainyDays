@@ -1,39 +1,20 @@
-const form = document.querySelector("#contact-form");
+const form = document.querySelector("#contactForm");
+const fullName = document.querySelector("#name");
+const fullNameError = document.querySelector("#nameError");
+const subject = document.querySelector("#subject");
+const subjectError = document.querySelector("#subjectError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const firstName = document.querySelector("#fname");
-const firstNameError = document.querySelector("#fnameError");
-const lastName = document.querySelector("#lname");
-const lastNameError = document.querySelector("#lnameError");
-const password = document.querySelector("#password");
-const passwordError = document.querySelector("#passworderror");
+const message = document.querySelector("#message");
+const messageError = document.querySelector("#messageError");
 const success = document.querySelector(".success");
-const repeatPassword = document.querySelector("#rpassword");
-const rpasswordError = document.querySelector("#rpassworderror");
 const checkSymbol1 = document.querySelector(".checksymbol1");
 const checkSymbol2 = document.querySelector(".checksymbol2");
 const checkSymbol3 = document.querySelector(".checksymbol3");
 const checkSymbol4 = document.querySelector(".checksymbol4");
-const checkSymbol5 = document.querySelector(".checksymbol5");
 
 function checkLength(value, len) {
   if (value.trim().length > len) {
-    return true;
-  } else {
-    return false;
-  }
-}
-
-function validateEmail(email) {
-  const regEx = /\S+@\S+\.\S+/;
-  const patternMatches = regEx.test(email);
-  return patternMatches;
-}
-
-function checkPassword(form) {
-  const password1 = form.password.value;
-  const password2 = form.rpassword.value;
-  if (password2 === password1) {
     return true;
   } else {
     return false;
@@ -44,61 +25,63 @@ function checkSign(event) {
   if (validateEmail(email.value)) {
     checkSymbol1.style.display = "inline";
   }
-  if (checkLength(firstName.value, 0)) {
+  if (checkLength(fullName.value, 0)) {
     checkSymbol2.style.display = "inline";
   }
-  if (checkLength(lastName.value, 0)) {
+  if (checkLength(subject.value, 9)) {
     checkSymbol3.style.display = "inline";
   }
-  if (checkLength(password.value, 7)) {
+  if (checkLength(message.value, 24)) {
     checkSymbol4.style.display = "inline";
   }
-  if (checkLength(repeatPassword.value, 7) && checkPassword(form) === true) {
-    checkSymbol5.style.display = "inline";
-  }
+}
+
+function validateEmail(email) {
+  const regEx = /\S+@\S+\.\S+/;
+  const patternMatches = regEx.test(email);
+  return patternMatches;
 }
 
 function validateForm(event) {
   event.preventDefault();
 
-  if (checkLength(firstName.value, 0)) {
-    fnameError.style.display = "none";
+  if (checkLength(fullName.value, 0)) {
+    fullNameError.style.display = "none";
   } else {
-    fnameError.style.display = "block";
+    fullNameError.style.display = "block";
   }
-  if (checkLength(lastName.value, 0)) {
-    lnameError.style.display = "none";
+  if (checkLength(subject.value, 9)) {
+    subjectError.style.display = "none";
   } else {
-    lnameError.style.display = "block";
+    subjectError.style.display = "block";
   }
   if (validateEmail(email.value)) {
     emailError.style.display = "none";
   } else {
     emailError.style.display = "block";
   }
-  if (checkLength(password.value, 7)) {
-    passworderror.style.display = "none";
+  if (checkLength(message.value, 24)) {
+    messageError.style.display = "none";
   } else {
-    passworderror.style.display = "block";
+    messageError.style.display = "block";
   }
-  if (checkPassword(form) === true) {
-    rpasswordError.style.display = "none";
-  } else rpasswordError.style.display = "block";
 }
 
 function submitForm(event) {
   if (
-    checkLength(firstName.value, 0) &&
-    checkLength(lastName.value, 0) &&
-    checkLength(password.value, 7) &&
-    validateEmail(email.value) &&
-    checkPassword(form) === true
+    checkLength(fullName.value, 0) &&
+    checkLength(subject.value, 9) &&
+    checkLength(message.value, 24) &&
+    validateEmail(email.value)
   ) {
     event.preventDefault;
-    window.location.replace("my-profile.html");
+    form.classList.add("hiddenjs");
+    success.innerHTML = `<div class="message">Thank you for reaching out! We will be in touch with you shortly. </div>`;
+    form.reset();
   }
 }
 
 form.addEventListener("submit", validateForm);
 form.addEventListener("submit", submitForm);
+
 form.addEventListener("keyup", checkSign);

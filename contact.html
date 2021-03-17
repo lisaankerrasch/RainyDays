@@ -146,6 +146,44 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1872.0479438190655!2d-83.92760419128983!3d40.48370698775568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883edffb6de3d42d%3A0x17986ca57a678743!2s142%20Place%20St%2C%20Lakeview%2C%20OH%2043331%2C%20USA!5e0!3m2!1sno!2sno!4v1603532870910!5m2!1sno!2sno"
             frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </p>
+        <form class="form-container" id="contactForm">
+          <div>
+            <label>
+              Name (required)
+              <input name="name" id="name" />
+              <div class="check-contact">
+                <img class="checksymbol1" src="elements/icons/checksign.svg" /></div>
+            </label>
+            <div class="form-error" id="nameError">Please enter your name</div>
+            <label>
+              Email (required)
+              <input name="email" id="email" />
+              <div class="check-contact">
+                <img class="checksymbol2" src="elements/icons/checksign.svg" />
+              </div>
+            </label>
+            <div class="form-error" id="emailError">Please enter a valid email address</div>
+            </label>
+            <label>
+              Subject (Minimum 10 characters)
+              <input name="subject" id="subject" />
+              <div class="check-contact">
+                <img class="checksymbol3" src="elements/icons/checksign.svg" />
+              </div>
+            </label>
+            <div class="form-error" id="subjectError">Subject must be at least 10 characters</div>
+            <label>
+              Your message (Minimum 25 characters):
+              <input name="message" id="message" />
+              <div class="check-contact">
+                <img class="checksymbol4" src="elements/icons/checksign.svg" />
+              </div>
+            </label>
+            <div class="form-error" id="messageError">Address must be at least 25 characters</div>
+            <button>Submit</button>
+          </div>
+        </form>
+        <div class="success"></div>
         <p class="info-text"><b>Opening Hours</b></p>
         <p class="info-text">Mon-fri: 10am-8pm</p>
         <p class="info-text">Sat-Sun: 11am-6pm</p>
@@ -174,6 +212,8 @@
     </ul>
   </footer>
   <script src="js/nav.js"></script>
+  <script src="js/contact.js"></script>
+
 </body>
 
 </html>
