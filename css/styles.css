@@ -1322,6 +1322,8 @@ p.arrivaltext {
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 100px;
+  box-shadow: 5px 5px 20px white;
+
 }
 
 .newsletter-text {
@@ -1347,10 +1349,12 @@ p.arrivaltext {
 
 .overlay-shop {
   left: -4%;
+  top: 15px;
 }
 
 .overlay-about {
   left: 74%;
+  top: 15px;
 }
 
 .overlay-shop-content,
