@@ -1,134 +1,176 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Hotjar Tracking Code for https://rainydays-lisa.netlify.app -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 2264587, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
 
-    <link href="css/styles.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap"
-      rel="stylesheet"
-    />
-    <meta
-      name="description"
-      content="Choose men's or women's jackets to shop."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rainy days | Shop</title>
-  </head>
-  <body>
-    <header>
-      <section class="nav-block">
-        <a class="main-logo" href="index.html">
+<head>
+  <!-- Hotjar Tracking Code for https://rainydays-lisa.netlify.app -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj =
+        h.hj ||
+        function () {
+          (h.hj.q = h.hj.q || []).push(arguments);
+        };
+      h._hjSettings = {
+        hjid: 2264587,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName("head")[0];
+      r = o.createElement("script");
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+  </script>
+
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap"
+    rel="stylesheet" />
+  <meta name="description" content="Choose men's or women's jackets to shop." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rainy days | Shop</title>
+</head>
+
+<body>
+  <div class="menuoverlay hiddenjs">
+    <div class="menuflex">
+      <div class="sidebar">
+        <a class="main-logo-sidebar" href="index.html">
           <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
         </a>
-        <label class="hamburger-icon" for="hamburger-menu"
-          ><img src="elements/icons/icon-menu2.svg"
-        /></label>
-        <input type="checkbox" id="hamburger-menu" />
-        <nav>
-          <ul>
-            <li class="hidden-menu uppercase">
-              <a href="search.html">Search</a>
-            </li>
-            <li class="hidden-menu uppercase">
-              <a href="login.html">Login</a>
-            </li>
-            <li class="hidden-menu uppercase"><a href="cart.html">Cart</a></li>
-            <li class="nav-icon-left">
-              <a href="menu.html"
-                ><img src="elements/icons/icon-menu.svg" alt="menu icon"
-              /></a>
-            </li>
-            <li class="nav-icon-left">
-              <a href="search.html"
-                ><img src="elements/icons/icon-search.svg" alt="search icon"
-              /></a>
-            </li>
-            <section class="nav-center">
-              <li class="uppercase">
-                <a class="shopNav active" href="shop.html">Shop</a>
-                <div class="overlay-shop hiddenjs" id="shopNav">
-                  <div class="overlay-shop-content">
-                    <a class="uppercase" href="women.html">Women</a>
-                    <a class="uppercase" href="men.html">Men</a>
-                  </div>
+        <a href="#"><img class="menu-close-button" src="elements/icons/close-button.svg"></a>
+        <ul>
+          <li class="uppercase">
+            <a href="login.html">Login</a>
+          </li>
+          <li class="uppercase">
+            <a href="signup.html">Sign up</a>
+          </li>
+          <li class="uppercase"><a href="cart.html">Cart</a></li>
+          <li class="uppercase"><a href="men.html">shop mens</a></li>
+          <li class="uppercase"><a href="women.html">shop Womens</a></li>
+          <li class="uppercase"><a href="blog.html">Articles</a></li>
+          <li class="uppercase"><a href="gallery.html">Gallery</a></li>
+          <li> <a class="uppercase" href="contact.html">Contact</a></li>
+          <li> <a class="uppercase" href="about.html">Our story</a></li>
+          <li> <a class="uppercase" href="faq.html">FAQ</a></li>
+          <div class="social-media">
+            <div><a href="http://www.instagram.com"><img class="redicon"
+                  src="elements/icons/SOME instagram-red.svg"></a></div>
+            <div><a href="http://www.twitter.com"><img class="redicon" src="elements/icons/SOME twitter-red.svg"></a>
+            </div>
+            <div><a href="http://www.facebook.com"><img class="redicon" src="elements/icons/SOME facebook-red.svg"></a>
+            </div>
+          </div>
+      </div>
+      </ul>
+      <div class="sidebar-right"></div>
+    </div>
+  </div>
+  <header>
+    <section class="nav-block">
+      <a class="main-logo" href="index.html">
+        <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
+      </a>
+      <label class="hamburger-icon" for="hamburger-menu"><img src="elements/icons/icon-menu2.svg" /></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li class="hidden-menu uppercase">
+            <a href="search.html">Search</a>
+          </li>
+          <li class="hidden-menu uppercase">
+            <a href="login.html">Login</a>
+          </li>
+          <li class="hidden-menu uppercase"><a href="cart.html">Cart</a></li>
+          <li class="nav-icon-left">
+            <a class="menu-button" href="#"><img src="elements/icons/icon-menu.svg" alt="menu icon" /></a>
+          </li>
+          <li class="nav-icon-left">
+            <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
+            <div class="searchbar hiddenjs">
+              <label for="search" class="label-search">Search RainyDays:</label>
+              <input id="input-search" type="search" placeholder="Type here..." value="" />
+              <a href="#" class="search-button">
+                <p>Go!</p>
+              </a>
+              <a href="#"><img src="elements/icons/close-button.svg" class="close-button" /></a>
+            </div>
+          </li>
+          <section class="nav-center">
+            <li class="uppercase">
+              <a class="shopNav active" href="shop.html">Shop</a>
+              <div class="overlay-shop hiddenjs" id="shopNav">
+                <div class="overlay-shop-content">
+                  <a class="uppercase" href="women.html">Women</a>
+                  <a class="uppercase" href="men.html">Men</a>
                 </div>
-              </li>
-              <li class="uppercase"><a href="gallery.html">Gallery</a></li>
-              <li class="uppercase"><a href="contact.html">Contact</a></li>
-              <li class="uppercase"><a href="faq.html"> Faq </a></li>
-              <li class="uppercase"><a href="about.html">About</a></li>
-            </section>
-            <li class="nav-icon-right">
-              <a href="cart.html"
-                ><img src="elements/icons/icon-cart.svg" alt="cart icon"
-              /></a>
+              </div>
             </li>
-            <li class="nav-icon-right">
-              <a href="login.html"
-                ><img src="elements/icons/icon-profile.svg" alt="profile icon"
-              /></a>
+            <li class="uppercase"><a href="blog.html">Articles</a></li>
+            <li class="uppercase"><a href="gallery.html">Gallery</a></li>
+            <li class="uppercase">
+              <a class="aboutNav" href="#">About</a>
+              <div class="overlay-about hiddenjs" id="aboutNav">
+                <div class="overlay-about-content">
+                  <a class="uppercase" href="contact.html">Contact</a>
+                  <a class="uppercase" href="about.html">Our story</a>
+                  <a class="uppercase" href="faq.html">FAQ</a>
+                </div>
+              </div>
             </li>
-          </ul>
-        </nav>
-      </section>
-    </header>
-    <h1>Shop</h1>
-    <main>
+          </section>
+          <li class="nav-icon-right">
+            <div class="cart-count"></div>
+            <a href="cart.html"><img src="elements/icons/icon-cart.svg" alt="cart icon" /></a>
+          </li>
+          <li class="nav-icon-right">
+            <a href="login.html"><img src="elements/icons/icon-profile.svg" alt="profile icon" /></a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <h1>Shop</h1>
+  <main>
+    <div class="hideforsearch">
       <section class="container-shop">
         <div class="item one">
-          <a href="women.html"
-            ><img alt="link to women's jackets" src="images/shopwomen.jpg"
-          /></a>
+          <a href="women.html"><img alt="link to women's jackets" src="images/shopwomen.jpg" /></a>
           <div class="women-text">
             <p>women</p>
           </div>
         </div>
         <div class="item two">
-          <a href="men.html"
-            ><img alt="link to women's jackets" src="images/shopmen.jpg"
-          /></a>
+          <a href="men.html"><img alt="link to women's jackets" src="images/shopmen.jpg" /></a>
           <div class="men-text">
             <p>men</p>
           </div>
         </div>
       </section>
-    </main>
-    <footer>
-      <ul>
-        <p>Follow us!</p>
-        <li class="footer-icon">
-          <a href="http://www.facebook.com"
-            ><img src="elements/icons/SOME facebook.svg" alt="facebook icon"
-          /></a>
-        </li>
-        <li class="footer-icon">
-          <a href="http://www.instagram.com"
-            ><img src="elements/icons/SOME instagram.svg" alt="instagram icon"
-          /></a>
-        </li>
-        <li class="footer-icon">
-          <a href="http://www.twitter.com"
-            ><img src="elements/icons/SOME twitter.svg" alt="twitter icon"
-          /></a>
-        </li>
-      </ul>
-    </footer>
-    <script src="js/nav.js"></script>
-  </body>
+    </div>
+    <div id="search-result" class="hiddenjs">
+      <div class="loader-container"></div>
+      <div class="result-p"></div>
+      <div>
+        <a href="#"><img class="exit-results hiddenjs" src="elements/icons/close-button.svg" /></a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <ul>
+      <p>Follow us!</p>
+      <li class="footer-icon">
+        <a href="http://www.facebook.com"><img src="elements/icons/SOME facebook.svg" alt="facebook icon" /></a>
+      </li>
+      <li class="footer-icon">
+        <a href="http://www.instagram.com"><img src="elements/icons/SOME instagram.svg" alt="instagram icon" /></a>
+      </li>
+      <li class="footer-icon">
+        <a href="http://www.twitter.com"><img src="elements/icons/SOME twitter.svg" alt="twitter icon" /></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="js/nav.js"></script>
+</body>
+
 </html>

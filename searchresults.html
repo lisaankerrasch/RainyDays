@@ -21,53 +21,18 @@
       a.appendChild(r);
     })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
   </script>
-
   <link href="css/styles.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap"
     rel="stylesheet" />
-  <meta name="description" content="Read the story of how we decided to make rainy days better." />
+  <meta name="description"
+    content="Home of the best waterproof jackets around. Shop now to make your rainy days better." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rainy days | About</title>
+  <title>Rainy days | Home</title>
 </head>
 
 <body class="phone-background">
-  <div class="menuoverlay hiddenjs">
-    <div class="menuflex">
-      <div class="sidebar">
-        <a class="main-logo-sidebar" href="index.html">
-          <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
-        </a>
-        <a href="#"><img class="menu-close-button" src="elements/icons/close-button.svg"></a>
-        <ul>
-          <li class="uppercase">
-            <a href="login.html">Login</a>
-          </li>
-          <li class="uppercase">
-            <a href="signup.html">Sign up</a>
-          </li>
-          <li class="uppercase"><a href="cart.html">Cart</a></li>
-          <li class="uppercase"><a href="men.html">shop mens</a></li>
-          <li class="uppercase"><a href="women.html">shop Womens</a></li>
-          <li class="uppercase"><a href="blog.html">Articles</a></li>
-          <li class="uppercase"><a href="gallery.html">Gallery</a></li>
-          <li> <a class="uppercase" href="contact.html">Contact</a></li>
-          <li> <a class="uppercase" href="about.html">Our story</a></li>
-          <li> <a class="uppercase" href="faq.html">FAQ</a></li>
-          <div class="social-media">
-            <div><a href="http://www.instagram.com"><img class="redicon"
-                  src="elements/icons/SOME instagram-red.svg"></a></div>
-            <div><a href="http://www.twitter.com"><img class="redicon" src="elements/icons/SOME twitter-red.svg"></a>
-            </div>
-            <div><a href="http://www.facebook.com"><img class="redicon" src="elements/icons/SOME facebook-red.svg"></a>
-            </div>
-          </div>
-      </div>
-      </ul>
-      <div class="sidebar-right"></div>
-    </div>
-  </div>
   <header>
-    <section class="nav-block">
+    <div class="nav-block">
       <a class="main-logo" href="index.html">
         <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
       </a>
@@ -83,7 +48,8 @@
           </li>
           <li class="hidden-menu uppercase"><a href="cart.html">Cart</a></li>
           <li class="nav-icon-left">
-            <a class="menu-button" href="#"><img src="elements/icons/icon-menu.svg" alt="menu icon" /></a>
+            <a href="menu.html"><img src="elements/icons/icon-menu.svg" alt="menu icon" /></a>
+          </li>
           <li class="nav-icon-left">
             <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
             <div class="searchbar hiddenjs">
@@ -105,7 +71,7 @@
                 </div>
               </div>
             </li>
-            <li class="uppercase"><a class="active" href="blog.html">Articles</a></li>
+            <li class="uppercase"><a href="blog.html">Articles</a></li>
             <li class="uppercase"><a href="gallery.html">Gallery</a></li>
             <li class="uppercase">
               <a class="aboutNav" href="#">About</a>
@@ -127,50 +93,14 @@
           </li>
         </ul>
       </nav>
-    </section>
     </div>
   </header>
-  <h1>Blog</h1>
+  <h1>Search</h1>
   <main>
-    <div class="hideforsearch">
-      <div class="blog-container">
-        <div class="blogpost">
-          <a href="#">
-            <h3>Five things to know before choosing a jacket</h3>
-          </a>
-          <img class="blogpost-img" src="images/Gallery/gallery2.jpg">
-          <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; In odio risus, porttitor eu congue eget,
-            varius sed libero. In tincidunt posuere ultricies. Suspendisse
-            consequat tortor et ornare bibendum.<br><br> <a class="bold" href="#">Read more</a></p>
-        </div>
-        <div class="blogpost">
-          <a href="#">
-            <h3>What is water column and breathability?</h3>
-          </a>
-          <img class="blogpost-img" src="images/Gallery/gallery3.jpg">
-          <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; In odio risus, porttitor eu congue eget,
-            varius sed libero. In tincidunt posuere ultricies. Suspendisse
-            consequat tortor et ornare bibendum.<br><br> <a class="bold" href="#">Read more</a></p>
-        </div>
-        <div class="blogpost">
-          <a href="#">
-            <h3>Our trend predictions for 2022</h3>
-          </a>
-          <img class="blogpost-img" src="images/Gallery/gallery1.jpg">
-          <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; In odio risus, porttitor eu congue eget,
-            varius sed libero. In tincidunt posuere ultricies. Suspendisse
-            consequat tortor et ornare bibendum.<br><br> <a class="bold" href="#">Read more</a></p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div id="search-result" class="hiddenjs">
+    <div class="hideforsearch"></div>
+    <div id="search-result">
       <div class="loader-container"></div>
-      <div class="result-p"></div>
-      <div><a href="#"><img class="exit-results hiddenjs" src="elements/icons/close-button.svg"></a></div>
+      <p class="result-p"></p>
     </div>
   </main>
   <footer>
@@ -187,7 +117,7 @@
       </li>
     </ul>
   </footer>
-  <script src="js/nav.js"></script>
 </body>
+<script src="js/nav.js"></script>
 
 </html>

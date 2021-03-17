@@ -175,11 +175,38 @@ header {
   z-index: 2;
 }
 
-.main-logo {
+.main-logo,
+.main-logo-sidebar {
   width: 70px;
   background-color: #f2f7f0;
   display: block;
   margin: 0 auto;
+}
+
+.main-logo-sidebar {
+  padding-top: 50px;
+}
+
+.sidebar ul {
+  padding-top: 60px;
+  list-style-type: none;
+}
+
+.sidebar a {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-weight: 400px;
+  font-size: 28px;
+  color: #707070;
+  text-decoration: none;
+}
+
+.sidebar li {
+  padding-top: 10px;
+}
+
+.sidebar a:hover {
+  color: red;
+
 }
 
 .hamburger-icon {
@@ -302,7 +329,7 @@ footer p {
 }
 
 .slogan {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .index-button {
@@ -318,6 +345,7 @@ footer p {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -509,7 +537,6 @@ p a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 60px 0;
   text-align: center;
-  margin-top: 60px;
   margin-bottom: 150px;
 }
 
@@ -632,8 +659,8 @@ p a:hover {
   text-align: center;
 }
 
-.container-suggestions-1,
-.container-suggestions-2,
+.container-suggestions-1 img,
+.container-suggestions-2 img,
 .container-suggestions-3 img {
   width: 200px;
   justify-content: center;
@@ -671,6 +698,7 @@ p a:hover {
 .cart-heading {
   margin-top: 60px;
 }
+
 .container-cart {
   display: flex;
 }
@@ -813,15 +841,18 @@ p a:hover {
     position: fixed;
   }
 }
+
 @media only screen and (min-width: 1221px) {
   nav li {
     display: inline-block;
     padding-right: 30px;
     padding-left: 30px;
   }
+
   .container-shop {
     flex-direction: row;
   }
+
   footer {
     position: sticky;
     bottom: 0;
@@ -830,25 +861,25 @@ p a:hover {
 
 /* For small screens */
 
-#hamburger-menu:checked ~ nav li {
+#hamburger-menu:checked~nav li {
   display: block;
   font-size: 20px;
   text-align: left;
   padding-left: 20px;
 }
 
-#hamburger-menu:checked ~ nav li.hidden-menu {
+#hamburger-menu:checked~nav li.hidden-menu {
   display: block;
   font-size: 20px;
   text-align: left;
   padding-left: 20px;
 }
 
-#hamburger-menu:checked ~ nav li.nav-icon-left {
+#hamburger-menu:checked~nav li.nav-icon-left {
   display: none;
 }
 
-#hamburger-menu:checked ~ nav li.nav-icon-right {
+#hamburger-menu:checked~nav li.nav-icon-right {
   display: none;
 }
 
@@ -856,24 +887,30 @@ p a:hover {
   .main-logo {
     width: 50px;
   }
+
   .nav-block {
     padding-top: 10px;
     padding-bottom: 0;
   }
+
   header {
     position: static;
   }
+
   .hamburger-icon {
     width: 60px;
     display: block;
     margin-left: 30px;
   }
+
   .container-shop {
     flex-direction: column;
   }
+
   .container-shop img {
     width: 60%;
   }
+
   .product {
     display: grid;
     grid-gap: 2em;
@@ -886,10 +923,55 @@ p a:hover {
 }
 
 @media only screen and (max-width: 900px) {
+  .filter-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blogpost {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-container {
+    width: 80% !important;
+    margin-top: 20px !important;
+  }
+
+  .blogpost h3,
+  blogpost p,
+  .blogpost-img {
+    width: 300px;
+    margin: 0;
+    padding: 0px !important;
+  }
+
+  .blogpost h3 {
+    font-size: 30px;
+  }
+
+  .blogpost p {
+    font-size: 18px;
+  }
+
+
+  .sort,
+  .filter {
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+  }
+
   .phone-background {
     background-image: none;
     background-color: rgb(251, 255, 249);
   }
+
+  .newsletter {
+    max-width: 80%;
+    margin-bottom: 25px !important;
+  }
+
   .product {
     display: grid;
     grid-gap: 2em;
@@ -900,53 +982,67 @@ p a:hover {
     text-align: center;
     margin-bottom: 80px;
   }
+
   .container-shop {
     padding-top: 30px;
     padding-bottom: 0;
     margin-bottom: 80px;
   }
+
   .container-faq {
     flex-direction: column;
   }
+
   .about-container {
     flex-direction: column;
   }
+
   .container-cart {
     flex-direction: column-reverse;
   }
+
   .spec-container {
     flex-direction: column;
     text-align: center;
   }
+
   .card {
     flex-direction: column;
   }
+
   .profile-container2 {
     text-align: center;
   }
+
   .add-cart {
     max-width: 300px;
     margin: 0 auto;
   }
+
   .heart {
     display: none;
   }
+
   .button {
     display: block;
     text-align: center;
     max-width: 300px;
   }
+
   h4 {
     text-align: center;
     margin-top: 20px;
   }
+
   input {
     max-width: 250px;
   }
+
   .continue-button {
     display: block;
     margin: 20px auto;
   }
+
   .form-box {
     max-width: 300px;
     padding: 5px;
@@ -958,39 +1054,51 @@ p a:hover {
     padding-bottom: 10px;
     padding-top: 0;
   }
+
   .login-button {
     max-width: 200px;
     padding-bottom: 30px;
   }
+
   .signup-button {
     max-width: 200px;
     padding-bottom: 30px;
   }
+
   .container-suggestions {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding-bottom: 30px;
   }
+
   .cart-item-1 {
     margin-right: 0;
   }
+
   .payment-card,
   .shipping-card {
     max-width: 90%;
     margin-bottom: 80px;
   }
+
   .success-card {
     margin: 60px auto;
   }
+
   .success-heading {
     font-size: 32px;
   }
+
   .cart-text {
     padding-bottom: 30px;
     margin-bottom: 0;
   }
+
   .hidden {
     display: none;
   }
+
   .success {
     width: 200px;
     font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
@@ -1006,6 +1114,35 @@ p a:hover {
     background-color: #76814b;
     border-radius: 20px;
     margin: 0 auto;
+  }
+
+
+  .arrivals {
+    max-width: 90%;
+    margin: 0 auto;
+
+
+  }
+
+  .new-arrivals-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .front-photo {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .new-arrivals {
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+
+  }
+
+  .slogan {
+    font-size: 26px;
   }
 }
 
@@ -1044,6 +1181,7 @@ p a:hover {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1061,7 +1199,7 @@ p a:hover {
   font-size: 15px;
   width: 25px;
   height: 25px;
-  background-color: red;
+  background-color: #ce301b;
   border-radius: 50%;
   position: absolute;
   margin-top: -5px;
@@ -1080,7 +1218,9 @@ p a:hover {
 .checksymbol2,
 .checksymbol3,
 .checksymbol4,
-.checksymbol5 {
+.checksymbol5,
+.checksymbol6,
+.checksymbol7 {
   display: none;
   width: 30px;
 }
@@ -1096,6 +1236,11 @@ p a:hover {
 
 .new-arrivals {
   margin-bottom: 100px;
+}
+
+.newarrivals-heading {
+  font-size: 40px;
+  color: #ce301b;
 }
 
 .new-arrivals-photos {
@@ -1116,6 +1261,7 @@ p a:hover {
   margin-top: 10px;
   border-radius: 10px;
 }
+
 p.arrivaltext {
   padding: 10px;
   text-transform: uppercase;
@@ -1123,13 +1269,14 @@ p.arrivaltext {
 }
 
 .newsletter {
-  background-color: #707070;
+  background-color: #ce301b;
   width: 400px;
   padding: 15px;
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
+
 .newsletter-text {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
@@ -1182,26 +1329,271 @@ p.arrivaltext {
   left: 0px;
   padding-left: 30px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   background-color: #f2f7f0;
-  width: 500px;
+  width: 540px;
   font-size: 22px;
   border-radius: 20px;
 }
 
-.input-search {
+#input-search {
   font-size: 22px;
   height: 40px;
 }
 
-.search {
+.search-button {
   position: absolute;
-  top: 10px;
+  top: 40px;
   left: 450px;
   background-color: #707070;
-  color: white;
   border: none;
   width: 40px;
   height: 40px;
   border-radius: 10px;
+  outline: none;
+}
+
+.search-button p {
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.label-search {
+  position: relative;
+  left: -185px;
+}
+
+.close-button {
+  height: 30px;
+  position: absolute;
+  top: 45px;
+  left: 510px;
+}
+
+.menu-close-button {
+  height: 30px;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+}
+
+#search-result {
+  padding-top: 50px;
+  padding-bottom: 600px;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.result-p {
+  margin-top: 80px;
+}
+
+.exit-results {
+  height: 40px;
+  position: relative;
+  left: 800px;
+}
+
+.loader-search {
+  margin-left: 40px;
+  border: 15px solid lightgrey;
+  border-top: 10px solid #9fa87b;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  padding-bottom: 600px;
+}
+
+.blog-container {
+  margin: 80px auto 20px;
+  width: 100%;
+}
+
+.blogpost {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px grey;
+}
+
+.blogpost.reversed {
+  flex-direction: row-reverse;
+}
+
+.blogpost-img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.blogpost h3,
+blogpost p,
+.blogpost-img {
+  width: 300px;
+  margin: 0;
+  padding: 30px;
+}
+
+.blogpost h3 {
+  width: 200px;
+}
+
+blogpost p,
+.blogpost-img {
+  width: 300px;
+}
+
+.cart-button {
+  background-color: #9fa87b;
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  width: 300px;
+  height: 50px;
+  display: block;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.filter-flex {
+  display: flex;
+}
+
+.sort,
+.filter {
+  background-color: #9fa87b;
+  margin-right: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+
+.sort p,
+.filter p {
+  margin: 0 auto;
+  padding: 12px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.sort-overlay,
+.filter-overlay {
+  background-color: #9fa87b;
+  position: relative;
+  top: -100px;
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 120px;
+}
+
+.sort-overlay label,
+.filter-overlay label {
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.sort-overlay li,
+.filter-overlay li {
+  list-style-type: none;
+}
+
+.sort-overlay input,
+.filter-overlay input {
+  display: inline;
+  height: 20px;
+  width: 20px;
+  font-size: 28px;
+  margin: 10px 10px 10px 10px;
+  vertical-align: middle;
+
+}
+
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px #ce301b;
+}
+
+.filter-overlay p {
+  font-size: 18px;
+}
+
+.filter-button,
+.sort-button {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.menuflex {
+  width: 100%;
+  height: 120%;
+  display: flex;
+  position: absolute;
+  top: -20px;
+  z-index: 3;
+  animation: slide 0.5s;
+  animation-direction: alternate;
+  animation: slide 0.5s;
+  animation-direction: alternate;
+}
+
+@keyframes slide {
+  0% {
+    left: -2000px;
+    top: -20px;
+  }
+
+  100% {
+    left: 0px;
+    top: -20px;
+  }
+}
+
+.sidebar {
+  width: 25%;
+  height: 110%;
+  background-color: #f2f7f0;
+}
+
+.sidebar-right {
+  background-image: url("../images/Gallery/gallery3.jpg");
+  background-repeat: no-repeat;
+  background-size: 180%;
+  background-position: top;
+  background-blend-mode: screen;
+  width: 100%;
+  height: 110%;
+  background-color: #707070;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.redicon {
+  width: 50px;
+
 }
