@@ -675,7 +675,7 @@ p a:hover {
 
 .contact-info {
   padding-top: 80px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -1657,8 +1657,11 @@ button {
 }
 
 .check-contact {
+  width: 30px;
+  height: 30px;
   position: relative;
   top: -50px;
-  left: 230px;
+  left: 93%;
   padding: 0px;
+  margin: 0px;
 }
