@@ -1698,3 +1698,48 @@ button {
   padding: 0px;
   margin: 0px;
 }
+
+.dropdown-button {
+  background-color: #9fa87b;
+  width: 100px;
+  cursor: pointer;
+}
+
+.dropdown-button:hover,
+.dropdown-button:focus {
+  background-color: #ce301b;
+}
+
+.quantity-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 70px;
+  background-color: #9fa87b;
+  border-radius: 20px;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ce301b;
+  border-radius: 20px;
+}
+
+.show {
+  display: block;
+}

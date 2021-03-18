@@ -50,7 +50,7 @@ aboutOverlay.onmouseout = function () {
 };
 
 searchIcon.onclick = function () {
-  searchbar.classList.remove("hiddenjs");
+  searchbar.classList.toggle("hiddenjs");
   return false;
 };
 

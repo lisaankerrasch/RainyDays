@@ -7,7 +7,7 @@ const filterApply = document.querySelector(".filter-button");
 const criteriasMet = document.querySelector(".met-criterias");
 
 sortButton.onclick = function viewSort() {
-  sortOverlay.classList.remove("hiddenjs");
+  sortOverlay.classList.toggle("hiddenjs");
 };
 
 sortApply.onclick = function hideSort() {
@@ -15,7 +15,7 @@ sortApply.onclick = function hideSort() {
 };
 
 filterButton.onclick = function viewFilter() {
-  filterOverlay.classList.remove("hiddenjs");
+  filterOverlay.classList.toggle("hiddenjs");
 };
 
 filterApply.onclick = function filterResults() {
