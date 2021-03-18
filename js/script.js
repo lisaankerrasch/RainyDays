@@ -42,7 +42,7 @@ cartButton.onclick = function addToCart() {
     sizePicker4.style.backgroundColor = "#9fa87b";
     sizePicker5.style.backgroundColor = "#9fa87b";
     loaderContainerCart.classList.remove("loader");
-    successMessage.innerHTML = `<div class="success-cart">${jacketName} was added to your cart!</div>`;
+    successMessage.innerHTML = `<div class="success-cart">${jacketName} was added to your cart! <a href="cart.html">Go to cart</a></div>`;
     cartCount.classList.add("cart-count-1");
     cartCount.innerHTML = `1`;
     console.log("Success!");
