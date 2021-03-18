@@ -74,6 +74,17 @@
       <input type="checkbox" id="hamburger-menu" />
       <nav>
         <ul>
+          <li class="hidden-menu">
+            <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
+          </li>
+          <div class="searchbar hiddenjs">
+            <label for="search" class="label-search">Search RainyDays:</label>
+            <input id="input-search" type="search" placeholder="Type here..." value="" />
+            <a href="#" class="search-button">
+              <p>Go!</p>
+            </a>
+            <a href="#"><img src="elements/icons/close-button.svg" class="close-button" /></a>
+          </div>
           <li class="hidden-menu uppercase">
             <a href="search.html">Search</a>
           </li>
@@ -108,7 +119,7 @@
             <li class="uppercase"><a href="blog.html">Articles</a></li>
             <li class="uppercase"><a href="gallery.html">Gallery</a></li>
             <li class="uppercase">
-              <a class="aboutNav" href="#">About</a>
+              <a class="aboutNav" href="about.html">About</a>
               <div class="overlay-about hiddenjs" id="aboutNav">
                 <div class="overlay-about-content">
                   <a class="uppercase" href="contact.html">Contact</a>
@@ -125,6 +136,10 @@
           <li class="nav-icon-right">
             <a href="login.html"><img src="elements/icons/icon-profile.svg" alt="profile icon" /></a>
           </li>
+          <li class="hidden-menu uppercase">
+            <a href="contact.html">Contact</a></li>
+          <li class="hidden-menu uppercase">
+            <a href="faq.html">Faq</a></li>
         </ul>
       </nav>
     </section>

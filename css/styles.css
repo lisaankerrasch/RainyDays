@@ -264,6 +264,12 @@ nav a:hover {
   padding-right: 0px;
 }
 
+.search-icon {
+  width: 60px;
+  padding-left: 10px;
+  z-index: 3;
+}
+
 .nav-icon-right {
   float: right;
   width: 60px;
@@ -947,6 +953,16 @@ p a:hover {
 }
 
 @media only screen and (max-width: 900px) {
+
+  .result-p {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .exit-results {
+    position: absolute;
+    left: 90% !important;
+  }
 
   #contact-form {
     width: 90%;
