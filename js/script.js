@@ -10,7 +10,11 @@ const sizePicker4 = document.querySelector(".size-picker-4");
 const sizePicker5 = document.querySelector(".size-picker-5");
 const quantityDropdown = document.querySelector(".dropdown-button");
 const dropdownContent = document.querySelector("#dropdown");
-const quantityLink = document.querySelector(".quantity");
+const quantityLink1 = document.querySelector(".quantity-1");
+const quantityLink2 = document.querySelector(".quantity-2");
+const quantityLink3 = document.querySelector(".quantity-3");
+const quantityLink4 = document.querySelector(".quantity-4");
+const quantityLink5 = document.querySelector(".quantity-5");
 
 sizePicker1.onclick = function changeColour() {
   sizePicker1.style.backgroundColor = "#ce301b";
@@ -63,8 +67,23 @@ window.onclick = function (event) {
   }
 };
 
-const quantity = document.querySelector(".quantity").innerHTML;
-
-quantityLink.onclick = function addQuantity() {
-  quantityDropdown.innerHTML = `<a>${quantity}</a>`;
+quantityLink1.onclick = function addQuantity() {
+  const quantity1 = document.querySelector(".quantity-1").innerHTML;
+  quantityDropdown.innerHTML = `<div>Quantity: ${quantity1}</div>`;
+};
+quantityLink2.onclick = function addQuantity() {
+  const quantity2 = document.querySelector(".quantity-2").innerHTML;
+  quantityDropdown.innerHTML = `<div>Quantity: ${quantity2}</div>`;
+};
+quantityLink3.onclick = function addQuantity() {
+  const quantity3 = document.querySelector(".quantity-3").innerHTML;
+  quantityDropdown.innerHTML = `<div>Quantity: ${quantity3}</div>`;
+};
+quantityLink4.onclick = function addQuantity() {
+  const quantity4 = document.querySelector(".quantity-4").innerHTML;
+  quantityDropdown.innerHTML = `<div>Quantity: ${quantity4}</div>`;
+};
+quantityLink5.onclick = function addQuantity() {
+  const quantity5 = document.querySelector(".quantity-5").innerHTML;
+  quantityDropdown.innerHTML = `<div>Quantity: ${quantity5}</div>`;
 };

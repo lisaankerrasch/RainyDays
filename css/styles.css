@@ -628,17 +628,13 @@ p a:hover {
   flex: 2;
 }
 
-.size-icon {
-  width: 40px;
-  height: auto;
-  padding-right: 10px;
-}
 
 .size-picker-1,
 .size-picker-2,
 .size-picker-3,
 .size-picker-4,
 .size-picker-5 {
+  cursor: pointer;
   background-color: #9fa87b;
   color: white;
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
