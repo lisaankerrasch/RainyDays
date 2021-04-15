@@ -149,10 +149,8 @@
   <main>
     <div class="hideforsearch">
       <div class="filter-flex">
-        <a href="#">
-          <div class="sort">
-            <p>Sort by</p>
-        </a>
+        <button class="sort-click-low">Sort by price: low</button>
+        <button class="sort-click-high">Sort by price: high</button>
         <div class="sort-overlay hiddenjs">
           <form>
             <li>
@@ -173,167 +171,58 @@
                 Lowest price
               </label>
             </li>
-            <button class="sort-button">Apply</button>
+            <button class="sort-button sort-click">Apply</button>
           </form>
         </div>
-      </div>
-      <a href="#">
-        <div class="filter">
-          <p>Filter</p>
+        <div><button class="filter">Filter</button>
           <div class="filter-overlay hiddenjs">
-      </a>
-      <form>
-        <li>
-          <p>Color:</p>
-          <input type="checkbox" id="black" name="black" value="black">
-          <label for="black">
-            Black
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="blue" name="blue" value="blue">
-          <label for="blue">
-            Blue
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="red" name="red" value="red">
-          <label for="red">
-            Red
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="green" name="green" value="green">
-          <label for="green">
-            Green
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="pink" name="pink" value="pink">
-          <label for="pink">
-            Pink
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="yellow" name="yellow" value="yellow">
-          <label for="yellow">
-            Yellow
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="grey" name="grey" value="grey">
-          <label for="grey">
-            Grey
-          </label>
-        </li>
-        <p>Price:</p>
-        <input type="checkbox" id="0-49" name="0-49" value="0-49">
-        <label for="0-49">
-          $0-$49
-        </label>
-        </li>
-        <li>
-          <input type="checkbox" id="50-99" name="50-99" value="50-99">
-          <label for="50-99">
-            $50-$99
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="99" name="99" value="99">
-          <label for="99">
-            $99 +
-          </label>
-        </li>
-        <p>Water column:</p>
-        <input type="checkbox" id="3000mm" name="3000mm" value="3000mm">
-        <label for="3000mm">
-          3000mm
-        </label>
-        </li>
-        <li>
-          <input type="checkbox" id="5000mm" name="5000mm" value="5000mm">
-          <label for="5000mm">
-            5000mm
-          </label>
-        </li>
-        <li>
-          <input type="checkbox" id="8000mm" name="8000mm" value="8000mm">
-          <label for="8000mm">
-            8000mm
-          </label>
-        </li>
-        <button class="filter-button">Apply</button>
-      </form>
-    </div>
+            <form>
+              <p class="filter-p">Price</p>
+              <li>
+                <button class="filter-price-low filterbutton">$109-$149</button>
+              </li>
+              <li>
+                <button class="filter-price-medium filterbutton">$130-$149</button>
+              </li>
+              <li>
+                <button class="filter-price-high filterbutton">$150-$169</button>
+              </li>
+              <p class="filter-p">Color</p>
+              <li>
+                <button class="filter-price-low filterbutton">Blue</button>
+              </li>
+              <li>
+                <button class="filter-price-medium filterbutton">Black</button>
+              </li>
+              <li>
+                <button class="filter-price-high filterbutton">Green</button>
+              </li>
+              <li>
+                <button class="filter-price-low filterbutton">Yellow</button>
+              </li>
+              <li>
+                <button class="filter-price-medium filterbutton">Red</button>
+              </li>
+              <li>
+                <button class="filter-price-high filterbutton">Pink</button>
+              </li>
+              <p class="filter-p"></p>
+
+              <li>
+                <button class="filter-price-medium filterbutton">Sale</button>
+              </li>
+              <li>
+                <button class="filter-price-high filterbutton">News</button>
+              </li>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
     <div class="met-criterias"></div>
     <section class="product">
-      <div>
-        <a href="specs-women.html">
-          <img alt="Link to Ella Jacket" src="images/Products/womensjacket1.jpg" />
-          <p class="product-header uppercase">Ella Jacket</p>
-        </a>
-        <p class="product-price">
-          $89
-          <span class="dot green"></span>
-          <span class="dot red"></span>
-        </p>
-      </div>
-      <div>
-        <a href="specs-women.html">
-          <img alt="Link to Cleo Jacket" src="images/Products/womensjacket2.jpg" />
-          <p class="product-header uppercase">Cleo Jacket</p>
-        </a>
-        <p class="product-price">
-          $99
-          <span class="dot orange"></span>
-          <span class="dot turquoise"></span>
-        </p>
-      </div>
-      <div>
-        <a href="specs-women.html">
-          <img alt="Link to Anna Jacket" src="images/Products/womensjacket3.jpg" />
-          <p class="product-header uppercase">Anna Jacket</p>
-        </a>
-        <p class="product-price">
-          $109
-          <span class="dot pink"></span>
-        </p>
-      </div>
-      <div>
-        <a href="specs-women.html">
-          <img alt="Link to Rosa Jacket" src="images/Products/womensjacket4.jpg" />
-          <p class="product-header uppercase">Rosa Jacket</p>
-        </a>
-        <p class="product-price">
-          $149
-          <span class="dot red"></span>
-          <span class="dot blue"></span>
-        </p>
-      </div>
-      <div>
-        <a href="specs-women.html">
-          <img alt="Link to Una Jacket" src="images/Products/womensjacket5.jpg" />
-          <p class="product-header uppercase">Una Jacket</p>
-        </a>
-        <p class="product-price">
-          $99
-          <span class="dot green"></span>
-          <span class="dot orange"></span>
-        </p>
-      </div>
-      <div>
-        <a href="specs-women.html">
-          <img alt="Link to Kim Jacket" src="images/Products/womensjacket6.jpg" />
-          <p class="product-header uppercase">Kim Jacket</p>
-        </a>
-        <p class="product-price">
-          $129
-          <span class="dot blue"></span>
-          <span class="dot black"></span>
-        </p>
-      </div>
+
     </section>
     </div>
     </div>
@@ -359,6 +248,8 @@
   </footer>
   <script src="js/nav.js"></script>
   <script src="js/shop.js"></script>
+  <script src="js/products-women.js"></script>
+
 </body>
 
 </html>

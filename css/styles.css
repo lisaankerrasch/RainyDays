@@ -618,6 +618,7 @@ p a:hover {
 }
 
 .item-photo {
+  width: 100px;
   margin-top: 50px;
   flex: 2;
 }
@@ -648,6 +649,7 @@ p a:hover {
   text-align: center;
   width: 42px;
   height: 30px;
+  margin-bottom: 20px;
   border-radius: 10%;
 }
 
@@ -914,6 +916,12 @@ p a:hover {
 }
 
 @media only screen and (max-width: 1220px) {
+
+  .news-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .main-logo {
     width: 50px;
   }
@@ -1535,13 +1543,17 @@ blogpost p,
 }
 
 .sort,
-.filter {
+.filter,
+.sort-click-low,
+.sort-click-high {
   background-color: #9fa87b;
   margin-right: 20px;
   width: 200px;
   height: 50px;
   border-radius: 20px;
   margin-top: 80px;
+  cursor: pointer;
+
 }
 
 .sort p,
@@ -1557,12 +1569,13 @@ blogpost p,
 .sort-overlay,
 .filter-overlay {
   background-color: #9fa87b;
-  position: relative;
-  top: -100px;
+  position: absolute;
+  top: 250px;
   width: 200px;
   height: auto;
   border-radius: 20px;
   margin-top: 120px;
+  padding-bottom: 30px;
 }
 
 .sort-overlay label,
@@ -1594,7 +1607,9 @@ input[type="checkbox"]:checked {
 }
 
 .filter-overlay p {
+  color: white;
   font-size: 18px;
+  text-align: center;
 }
 
 .filter-button,
@@ -1754,4 +1769,27 @@ button {
 
 .show {
   display: block;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterbutton {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  background-color: #ce301b;
+  color: white;
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.filter-p {
+  margin-bottom: 0;
 }
