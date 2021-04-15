@@ -12,7 +12,6 @@ console.log(id);
 const url = "https://rainydays.lisa-noroff.no/wp-json/wc/store/products/" + id;
 
 async function createHTML(details) {
-  // getProductDetail() {
   try {
     const response = await fetch(url);
     const details = await response.json();

@@ -24,7 +24,7 @@ async function createHTML() {
     <h3>${blog.title.rendered}</h3>
    <p> ${blog.excerpt.rendered}<br><br> </p>
    <img class="blogpost-img" src="${blog._embedded["wp:featuredmedia"]["0"].source_url}"
-   alt="Man standing on a hill looking to the horizon">
+   alt="${blog.title.rendered}">
 </div>`;
 
     title.innerHTML = `RainyDays: ${blog.title.rendered}`;
