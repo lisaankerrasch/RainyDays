@@ -18,7 +18,7 @@ async function getBlogposts() {
       <h3>${blog[i].title.rendered}</h3>
    
     <img class="blogpost-img" src="${blog[i]._embedded["wp:featuredmedia"]["0"].source_url}"
-      alt="${blog.title.rendered}">
+      alt="${blog[i].title.rendered}">
     <p> ${blog[i].excerpt.rendered}<br><br> </p>
   </div>
       </a>`;
