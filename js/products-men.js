@@ -1,4 +1,5 @@
-const url = "https://rainydays.lisa-noroff.no/wp-json/wc/v3/products";
+const url =
+  "https://rainydays.lisa-noroff.no/wp-json/wc/store/products?category=20";
 const productContainer = document.querySelector(".product");
 const filterPriceLow = document.querySelector(".filter-price-low");
 
