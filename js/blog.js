@@ -11,7 +11,6 @@ async function getBlogposts() {
     console.log(blogList);
 
     for (let i = 0; i < blogList.length; i++) {
-      console.log(blog);
       blogContainer.innerHTML += `<a href="blogpost.html?id=${blog[i].id}">
     <div class="blogpost">
 
