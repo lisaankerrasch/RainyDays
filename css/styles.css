@@ -268,6 +268,7 @@ nav a:hover {
   width: 60px;
   padding-left: 10px;
   z-index: 3;
+  cursor: pointer;
 }
 
 .nav-icon-right {
@@ -546,11 +547,28 @@ p a:hover {
   margin-bottom: 150px;
 }
 
+.product-all {
+  max-width: 950px;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 60px 0;
+  text-align: center;
+}
+
 .product img {
   width: 280px;
   padding-bottom: 0px;
   text-align: left;
 }
+
+.product-all img {
+  width: 180px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
 
 .product-header {
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
@@ -562,6 +580,29 @@ p a:hover {
   max-width: 280px;
   margin: auto;
 }
+
+.product-all-price,
+.product-all-header {
+  max-width: 180px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  ;
+}
+
+.product-button-all {
+  max-width: 180px;
+  margin-top: 5px;
+}
+
+.product-button {
+  width: 280px;
+  margin-top: 10px;
+}
+
+.product-all-container {
+  max-width: 200px;
+}
+
 
 .product-price {
   font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
@@ -1781,8 +1822,10 @@ button {
   background-color: #ce301b;
   color: white;
   text-align: center;
-  width: 90%;
-  padding: 10px;
+  max-width: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   margin-top: 20px;
   margin-left: 10px;
   border: none;
@@ -1792,4 +1835,72 @@ button {
 
 .filter-p {
   margin-bottom: 0;
+}
+
+.red-background {
+  background-color: #ce301b;
+}
+
+.genderbuttons {
+  display: flex;
+}
+
+.genderbutton {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  background: #9fa87b;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  margin-right: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.cart {
+  font-family: "Sukhumvit Set", "Quicksand", Helvetica, sans-serif;
+  z-index: 2;
+  border: 2px solid #ce301b;
+  max-width: 600px;
+  min-width: 200px;
+  padding: 20px;
+  margin: auto;
+  position: fixed;
+  right: 50px;
+  top: 250px;
+  display: none;
+  background: #f2f7f0;
+  flex-direction: column;
+}
+
+.cart-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.checkout-button {
+  background: #ce301b;
+  color: white;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cart-page {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #f2f7f0;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
 }

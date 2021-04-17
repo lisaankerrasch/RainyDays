@@ -75,7 +75,6 @@ searchButton.onclick = function Search() {
 };
 
 exitResultButton.onclick = function exitSearch() {
-  let searchPhrase = document.querySelector("#input-search").value;
   hiddenForSearch.classList.remove("hiddenjs");
   resultContainer.classList.add("hiddenjs");
   return false;

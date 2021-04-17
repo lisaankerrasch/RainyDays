@@ -75,17 +75,6 @@
       <input type="checkbox" id="hamburger-menu" />
       <nav>
         <ul>
-          <li class="hidden-menu">
-            <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
-          </li>
-          <div class="searchbar hiddenjs">
-            <label for="search" class="label-search">Search RainyDays:</label>
-            <input id="input-search" type="search" placeholder="Type here..." value="" />
-            <a href="#" class="search-button">
-              <p>Go!</p>
-            </a>
-            <a href="#"><img src="elements/icons/close-button.svg" class="close-button" /></a>
-          </div>
           <li class="hidden-menu uppercase">
             <a href="search.html">Search</a>
           </li>
@@ -151,30 +140,7 @@
       <div class="filter-flex">
         <button class="sort-click-low">Sort by price: low</button>
         <button class="sort-click-high">Sort by price: high</button>
-        <div class="sort-overlay hiddenjs">
-          <form>
-            <li>
-              <input type="checkbox" id="sortbyage" name="sortbyage" value="age">
-              <label for="sortbyage">
-                Newest first
-              </label>
-            </li>
-            <li>
-              <input type="checkbox" id="sortbypopularity" name="sortbypopularity" value="popularity">
-              <label for="sortbypopularity">
-                Most popular
-              </label>
-            </li>
-            <li>
-              <input type="checkbox" id="sortbyprice" name="sortbyprice" value="price">
-              <label for="sortbyprice">
-                Lowest price
-              </label>
-            </li>
-            <button class="sort-button sort-click">Apply</button>
-          </form>
-        </div>
-        <div><button class="filter">Filter</button>
+        <div><button class="filter filter-button-main">Filter</button>
           <div class="filter-overlay hiddenjs">
             <form>
               <p class="filter-p">Price</p>
@@ -187,27 +153,7 @@
               <li>
                 <button class="filter-price-high filterbutton">$150-$169</button>
               </li>
-              <p class="filter-p">Color</p>
-              <li>
-                <button class="filter-price-low filterbutton">Blue</button>
-              </li>
-              <li>
-                <button class="filter-price-medium filterbutton">Black</button>
-              </li>
-              <li>
-                <button class="filter-price-high filterbutton">Green</button>
-              </li>
-              <li>
-                <button class="filter-price-low filterbutton">Yellow</button>
-              </li>
-              <li>
-                <button class="filter-price-medium filterbutton">Red</button>
-              </li>
-              <li>
-                <button class="filter-price-high filterbutton">Pink</button>
-              </li>
               <p class="filter-p"></p>
-
               <li>
                 <button class="filter-price-medium filterbutton">Sale</button>
               </li>
@@ -216,9 +162,9 @@
               </li>
             </form>
           </div>
+
         </div>
       </div>
-    </div>
     </div>
     <div class="met-criterias"></div>
     <section class="product">
@@ -247,7 +193,6 @@
     </ul>
   </footer>
   <script src="js/nav.js"></script>
-  <script src="js/shop.js"></script>
   <script src="js/products-women.js"></script>
 
 </body>

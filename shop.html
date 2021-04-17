@@ -76,16 +76,6 @@
       <nav>
         <ul>
           <li class="hidden-menu">
-            <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
-          </li>
-          <div class="searchbar hiddenjs">
-            <label for="search" class="label-search">Search RainyDays:</label>
-            <input id="input-search" type="search" placeholder="Type here..." value="" />
-            <a href="#" class="search-button">
-              <p>Go!</p>
-            </a>
-            <a href="#"><img src="elements/icons/close-button.svg" class="close-button" /></a>
-          </div>
           <li class="hidden-menu uppercase">
             <a href="search.html">Search</a>
           </li>
@@ -148,28 +138,59 @@
   <h1>Shop</h1>
   <main>
     <div class="hideforsearch">
-      <section class="container-shop">
-        <div class="item one">
-          <a href="women.html"><img alt="link to women's jackets" src="images/shopwomen.jpg" /></a>
-          <div class="women-text">
-            <p>women</p>
-          </div>
-        </div>
-        <div class="item two">
-          <a href="men.html"><img alt="link to women's jackets" src="images/shopmen.jpg" /></a>
-          <div class="men-text">
-            <p>men</p>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div id="search-result" class="hiddenjs">
-      <div class="loader-container"></div>
-      <div class="result-p"></div>
-      <div>
-        <a href="#"><img class="exit-results hiddenjs" src="elements/icons/close-button.svg" /></a>
+      <div class="cart">
+        <div class="cart-list"></div>
+        <div class="total">Total: </div>
+        <a href="cart.html" class="checkout-button">Checkout</a>
       </div>
-    </div>
+      <div class="filter-flex">
+        <button class="sort-click-low">Sort by price: low</button>
+        <button class="sort-click-high">Sort by price: high</button>
+        <div><button class="filter filter-button-main">Filter</button>
+          <div class="filter-overlay hiddenjs">
+            <form>
+              <p class="filter-p">Gender</p>
+              <li>
+                <a href="men.html">
+                  <div class="filterbutton">Men</div>
+                </a>
+              </li>
+              <li>
+                <a href="women.html">
+                  <div class="filterbutton">Women</div>
+                </a>
+              </li>
+              <p class="filter-p">Price</p>
+              <li>
+                <button class="filter-price-low filterbutton">$109-$149</button>
+              </li>
+              <li>
+                <button class="filter-price-medium filterbutton">$130-$149</button>
+              </li>
+              <li>
+                <button class="filter-price-high filterbutton">$150-$169</button>
+              </li>
+              <p class="filter-p"></p>
+              <li>
+                <button class="filter-price-medium filterbutton">Sale</button>
+              </li>
+              <li>
+                <button class="filter-price-high filterbutton">News</button>
+              </li>
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="container-shop product-all">
+      </section>
+
+      <div id="search-result" class="hiddenjs">
+        <div class="loader-container"></div>
+        <div class="result-p"></div>
+        <div>
+          <a href="#"><img class="exit-results hiddenjs" src="elements/icons/close-button.svg" /></a>
+        </div>
+      </div>
   </main>
   <footer>
     <ul>
@@ -186,6 +207,10 @@
     </ul>
   </footer>
   <script src="js/nav.js"></script>
+  <script src="js/shopall.js"></script>
+
+
+
 </body>
 
 </html>
