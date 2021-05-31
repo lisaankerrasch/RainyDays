@@ -6,7 +6,6 @@ const searchIcon = document.querySelector(".search-icon");
 const searchbar = document.querySelector(".searchbar");
 const closeButton = document.querySelector(".close-button");
 const searchButton = document.querySelector(".search-button");
-const loaderContainer = document.querySelector(".loader-container");
 const hiddenForSearch = document.querySelector(".hideforsearch");
 const searchPhrase = document.querySelector("#input-search").value;
 const menuButton = document.querySelector(".menu-button");
@@ -79,8 +78,6 @@ searchButton.onclick = async function Search() {
     searchPage.innerHTML = "";
     searchPage.innerHTML = `Your search for "${searchPhrase}" did not return any results. Try a new search, or visit the <a class="red-font" href="shop.html">shop</a>
     <div class="extra-space"></div>`;
-
-    console.log(searchPage.innerHTML);
 
     for (let i = 0; i < resultList.length; i++) {
       if (

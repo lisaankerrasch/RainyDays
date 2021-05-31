@@ -400,7 +400,7 @@ footer p {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 900px;
 }
 
 .modal-content,
@@ -1709,9 +1709,6 @@ blogpost p,
 
 }
 
-input[type="checkbox"]:checked {
-  box-shadow: 0 0 0 3px #ce301b;
-}
 
 .filter-overlay p {
   color: white;
