@@ -87,8 +87,10 @@
           <li class="nav-icon-left">
             <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
             <div class="searchbar hiddenjs">
-              <label for="search" class="label-search">Search RainyDays:</label>
-              <input id="input-search" type="search" placeholder="Type here..." value="" />
+              <form class="search-form">
+                <label for="search" class="label-search">Search RainyDays:</label>
+                <input id="input-search" type="search" placeholder="Type here..." value="" />
+              </form>
               <a href="#" class="search-button">
                 <p>Go!</p>
               </a>
@@ -143,9 +145,8 @@
     </div>
     </div>
     <div id="search-result" class="hiddenjs">
-      <div class="loader-container"></div>
       <div class="result-p"></div>
-      <div><a href="#"><img class="exit-results hiddenjs" src="elements/icons/close-button.svg"></a></div>
+      <div class="result-list"></div>
     </div>
   </main>
   <footer>

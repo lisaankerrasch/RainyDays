@@ -68,15 +68,12 @@ searchButton.onclick = async function Search() {
     const resultContainer = document.querySelector("#search-result");
     const searchPage = document.querySelector(".result-p");
     const results = document.querySelector(".result-list");
-    results.innerHTML = "";
-
     hiddenForSearch.classList.add("hiddenjs");
     resultContainer.classList.remove("hiddenjs");
     const searchPhrase = document
       .querySelector("#input-search")
       .value.toLowerCase();
     searchbar.classList.add("hiddenjs");
-    searchPage.innerHTML = "";
     searchPage.innerHTML = `Your search for "${searchPhrase}" did not return any results. Try a new search, or visit the <a class="red-font" href="shop.html">shop</a>
     <div class="extra-space"></div>`;
 
@@ -91,6 +88,7 @@ searchButton.onclick = async function Search() {
         resultContainer.classList.remove("hiddenjs");
         searchbar.classList.add("hiddenjs");
         console.log(resultList[i].categories[0].name);
+
         searchPage.innerHTML = `Your search for "${searchPhrase}" returned these results:`;
         results.innerHTML += `
                             <div class="product-all-container">

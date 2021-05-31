@@ -87,8 +87,10 @@
           <li class="nav-icon-left">
             <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
             <div class="searchbar hiddenjs">
-              <label for="search" class="label-search">Search RainyDays:</label>
-              <input id="input-search" type="search" placeholder="Type here..." value="" />
+              <form class="search-form">
+                <label for="search" class="label-search">Search RainyDays:</label>
+                <input id="input-search" type="search" placeholder="Type here..." value="" />
+              </form>
               <a href="#" class="search-button">
                 <p>Go!</p>
               </a>
@@ -138,36 +140,36 @@
   <main>
     <div class="hideforsearch">
       <section class="gallery">
-        <a href="images/Gallery/gallery1.jpg"><img src="images/Gallery/gallery1.jpg" class="galleryphoto"
-            alt="Photo of a woman in a red jacket hiking in the mountains on a grey day" /></a>
-        <a href="images/Gallery/gallery2.jpg"><img src="images/Gallery/gallery2.jpg" class="galleryphoto"
-            alt="Photo from behind of a person in a red jacket looking over the water, with mountains in the background." /></a>
-        <a href="images/Gallery/gallery3.jpg"><img src="images/Gallery/gallery3.jpg" class="galleryphoto"
-            alt="Photo of raindrops on blue water." /></a>
-        <a href="images/Gallery/gallery4.jpg"><img src="images/Gallery/gallery4.jpg" class="galleryphoto"
-            alt="photo of two feet with rain boots standing in a water pond." /></a>
-        <a href="images/Gallery/gallery5.jpg"><img src="images/Gallery/gallery5.jpg" class="galleryphoto"
-            alt="photo of green leaves with water droplets on them." /></a>
-        <a href="images/Gallery/gallery6.jpg"><img src="images/Gallery/gallery6.jpg" class="galleryphoto"
-            alt="photo of a person with yellow jacket hiking in grass-covered mountains." /></a>
-        <a href="images/Gallery/gallery7.jpg"><img src="images/Gallery/gallery7.jpg" class="galleryphoto"
-            alt="photo of a hiking backpack with thermos in the forest." /></a>
-        <a href="images/Gallery/gallery8.jpg"><img src="images/Gallery/gallery8.jpg" class="galleryphoto"
-            alt="photo of man in the forest, with a blue rain jacket, looking up towards the sky." /></a>
-        <a href="images/Gallery/gallery9.jpg"><img src="images/Gallery/gallery9.jpg" class="galleryphoto"
-            alt="photo of a mountain top with grey clouds above." /></a>
-        <a href="images/Gallery/gallery10.jpg"><img src="images/Gallery/gallery10.jpg" class="galleryphoto"
-            alt="photo of a mountain top with grey clouds above." /></a>
-        <a href="images/Gallery/gallery11.jpg"><img src="images/Gallery/gallery11.jpg" class="galleryphoto"
-            alt="photo of a window glass with cloudy skies and raindrops." /></a>
+        <img class="myImg1 galleryphoto" src="images/Gallery/gallery1.jpg"
+          alt="Photo of a woman in a red jacket hiking in the mountains on a grey day" />
+        <img class="myImg2 galleryphoto" src="images/Gallery/gallery2.jpg"
+          alt="Photo from behind of a person in a red jacket looking over the water, with mountains in the background." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery3.jpg" alt="Photo of raindrops on blue water." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery4.jpg"
+          alt="photo of two feet with rain boots standing in a water pond." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery5.jpg"
+          alt="photo of green leaves with water droplets on them." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery6.jpg"
+          alt="photo of a person with yellow jacket hiking in grass-covered mountains." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery7.jpg"
+          alt="photo of a hiking backpack with thermos in the forest." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery8.jpg"
+          alt="photo of man in the forest, with a blue rain jacket, looking up towards the sky." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery9.jpg"
+          alt="photo of a mountain top with grey clouds above." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery10.jpg"
+          alt="photo of a mountain top with grey clouds above." />
+        <img class="myImg galleryphoto" src="images/Gallery/gallery11.jpg"
+          alt="photo of a window glass with cloudy skies and raindrops." />
       </section>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+      </div>
     </div>
     <div id="search-result" class="hiddenjs">
-      <div class="loader-container"></div>
       <div class="result-p"></div>
-      <div>
-        <a href="#"><img class="exit-results hiddenjs" src="elements/icons/close-button.svg" /></a>
-      </div>
+      <div class="result-list"></div>
     </div>
   </main>
   <footer>
@@ -185,6 +187,8 @@
     </ul>
   </footer>
   <script src="js/nav.js"></script>
+  <script src="js/modal.js"></script>
+
 </body>
 
 </html>

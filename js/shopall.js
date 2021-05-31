@@ -18,7 +18,6 @@ getProducts();
 
 function createHTML(products) {
   products.forEach(function (product) {
-    console.log(product);
     productContainer.innerHTML += `<div class="product-all-container">
       <a href="specs.html?id=${product.id}">
       <img src="${product.images[0].src}" alt="${product.name}"/>
