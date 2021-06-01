@@ -498,6 +498,7 @@ p a:hover {
   border: none;
   border-radius: 20px;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 /* My profile */
@@ -894,6 +895,7 @@ p a:hover {
   width: 250px;
   margin-top: 60px;
   margin-bottom: 80px;
+  cursor: pointer;
 }
 
 .p-form {
@@ -1096,6 +1098,7 @@ p a:hover {
 
   button {
     max-width: 90%;
+    cursor: pointer;
   }
 
   .filter-flex {
@@ -1644,6 +1647,7 @@ blogpost p,
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 
 .filter-flex {
