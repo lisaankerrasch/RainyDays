@@ -106,6 +106,7 @@ a {
 
 .uppercase {
   text-transform: uppercase;
+  position: relative;
 }
 
 a:hover {
@@ -1449,7 +1450,7 @@ p.arrivaltext {
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 100px;
-  box-shadow: 5px 5px 20px white;
+  border: 5px solid white;
 
 }
 
@@ -1475,13 +1476,13 @@ p.arrivaltext {
 }
 
 .overlay-shop {
-  left: -4%;
-  top: 15px;
+  left: -25px;
+  top: 35px;
 }
 
 .overlay-about {
-  left: 74%;
-  top: 15px;
+  left: -20px;
+  top: 35px;
 }
 
 .overlay-shop-content,
@@ -1653,7 +1654,7 @@ blogpost p,
 .filter,
 .sort-click-low,
 .sort-click-high {
-  background-color: #9fa87b;
+  background-color: #898f70;
   margin-right: 20px;
   width: 200px;
   height: 50px;
