@@ -1954,6 +1954,11 @@ button {
   text-decoration: none;
 }
 
+.checkout-button:hover {
+  color: black;
+}
+
+
 .cart-page {
   max-width: 900px;
   margin: 20px auto;
@@ -1969,4 +1974,8 @@ button {
 
 .cart-icon {
   cursor: pointer;
+}
+
+.cart-content {
+  margin: 100px auto 500px;
 }
