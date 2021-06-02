@@ -2,259 +2,157 @@
 <html lang=en>
 
 <head>
-  <link href="css/styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap"
-    rel="stylesheet">
-  <meta name="description" content="View the content of your cart and insert customer information." />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rainy days | Shopping cart</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="View the content of your cart and insert customer information." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rainy days | Customer Information</title>
 </head>
 
 <body class="phone-background">
-  <div class="menuoverlay hiddenjs">
-    <div class="menuflex">
-      <div class="sidebar">
-        <a class="main-logo-sidebar" href="index.html">
-          <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
-        </a>
-        <a href="#"><img class="menu-close-button" src="elements/icons/close-button.svg" alt="menu close button"></a>
-        <ul>
-          <li class="uppercase">
-            <a href="login.html">Login</a>
-          </li>
-          <li class="uppercase">
-            <a href="signup.html">Sign up</a>
-          </li>
-          <li class="uppercase"><a href="cart.html">Cart</a></li>
-          <li class="uppercase"><a href="men.html">shop mens</a></li>
-          <li class="uppercase"><a href="women.html">shop Womens</a></li>
-          <li class="uppercase"><a href="blog.html">Articles</a></li>
-          <li class="uppercase"><a href="gallery.html">Gallery</a></li>
-          <li> <a class="uppercase" href="contact.html">Contact</a></li>
-          <li> <a class="uppercase" href="about.html">Our story</a></li>
-          <li> <a class="uppercase" href="faq.html">FAQ</a></li>
-          <li class="social-media">
-            <div><a href="http://www.instagram.com"><img class="redicon" src="elements/icons/SOME instagram-red.svg"
-                  alt="instagram icon"></a></div>
-            <div><a href="http://www.twitter.com"><img class="redicon" src="elements/icons/SOME twitter-red.svg"
-                  alt="twitter icon"></a>
+    <div class="menuoverlay hiddenjs">
+        <div class="menuflex">
+            <div class="sidebar">
+                <a class="main-logo-sidebar" href="index.html">
+                    <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
+                </a>
+                <a href="#"><img class="menu-close-button" src="elements/icons/close-button.svg"
+                        alt="menu close button"></a>
+                <ul>
+                    <li class="uppercase">
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li class="uppercase">
+                        <a href="signup.html">Sign up</a>
+                    </li>
+                    <li class="uppercase"><a href="cart.html">Cart</a></li>
+                    <li class="uppercase"><a href="men.html">shop mens</a></li>
+                    <li class="uppercase"><a href="women.html">shop Womens</a></li>
+                    <li class="uppercase"><a href="blog.html">Articles</a></li>
+                    <li class="uppercase"><a href="gallery.html">Gallery</a></li>
+                    <li> <a class="uppercase" href="contact.html">Contact</a></li>
+                    <li> <a class="uppercase" href="about.html">Our story</a></li>
+                    <li> <a class="uppercase" href="faq.html">FAQ</a></li>
+                    <li class="social-media">
+                        <div><a href="http://www.instagram.com"><img class="redicon"
+                                    src="elements/icons/SOME instagram-red.svg" alt="instagram icon"></a></div>
+                        <div><a href="http://www.twitter.com"><img class="redicon"
+                                    src="elements/icons/SOME twitter-red.svg" alt="twitter icon"></a>
+                        </div>
+                        <div><a href="http://www.facebook.com"><img class="redicon"
+                                    src="elements/icons/SOME facebook-red.svg" alt="facebook icon"></a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div><a href="http://www.facebook.com"><img class="redicon" src="elements/icons/SOME facebook-red.svg"
-                  alt="facebook icon"></a>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="sidebar-right"></div>
-    </div>
-  </div>
-  <header>
-    <section class="nav-block">
-      <a class="main-logo" href="index.html">
-        <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
-      </a>
-      <img class="hamburger-icon" src="elements/icons/icon-menu2.svg" alt="menu icon" />
-      <nav>
-        <ul>
-          <li class="hidden-menu uppercase">
-            <a href="search.html">Search</a>
-          </li>
-          <li class="hidden-menu uppercase">
-            <a href="login.html">Login</a>
-          </li>
-          <li class="hidden-menu uppercase"><a href="cart.html">Cart</a></li>
-          <li class="nav-icon-left">
-            <a class="menu-button" href="#"><img src="elements/icons/icon-menu.svg" alt="menu icon" /></a>
-          </li>
-          <li class="nav-icon-left">
-            <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg" alt="search icon" /></a>
-            <div class="searchbar hiddenjs">
-              <form class="search-form">
-                <label for="search" class="label-search">Search RainyDays:</label>
-                <input id="input-search" type="search" placeholder="Type here..." value="" />
-              </form>
-              <a href="#" class="search-button">
-                <p>Go!</p>
-              </a>
-              <a href="#"><img src="elements/icons/close-button.svg" class="close-button" alt="close button" /></a>
-            </div>
-          </li>
-          <li class="nav-center">
-          <li class="uppercase">
-            <a class="shopNav" href="shop.html">Shop</a>
-            <div class="overlay-shop hiddenjs" id="shopNav">
-              <div class="overlay-shop-content">
-                <a class="uppercase" href="women.html">Women</a>
-                <a class="uppercase" href="men.html">Men</a>
-              </div>
-            </div>
-          </li>
-          <li class="uppercase"><a href="blog.html">Articles</a></li>
-          <li class="uppercase"><a href="gallery.html">Gallery</a></li>
-          <li class="uppercase">
-            <a class="aboutNav" href="about.html">About</a>
-            <div class="overlay-about hiddenjs" id="aboutNav">
-              <div class="overlay-about-content">
-                <a class="uppercase" href="contact.html">Contact</a>
-                <a class="uppercase" href="about.html">Our story</a>
-                <a class="uppercase" href="faq.html">FAQ</a>
-              </div>
-            </div>
-          </li>
-          </li>
-          <li class="nav-icon-right">
-            <div class="cart-count"></div>
-            <a href="cart.html"><img src="elements/icons/icon-cart.svg" alt="cart icon" /></a>
-          </li>
-          <li class="nav-icon-right">
-            <a href="login.html"><img src="elements/icons/icon-profile.svg" alt="profile icon" /></a>
-          </li>
-          <li class="hidden-menu uppercase">
-            <a href="contact.html">Contact</a></li>
-          <li class="hidden-menu uppercase">
-            <a href="faq.html">Faq</a></li>
-        </ul>
-      </nav>
-      </div>
-  </header>
-  <h1>
-    Checkout
-  </h1>
-  <main>
-    <div class="hideforsearch">
-      <div class="container-cart">
-        <div class="cart-item-1">
-          <h6 class="cart-heading">Customer information</h6>
-          <section class="form-box-cart">
-            <form id="cart-form">
-              <fieldset alt="cart-box">
-                <legend>Your info</legend>
-                <p class="p-form">
-                  <label for="email">Email</label></p>
-                <div class="p-form">
-                  <input type="email" name="email" id="email" />
-                  <div class="check">
-                    <img class="checksymbol1" src="elements/icons/checksign.svg" />
-                  </div>
-                </div>
-                <div class="form-error" id="emailError">
-                  Please enter a valid e-mail address
-                </div>
-
-                <p class="p-form">
-                  <label for="fname">First name</label></p>
-                <div class="p-form">
-                  <input type="text" name="fname" id="fname" />
-                  <div class="check">
-                    <img class="checksymbol2" src="elements/icons/checksign.svg" />
-                  </div>
-                </div>
-                <div class="form-error" id="fnameError">
-                  Please enter your first name
-                </div>
-
-                <p class="p-form">
-                  <label for="lname">Last name</label></p>
-                <div class="p-form">
-                  <input type="text" name="lname" id="lname" />
-                  <div class="check">
-                    <img class="checksymbol3" src="elements/icons/checksign.svg" />
-                  </div>
-                </div>
-                <div class="form-error" id="lnameError">
-                  Please enter your last name
-                </div>
-                <p class="p-form">
-                  <label for="address">Address</label></p>
-                <div class="p-form">
-                  <input type="text" name="address" id="address" />
-                  <div class="check">
-                    <img class="checksymbol4" src="elements/icons/checksign.svg" />
-                  </div>
-                </div>
-                <div class="form-error" id="addresserror">
-                  Please enter a valid address
-                </div>
-                <p class="p-form"><label for="zip">Zip code</label></p>
-                <div class="p-form"><input type="number" name="zip" id="zip" />
-                  <div class="check">
-                    <img class="checksymbol5" src="elements/icons/checksign.svg" />
-                  </div>
-                </div>
-                <div class="form-error" id="ziperror">
-                  Zip code must be 4 digits
-                </div>
-                <p class="p-form"><label for="city">City</label></p>
-                <div class="p-form"><input type="text" name="city" id="city" />
-                  <div class="check">
-                    <img class="checksymbol6" src="elements/icons/checksign.svg" />
-                  </div>
-                </div>
-                <div class="form-error" id="cityerror">
-                  Please enter a valid city
-                </div>
-                <p class="p-form"><label for="country">Country</label></p>
-                <div class="p-form"><input type="text" name="country" id="country" />
-                  <div class="check">
-                    <img class="checksymbol7" src="elements/icons/checksign.svg" />
-                  </div>
-                </div>
-                <div class="form-error" id="countryerror">
-                  Please enter a valid country
-                </div>
-              </fieldset>
-              <button class="cart-button">Continue to shipping</button>
-            </form>
+            <div class="sidebar-right"></div>
         </div>
-        <div class="cart-item-2">
-          <h6 class="SC">Shopping Cart</h6>
-          <hr class="cart-hr">
-          <div class="cart-content1">
-            <p><img class="cart-photo" src="images/Products/Mensjacket5.jpg" alt="Uno, Men's jacket in cart">Uno Jacket
-            </p>
-            <p class="bold">$109</p>
-          </div>
-          <div class="cart-content2">
-            <p><img class="cart-photo" src="images/Products/womensjacket1.jpg" alt="Ella, Women's jacket in cart">Ella
-              Jacket</p>
-            <p class="bold">$89</p>
-            <hr class="cart-hr">
-          </div>
-          <div class="cart-text">
-            <div class="flex1">
-              <p class="p-cart">Subtotal</p>
-              <p class="p-cart bold">$198</p>
-            </div>
-            <div class="flex2">
-              <p class="p-cart">Shipping</p>
-              <p class="p-cart bold">Free</p>
-            </div>
-            <div class="flex3">
-              <p class="p-cart-large">Total</p>
-              <p class="p-cart-large">$198</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-    <div id="search-result" class="hiddenjs">
-      <div class="result-p"></div>
-      <div class="result-list"></div>
-    </div>
-  </main>
-  <footer>
-    <ul>
+    <header>
+        <section class="nav-block">
+            <a class="main-logo" href="index.html">
+                <img src="images/RDlogo-green.svg" alt="Rainy Days logo" />
+            </a>
+            <img class="hamburger-icon" src="elements/icons/icon-menu2.svg" alt="menu icon" />
+            <nav>
+                <ul>
+                    <li class="hidden-menu uppercase">
+                        <a href="search.html">Search</a>
+                    </li>
+                    <li class="hidden-menu uppercase">
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li class="hidden-menu uppercase"><a href="cart.html">Cart</a></li>
+                    <li class="nav-icon-left">
+                        <a class="menu-button" href="#"><img src="elements/icons/icon-menu.svg" alt="menu icon" /></a>
+                    </li>
+                    <li class="nav-icon-left">
+                        <a href="#"><img class="search-icon" src="elements/icons/icon-search.svg"
+                                alt="search icon" /></a>
+                        <div class="searchbar hiddenjs">
+                            <form class="search-form">
+                                <label for="search" class="label-search">Search RainyDays:</label>
+                                <input id="input-search" type="search" placeholder="Type here..." value="" />
+                            </form>
+                            <a href="#" class="search-button">
+                                <p>Go!</p>
+                            </a>
+                            <a href="#"><img src="elements/icons/close-button.svg" class="close-button"
+                                    alt="close button" /></a>
+                        </div>
+                    </li>
+                    <li class="nav-center">
+                    <li class="uppercase">
+                        <a class="shopNav" href="shop.html">Shop</a>
+                        <div class="overlay-shop hiddenjs" id="shopNav">
+                            <div class="overlay-shop-content">
+                                <a class="uppercase" href="women.html">Women</a>
+                                <a class="uppercase" href="men.html">Men</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uppercase"><a href="blog.html">Articles</a></li>
+                    <li class="uppercase"><a href="gallery.html">Gallery</a></li>
+                    <li class="uppercase">
+                        <a class="aboutNav" href="about.html">About</a>
+                        <div class="overlay-about hiddenjs" id="aboutNav">
+                            <div class="overlay-about-content">
+                                <a class="uppercase" href="contact.html">Contact</a>
+                                <a class="uppercase" href="about.html">Our story</a>
+                                <a class="uppercase" href="faq.html">FAQ</a>
+                            </div>
+                        </div>
+                    </li>
+                    </li>
+                    <li class="nav-icon-right">
+                        <div class="cart-count"></div>
+                        <img class="cart-icon" src="elements/icons/icon-cart.svg" alt="cart icon" />
+                    </li>
+                    <li class="nav-icon-right">
+                        <a href="login.html"><img src="elements/icons/icon-profile.svg" alt="profile icon" /></a>
+                    </li>
+                    <li class="hidden-menu uppercase">
+                        <a href="contact.html">Contact</a></li>
+                    <li class="hidden-menu uppercase">
+                        <a href="faq.html">Faq</a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+    <h1>
+        Checkout
+    </h1>
+    <main>
+        <div class="hideforsearch">
+            <div>
+                <div class="products"></div>
+                <div class="cart">
+                    <div class="cart-list"></div>
+                    <div class="total">Total: </div>
+                    <a href="cart.html" class="checkout-button">Checkout</a>
+                </div>
+            </div>
 
-      <li class="footer-icon"><a href="http://www.facebook.com"><img src="elements/icons/SOME facebook.svg"
-            alt="facebook icon"></a></li>
-      <li class="footer-icon"><a href="http://www.instagram.com"><img src="elements/icons/SOME instagram.svg"
-            alt="instagram icon"></a></li>
-      <li class="footer-icon"><a href="http://www.twitter.com"><img src="elements/icons/SOME twitter.svg"
-            alt="twitter icon"></a></li>
-    </ul>
-  </footer>
-  <script src="js/nav.js"></script>
-  <script src="js/checkout.js"></script>
+        </div>
+        <div id="search-result" class="hiddenjs">
+            <div class="result-p"></div>
+            <div class="result-list"></div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+
+            <li class="footer-icon"><a href="http://www.facebook.com"><img src="elements/icons/SOME facebook.svg"
+                        alt="facebook icon"></a></li>
+            <li class="footer-icon"><a href="http://www.instagram.com"><img src="elements/icons/SOME instagram.svg"
+                        alt="instagram icon"></a></li>
+            <li class="footer-icon"><a href="http://www.twitter.com"><img src="elements/icons/SOME twitter.svg"
+                        alt="twitter icon"></a></li>
+        </ul>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/cart.js" type="module"></script>
 
 </body>
 

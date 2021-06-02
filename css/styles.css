@@ -584,10 +584,9 @@ p a:hover {
   font-size: 24px;
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
-  padding-bottom: 300px;
   text-align: center;
   text-transform: uppercase;
+  margin: 20px auto 50px;
 }
 
 .container-shop img {
@@ -616,11 +615,9 @@ p a:hover {
 
 .product-all {
   max-width: 950px;
-  display: grid;
-  grid-gap: 2em;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -659,6 +656,7 @@ p a:hover {
 .product-button-all {
   max-width: 180px;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 .product-button {
@@ -667,7 +665,7 @@ p a:hover {
 }
 
 .product-all-container {
-  margin-top: 50px;
+  margin: 50px 20px 20px;
   max-width: 200px;
 }
 
@@ -891,6 +889,7 @@ p a:hover {
   width: 290px;
 }
 
+
 .continue-button {
   width: 250px;
   margin-top: 60px;
@@ -1060,13 +1059,8 @@ p a:hover {
   }
 
   .product {
-    display: grid;
-    grid-gap: 2em;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -1971,4 +1965,8 @@ button {
 .cart-item {
   display: flex;
   justify-content: space-between;
+}
+
+.cart-icon {
+  cursor: pointer;
 }

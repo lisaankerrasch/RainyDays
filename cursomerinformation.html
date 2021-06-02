@@ -2,15 +2,15 @@
 <html lang=en>
 
 <head>
-  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@600&family=Quicksand&display=swap"
-    rel="stylesheet" />
-  <meta name="description" content="Choose your payment method." />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rainy days | Payment</title>
+    rel="stylesheet">
+  <meta name="description" content="View the content of your cart and insert customer information." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rainy days | Customer Information</title>
 </head>
 
-<body>
+<body class="phone-background">
   <div class="menuoverlay hiddenjs">
     <div class="menuflex">
       <div class="sidebar">
@@ -115,9 +115,11 @@
             <a href="faq.html">Faq</a></li>
         </ul>
       </nav>
-    </section>
+      </div>
   </header>
-  <h1>Checkout</h1>
+  <h1>
+    Checkout
+  </h1>
   <main>
     <div class="hideforsearch">
       <div>
@@ -128,64 +130,104 @@
           <a href="cart.html" class="checkout-button">Checkout</a>
         </div>
       </div>
-      <section class="container-cart">
+
+      <div class="container-cart">
         <div class="cart-item-1">
-          <h6 class="cart-heading">Payment</h6>
-          <div class="payment-card">
-            <div class="paypal">
-              <p>
-                <img class="selector" src="elements/icons/unselected.svg" alt="Click for Paypal payment" />Paypal
-              </p>
-              <p>
-                <img class="payment-icon" src="elements/icons/paypal.svg" />
-              </p>
-            </div>
-            <div class="visa">
-              <p>
-                <img class="selector" src="elements/icons/selected.svg" alt="Click for visa payment" />Visa
-              </p>
-              <p>
-                <img class="payment-icon" src="elements/icons/visa.svg" />
-              </p>
-            </div>
-            <div class="card-info">
-              <p class="p-form"><label for="card">Card number</label></p>
-              <p class="p-form">
-                <input type="text" name="card" id="card" />
-              </p>
-              <p class="p-form">
-                <label for="expirydate">Expiry date</label>
-              </p>
-              <p class="p-form">
-                <input type="number" name="expirydate" id="expirydate" />
-              </p>
-              <p class="p-form"><label for="lname">CVV</label></p>
-              <p class="p-form">
-                <input type="number" name="cvv" id="cvv" />
-              </p>
-              <p class="p-form"><label for="name">Name on Card</label></p>
-              <p class="p-form">
-                <input type="text" name="name" id="name" />
-              </p>
-            </div>
-          </div>
+          <h6 class="cart-heading">Customer information</h6>
+          <section class="form-box-cart">
+            <form id="cart-form">
+              <fieldset alt="cart-box">
+                <legend>Your info</legend>
+                <p class="p-form">
+                  <label for="email">Email</label></p>
+                <div class="p-form">
+                  <input type="email" name="email" id="email" />
+                  <div class="check">
+                    <img class="checksymbol1" src="elements/icons/checksign.svg" />
+                  </div>
+                </div>
+                <div class="form-error" id="emailError">
+                  Please enter a valid e-mail address
+                </div>
+
+                <p class="p-form">
+                  <label for="fname">First name</label></p>
+                <div class="p-form">
+                  <input type="text" name="fname" id="fname" />
+                  <div class="check">
+                    <img class="checksymbol2" src="elements/icons/checksign.svg" />
+                  </div>
+                </div>
+                <div class="form-error" id="fnameError">
+                  Please enter your first name
+                </div>
+
+                <p class="p-form">
+                  <label for="lname">Last name</label></p>
+                <div class="p-form">
+                  <input type="text" name="lname" id="lname" />
+                  <div class="check">
+                    <img class="checksymbol3" src="elements/icons/checksign.svg" />
+                  </div>
+                </div>
+                <div class="form-error" id="lnameError">
+                  Please enter your last name
+                </div>
+                <p class="p-form">
+                  <label for="address">Address</label></p>
+                <div class="p-form">
+                  <input type="text" name="address" id="address" />
+                  <div class="check">
+                    <img class="checksymbol4" src="elements/icons/checksign.svg" />
+                  </div>
+                </div>
+                <div class="form-error" id="addresserror">
+                  Please enter a valid address
+                </div>
+                <p class="p-form"><label for="zip">Zip code</label></p>
+                <div class="p-form"><input type="number" name="zip" id="zip" />
+                  <div class="check">
+                    <img class="checksymbol5" src="elements/icons/checksign.svg" />
+                  </div>
+                </div>
+                <div class="form-error" id="ziperror">
+                  Zip code must be 4 digits
+                </div>
+                <p class="p-form"><label for="city">City</label></p>
+                <div class="p-form"><input type="text" name="city" id="city" />
+                  <div class="check">
+                    <img class="checksymbol6" src="elements/icons/checksign.svg" />
+                  </div>
+                </div>
+                <div class="form-error" id="cityerror">
+                  Please enter a valid city
+                </div>
+                <p class="p-form"><label for="country">Country</label></p>
+                <div class="p-form"><input type="text" name="country" id="country" />
+                  <div class="check">
+                    <img class="checksymbol7" src="elements/icons/checksign.svg" />
+                  </div>
+                </div>
+                <div class="form-error" id="countryerror">
+                  Please enter a valid country
+                </div>
+              </fieldset>
+              <button class="cart-button">Continue to shipping</button>
+            </form>
         </div>
-        <div class="cart-item-2 hidden">
-          <h6>Shopping Cart</h6>
-          <hr class="cart-hr" />
+        <div class="cart-item-2">
+          <h6 class="SC">Shopping Cart</h6>
+          <hr class="cart-hr">
           <div class="cart-content1">
-            <p>
-              <img class="cart-photo" src="images/Products/Mensjacket5.jpg" alt="Uno, Men's jacket in cart" />Uno Jacket
+            <p><img class="cart-photo" src="images/Products/Mensjacket5.jpg" alt="Uno, Men's jacket in cart">Uno Jacket
             </p>
             <p class="bold">$109</p>
           </div>
           <div class="cart-content2">
-            <p>
-              <img class="cart-photo" src="images/Products/womensjacket1.jpg" alt="Ella, Women's jacket in cart" />Ella
-              Jacket
-            </p>
+            <p><img class="cart-photo" src="images/Products/womensjacket1.jpg" alt="Ella, Women's jacket in cart">Ella
+              Jacket</p>
             <p class="bold">$89</p>
-            <hr class="cart-hr" />
+            <hr class="cart-hr">
           </div>
           <div class="cart-text">
             <div class="flex1">
@@ -202,9 +244,7 @@
             </div>
           </div>
         </div>
-      </section>
-      <a href="success.html"><img class="continue-button" src="elements/icons/complete-order.svg"
-          alt="complete order" /></a>
+      </div>
     </div>
     <div id="search-result" class="hiddenjs">
       <div class="result-p"></div>
@@ -214,18 +254,17 @@
   <footer>
     <ul>
 
-      <li class="footer-icon">
-        <a href="http://www.facebook.com"><img src="elements/icons/SOME facebook.svg" alt="facebook icon" /></a>
-      </li>
-      <li class="footer-icon">
-        <a href="http://www.instagram.com"><img src="elements/icons/SOME instagram.svg" alt="instagram icon" /></a>
-      </li>
-      <li class="footer-icon">
-        <a href="http://www.twitter.com"><img src="elements/icons/SOME twitter.svg" alt="twitter icon" /></a>
-      </li>
+      <li class="footer-icon"><a href="http://www.facebook.com"><img src="elements/icons/SOME facebook.svg"
+            alt="facebook icon"></a></li>
+      <li class="footer-icon"><a href="http://www.instagram.com"><img src="elements/icons/SOME instagram.svg"
+            alt="instagram icon"></a></li>
+      <li class="footer-icon"><a href="http://www.twitter.com"><img src="elements/icons/SOME twitter.svg"
+            alt="twitter icon"></a></li>
     </ul>
   </footer>
   <script src="js/nav.js"></script>
+  <script src="js/checkout.js"></script>
+
 </body>
 
 </html>

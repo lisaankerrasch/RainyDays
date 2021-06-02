@@ -13,6 +13,10 @@ const menuOverlay = document.querySelector(".menuoverlay");
 const main = document.querySelector("main");
 const exitMenuButton = document.querySelector(".menu-close-button");
 const searchForm = document.querySelector(".search-form");
+const cartIcon = document.querySelector(".cart-icon");
+const cart = document.querySelector(".cart");
+const cartList = document.querySelector(".cart-list");
+const totalContainer = document.querySelector(".total");
 
 shopNav.onmouseover = function () {
   shopOverlay.classList.remove("hiddenjs");
@@ -127,3 +131,11 @@ searchForm.addEventListener("submit", (event) => {
   event.preventDefault();
   searchButton.click();
 });
+
+cartIcon.onclick = function () {
+  if (cart.style.display === "flex") {
+    cart.style.display = "none";
+  } else {
+    cart.style.display = "flex";
+  }
+};

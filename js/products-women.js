@@ -30,6 +30,19 @@ function createHTML(products) {
     </a>
     <button class="product-button-all add-to-cart" data-product="${product.id}">Add to cart </button>
     </div>`;
+
+    const addToCartButton = document.querySelectorAll(".add-to-cart");
+    addToCartButton.forEach(function (button) {
+      addToCartButton.onclick = function (event) {
+        const itemToAdd = products.find(
+          (item) => item.id === event.taret.dataset.product
+        );
+        cartArray.push(itemToAdd);
+        showCart(cartArray);
+        localStorage.setItem("cartList", JSON.stringify(cartArray));
+      };
+    });
+
     document
       .querySelector(".sort-click-low")
       .addEventListener("click", function () {

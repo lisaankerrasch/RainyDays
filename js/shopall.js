@@ -4,6 +4,8 @@ const productContainer = document.querySelector(".container-shop");
 const filterButton = document.querySelector(".filter-button-main");
 const filterOverlay = document.querySelector(".filter-overlay");
 
+let cartArray = [];
+
 async function getProducts() {
   try {
     const response = await fetch(url);
@@ -31,21 +33,49 @@ function createHTML(products) {
       </div>
      `;
   });
-  document
-    .querySelector(".sort-click-low")
-    .addEventListener("click", function () {
-      products.sort((a, b) => (a.prices.price > b.prices.price ? 1 : -1));
-      productContainer.innerHTML = "";
-      createHTML(products);
-    });
-  document
-    .querySelector(".sort-click-high")
-    .addEventListener("click", function () {
-      products.sort((a, b) => (a.prices.price < b.prices.price ? 1 : -1));
-      productContainer.innerHTML = "";
-      createHTML(products);
-    });
+
+  const addToCartButton = document.querySelectorAll(".add-to-cart");
+  addToCartButton.forEach(function (button) {
+    button.onclick = function (event) {
+      const itemToAdd = products.find(
+        (item) => item.id === event.target.dataset.product
+      );
+      cartArray.push(itemToAdd);
+      showCart(cartArray);
+      localStorage.setItem("cartList", JSON.stringify(cartArray));
+    };
+  });
 }
+
+function showCart(cartItems) {
+  cart.style.display = "flex";
+  cartList.innerHTML = "";
+  let total = 0;
+  cartItems.forEach(function (cartElement) {
+    total += cartElement.prices.price;
+    cartList.innerHTML += `<div class="cart-item">
+          <p>${cartElement.name}</p>
+          <div style="background-image: url(${cartElement.images[0].src})" class="cart-image" alt="${cartElement.name}"></div>
+          </div>
+          `;
+  });
+  totalContainer.innerHTML = `Total: ${total}`;
+}
+
+document
+  .querySelector(".sort-click-low")
+  .addEventListener("click", function () {
+    products.sort((a, b) => (a.prices.price > b.prices.price ? 1 : -1));
+    productContainer.innerHTML = "";
+    createHTML(products);
+  });
+document
+  .querySelector(".sort-click-high")
+  .addEventListener("click", function () {
+    products.sort((a, b) => (a.prices.price < b.prices.price ? 1 : -1));
+    productContainer.innerHTML = "";
+    createHTML(products);
+  });
 
 filterButton.onclick = function viewFilter() {
   filterOverlay.classList.toggle("hiddenjs");
