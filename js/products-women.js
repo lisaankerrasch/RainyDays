@@ -4,6 +4,8 @@ const productContainer = document.querySelector(".product");
 const filterButton = document.querySelector(".filter-button-main");
 const filterOverlay = document.querySelector(".filter-overlay");
 
+let cartArray = [];
+
 async function getProducts() {
   try {
     const response = await fetch(url);
@@ -33,15 +35,30 @@ function createHTML(products) {
 
     const addToCartButton = document.querySelectorAll(".add-to-cart");
     addToCartButton.forEach(function (button) {
-      addToCartButton.onclick = function (event) {
+      button.onclick = function (event) {
         const itemToAdd = products.find(
-          (item) => item.id === event.taret.dataset.product
+          (item) => item.id === event.target.dataset.product
         );
         cartArray.push(itemToAdd);
         showCart(cartArray);
         localStorage.setItem("cartList", JSON.stringify(cartArray));
       };
     });
+
+    function showCart(cartItems) {
+      cart.style.display = "flex";
+      cartList.innerHTML = "";
+      let total = 0;
+      cartItems.forEach(function (cartElement) {
+        total += cartElement.prices.price;
+        cartList.innerHTML += `<div class="cart-item">
+            <p>${cartElement.name}</p>
+            <div style="background-image: url(${cartElement.images[0].src})" class="cart-image" alt="${cartElement.name}"></div>
+            </div>
+            `;
+      });
+      totalContainer.innerHTML = `Total: ${total}`;
+    }
 
     document
       .querySelector(".sort-click-low")
